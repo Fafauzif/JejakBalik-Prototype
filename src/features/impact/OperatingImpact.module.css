@@ -1,0 +1,245 @@
+.periodBar {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin: 26px 0 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.periodBar > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.periodBar strong {
+  color: var(--forest);
+  font-weight: 600;
+}
+.periodBar label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+.periodBar select {
+  font-size: 12px;
+  min-height: 44px;
+}
+.resultGrid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+.rightStack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+}
+.trendCard {
+  min-width: 0;
+}
+.trend {
+  display: flex;
+  gap: 8px;
+  height: 228px;
+  margin-top: 22px;
+  align-items: stretch;
+}
+.trend button {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  font: inherit;
+  padding: 8px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.trend button:hover {
+  background: var(--sage-soft);
+}
+.trend button:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 2px;
+}
+.trend button strong {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+.trend button > span {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+  width: 100%;
+  padding: 12px 3px 0;
+}
+.trend button i {
+  display: block;
+  min-height: 2px;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  background: #71956a;
+}
+.trend button:last-child i {
+  background: #326e56;
+}
+.trend button small {
+  font-size: 10px;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border);
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 3px;
+}
+.trendFoot {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-top: 14px;
+}
+.traceCard {
+  padding: 24px;
+  display: flex;
+  gap: 20px;
+  background: var(--sage-soft);
+  border-color: var(--sage);
+}
+.traceCard > svg {
+  color: var(--forest);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.traceCard h3 {
+  font-size: 17px;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+.traceCard p,
+.modelTeaser p {
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin: 0 0 10px;
+}
+.modelTeaser {
+  display: flex;
+  gap: 25px;
+  padding: 28px;
+  background: #edf1e5;
+  border-color: #d8e1cc;
+}
+.modelTeaser > svg {
+  color: var(--forest);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.modelTeaser h2 {
+  font-size: 21px;
+  letter-spacing: -0.5px;
+  margin: 0 0 12px;
+  line-height: 1.4;
+}
+.dataDetails {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.dataDetails summary {
+  cursor: pointer;
+  color: var(--forest);
+  padding: 7px 0;
+}
+.tableScroll {
+  overflow-x: auto;
+}
+.tableScroll table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+  margin: 12px 0;
+}
+.tableScroll th,
+.tableScroll td {
+  padding: 12px 9px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.tableScroll th {
+  font-weight: 600;
+}
+.tableScroll th:not(:first-child),
+.tableScroll td:not(:first-child) {
+  text-align: right;
+}
+@media (max-width: 1000px) {
+  .resultGrid {
+    grid-template-columns: 1fr;
+  }
+  .periodBar {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .periodBar {
+    margin-top: 20px;
+  }
+  .periodBar > div {
+    gap: 10px;
+    font-size: 11px;
+  }
+  .periodBar > div > span:last-child {
+    width: 100%;
+  }
+  .periodBar label {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .periodBar select {
+    max-width: 220px;
+  }
+  .trend {
+    gap: 3px;
+    height: 210px;
+  }
+  .trend button strong {
+    font-size: 8px;
+  }
+  .trend button small {
+    font-size: 9px;
+  }
+  .trend button > span {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .trendFoot {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .traceCard,
+  .modelTeaser {
+    padding: 20px;
+    gap: 14px;
+  }
+  .traceCard > svg {
+    width: 21px;
+  }
+  .modelTeaser h2 {
+    font-size: 18px;
+  }
+  .modelTeaser > svg {
+    display: none;
+  }
+  .traceCard h3 {
+    font-size: 17px;
+  }
+}

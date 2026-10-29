@@ -1,0 +1,36 @@
+{
+  "selected": "Jejak_Balik_Project_v1.3.1.zip",
+  "reason": "Highest package version; all other supplied archive paths are a subset. Preserve newer network, history, geometry, loader and tests.",
+  "archives": [
+    {
+      "file": "Jejak_Balik_Project_v1.3.1.zip",
+      "version": "1.3.1",
+      "sha256": "40cb781eeac0e9ed72f9e73b32cad380e9df7cf149ef6981aa3a7183294a6b71",
+      "bytes": 21134719
+    },
+    {
+      "file": "Jejak_Balik_Project(1).zip",
+      "version": "1.0.0",
+      "sha256": "1f09ba4e7d059053807fa651fd02e3e47222a10d72f214ab4b0c797e7d8fb222",
+      "bytes": 20960262
+    },
+    {
+      "file": "Jejak_Balik_Project_v1.2.zip",
+      "version": "1.2.0",
+      "sha256": "5920e766f76fde557a04063885546e6acd5d66888cec13e85bf0f757697c3e89",
+      "bytes": 21102114
+    },
+    {
+      "file": "Jejak_Balik_Project(2).zip",
+      "version": "1.0.0",
+      "sha256": "1f09ba4e7d059053807fa651fd02e3e47222a10d72f214ab4b0c797e7d8fb222",
+      "bytes": 20960262
+    },
+    {
+      "file": "Jejak_Balik_Project_Updated.zip",
+      "version": "1.1.0",
+      "sha256": "24d72afaf0c540cdb9fa2ba064e7de94d5562b9fe5be607312ad7dd8705c2aa8",
+      "bytes": 21003157
+    }
+  ]
+}

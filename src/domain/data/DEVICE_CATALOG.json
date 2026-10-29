@@ -1,0 +1,91 @@
+[
+  {
+    "category": "phone",
+    "count": 8,
+    "massKg": 0.18,
+    "baseRecoveredValueIdr": 350000,
+    "components": ["screen", "battery", "mainboard", "shell"],
+    "outcomes": [
+      "reuse",
+      "reuse",
+      "reuse",
+      "refurbishment",
+      "refurbishment",
+      "refurbishment",
+      "parts",
+      "material"
+    ]
+  },
+  {
+    "category": "laptop",
+    "count": 6,
+    "massKg": 1.6,
+    "baseRecoveredValueIdr": 1800000,
+    "components": ["display", "keyboard", "battery", "mainboard", "storage", "shell"],
+    "outcomes": ["reuse", "repair", "repair", "refurbishment", "refurbishment", "parts"]
+  },
+  {
+    "category": "tablet",
+    "count": 4,
+    "massKg": 0.5,
+    "baseRecoveredValueIdr": 650000,
+    "components": ["screen", "battery", "mainboard", "shell"],
+    "outcomes": ["reuse", "reuse", "refurbishment", "material"]
+  },
+  {
+    "category": "router",
+    "count": 4,
+    "massKg": 0.35,
+    "baseRecoveredValueIdr": 90000,
+    "components": ["shell", "mainboard", "antenna", "powerModule"],
+    "outcomes": ["reuse", "reuse", "repair", "material"]
+  },
+  {
+    "category": "accessories",
+    "count": 8,
+    "massKg": 0.3,
+    "baseRecoveredValueIdr": 20000,
+    "components": ["connector", "conductor", "insulation"],
+    "outcomes": ["reuse", "reuse", "parts", "parts", "material", "material", "material", "material"]
+  },
+  {
+    "category": "small_appliance",
+    "count": 6,
+    "massKg": 2.5,
+    "baseRecoveredValueIdr": 150000,
+    "components": ["shell", "motor", "controlBoard", "powerModule"],
+    "outcomes": ["repair", "repair", "repair", "refurbishment", "parts", "material"]
+  },
+  {
+    "category": "monitor",
+    "count": 4,
+    "massKg": 4,
+    "baseRecoveredValueIdr": 400000,
+    "components": ["display", "backlight", "controlBoard", "stand", "shell"],
+    "outcomes": ["reuse", "repair", "refurbishment", "material"]
+  },
+  {
+    "category": "printer",
+    "count": 3,
+    "massKg": 7,
+    "baseRecoveredValueIdr": 450000,
+    "components": ["shell", "paperPath", "motor", "controlBoard", "powerModule"],
+    "outcomes": ["repair", "repair", "parts"]
+  },
+  {
+    "category": "large_appliance",
+    "count": 3,
+    "massKg": 40,
+    "baseRecoveredValueIdr": 900000,
+    "components": ["shell", "drumOrCabinet", "motor", "controlBoard", "powerModule"],
+    "outcomes": ["reuse", "repair", "material"]
+  },
+  {
+    "category": "battery",
+    "count": 2,
+    "massKg": 0.4,
+    "baseRecoveredValueIdr": 0,
+    "components": ["protectiveShell", "cells", "connector"],
+    "outcomes": ["specialist", "specialist"]
+  }
+]

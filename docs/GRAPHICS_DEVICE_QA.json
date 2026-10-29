@@ -1,0 +1,313 @@
+{
+  "startedAt": "2026-10-16T13:45:00.220Z",
+  "errors": [],
+  "devices": [
+    {
+      "category": "router",
+      "id": "JB-A001",
+      "expectedComponents": 4,
+      "visibleComponentButtons": 4,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 34,
+        "triangles": 7682,
+        "geometries": 18,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.3480999999940395,
+        "averageFps": 1.4835694681469052,
+        "p95FrameMs": 1253.2999999970198,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "monitor",
+      "id": "JB-A002",
+      "expectedComponents": 5,
+      "visibleComponentButtons": 5,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 34,
+        "triangles": 9090,
+        "geometries": 18,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.4627000000029802,
+        "averageFps": 1.3673343816202401,
+        "p95FrameMs": 1419.9000000059605,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "tablet",
+      "id": "JB-A003",
+      "expectedComponents": 4,
+      "visibleComponentButtons": 4,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 42,
+        "triangles": 15018,
+        "geometries": 22,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.3946999999880791,
+        "averageFps": 1.4340001434122711,
+        "p95FrameMs": 1341,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "printer",
+      "id": "JB-A004",
+      "expectedComponents": 5,
+      "visibleComponentButtons": 5,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 38,
+        "triangles": 11146,
+        "geometries": 20,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.442,
+        "averageFps": 1.3869625520110958,
+        "p95FrameMs": 1400.2999999970198,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "small_appliance",
+      "id": "JB-A006",
+      "expectedComponents": 4,
+      "visibleComponentButtons": 4,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 32,
+        "triangles": 7050,
+        "geometries": 17,
+        "textures": 3,
+        "frames": 3,
+        "durationSeconds": 1.4912999999970198,
+        "averageFps": 2.011667672504523,
+        "p95FrameMs": 906.7000000029802,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "accessories",
+      "id": "JB-A007",
+      "expectedComponents": 3,
+      "visibleComponentButtons": 3,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 12,
+        "triangles": 6954,
+        "geometries": 9,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.4152000000029803,
+        "averageFps": 1.4132278123203703,
+        "p95FrameMs": 1389.5,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "large_appliance",
+      "id": "JB-A008",
+      "expectedComponents": 5,
+      "visibleComponentButtons": 5,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 36,
+        "triangles": 7298,
+        "geometries": 19,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.4782000000029802,
+        "averageFps": 1.3529968881044296,
+        "p95FrameMs": 1430.6000000089407,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "phone",
+      "id": "JB-A010",
+      "expectedComponents": 4,
+      "visibleComponentButtons": 4,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 42,
+        "triangles": 15018,
+        "geometries": 22,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.4548999999910592,
+        "averageFps": 1.3746649254328756,
+        "p95FrameMs": 1399.699999988079,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "laptop",
+      "id": "JB-A014",
+      "expectedComponents": 6,
+      "visibleComponentButtons": 6,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 108,
+        "triangles": 63482,
+        "geometries": 55,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.4277999999970197,
+        "averageFps": 1.4007564084634925,
+        "p95FrameMs": 1287.4000000059605,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    },
+    {
+      "category": "battery",
+      "id": "JB-A047",
+      "expectedComponents": 3,
+      "visibleComponentButtons": 3,
+      "canvases": 1,
+      "performance": {
+        "scene": "device",
+        "drawCalls": 16,
+        "triangles": 3842,
+        "geometries": 9,
+        "textures": 3,
+        "frames": 2,
+        "durationSeconds": 1.4344999999999999,
+        "averageFps": 1.394214011850819,
+        "p95FrameMs": 1406,
+        "dpr": 1,
+        "viewport": "1050×480",
+        "quality": "auto"
+      }
+    }
+  ],
+  "switches": [
+    {
+      "cycle": 0,
+      "scene": "Kota",
+      "canvases": 1,
+      "labels": 11
+    },
+    {
+      "cycle": 0,
+      "scene": "Hub",
+      "canvases": 1,
+      "labels": 8
+    },
+    {
+      "cycle": 0,
+      "scene": "Perangkat",
+      "canvases": 1,
+      "labels": 0
+    },
+    {
+      "cycle": 1,
+      "scene": "Kota",
+      "canvases": 1,
+      "labels": 11
+    },
+    {
+      "cycle": 1,
+      "scene": "Hub",
+      "canvases": 1,
+      "labels": 8
+    },
+    {
+      "cycle": 1,
+      "scene": "Perangkat",
+      "canvases": 1,
+      "labels": 0
+    },
+    {
+      "cycle": 2,
+      "scene": "Kota",
+      "canvases": 1,
+      "labels": 11
+    },
+    {
+      "cycle": 2,
+      "scene": "Hub",
+      "canvases": 1,
+      "labels": 8
+    },
+    {
+      "cycle": 2,
+      "scene": "Perangkat",
+      "canvases": 1,
+      "labels": 0
+    },
+    {
+      "cycle": 3,
+      "scene": "Kota",
+      "canvases": 1,
+      "labels": 11
+    },
+    {
+      "cycle": 3,
+      "scene": "Hub",
+      "canvases": 1,
+      "labels": 8
+    },
+    {
+      "cycle": 3,
+      "scene": "Perangkat",
+      "canvases": 1,
+      "labels": 0
+    },
+    {
+      "cycle": 4,
+      "scene": "Kota",
+      "canvases": 1,
+      "labels": 11
+    },
+    {
+      "cycle": 4,
+      "scene": "Hub",
+      "canvases": 1,
+      "labels": 8
+    },
+    {
+      "cycle": 4,
+      "scene": "Perangkat",
+      "canvases": 1,
+      "labels": 0
+    }
+  ],
+  "mobile": {
+    "viewport": 390,
+    "document": 390
+  },
+  "finishedAt": "2026-10-16T13:45:42.375Z"
+}

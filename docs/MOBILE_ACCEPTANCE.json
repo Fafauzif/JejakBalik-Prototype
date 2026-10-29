@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-16",
+  "scope": "Independent 360px English mobile regression checks. Automated accessibility scans are scoped and do not certify conformance.",
+  "five_route_checks": {
+    "startedAt": "2026-10-16T13:57:16.950Z",
+    "productionIndexSha256": "ae64a8cd234dbc3effa86c730c80f088ace9c786c646f88f3a439d9f7250062d",
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "locale": "en",
+    "checks": {
+      "assetAlias": true,
+      "sheetInitiallyOpen": true,
+      "closePreservesAsset": true,
+      "closeKeepsCanvas": true,
+      "exploded": true,
+      "reopensDetails": true,
+      "escapePreservesAsset": true,
+      "collectedMassLabel": true,
+      "nav": {
+        "position": "fixed",
+        "top": 738,
+        "bottom": 800
+      },
+      "invalidAssetState": true,
+      "invalidAssetRecovery": true
+    },
+    "axe": {
+      "network-device": [],
+      "network-sheet": [],
+      "/team": [],
+      "/impact": [],
+      "/household/requests/JB-R036": []
+    },
+    "overflow": {
+      "network-device": 0,
+      "network-sheet": 0,
+      "/team": 0,
+      "/impact": 0,
+      "/household/requests/JB-R036": 0
+    },
+    "errors": [],
+    "webgl": {
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    "success": true,
+    "finishedAt": "2026-10-16T13:57:25.647Z"
+  },
+  "final_control_check": {
+    "scope": "Mobile scene control 44px touch height and separation only",
+    "startedAt": "2026-10-16T14:00:30.635Z",
+    "productionIndexSha256": "46802a5dbc8f8e6e630ef3a325a5c108e962e78c93aed70a3a3cd60dfa2d972f",
+    "viewport": {
+      "width": 360,
+      "height": 800
+    },
+    "locale": "en",
+    "checks": {
+      "assetAlias": true,
+      "sheetInitiallyOpen": true,
+      "closePreservesAsset": true,
+      "closeKeepsCanvas": true,
+      "exploded": true,
+      "controls": {
+        "reassemble": {
+          "x": 120.6328125,
+          "y": 676.390625,
+          "width": 118.734375,
+          "height": 44
+        },
+        "details": {
+          "x": 14,
+          "y": 906.984375,
+          "width": 332,
+          "height": 44
+        },
+        "overlap": false
+      },
+      "controlsDoNotOverlap": true,
+      "sceneControlHeight44": true,
+      "detailsStillReopens": true,
+      "escapeStillPreservesAsset": true
+    },
+    "axe": {},
+    "overflow": {
+      "device": 0
+    },
+    "errors": [],
+    "success": true,
+    "finishedAt": "2026-10-16T14:00:32.903Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["src"],
+  "locale": "id-ID",
+  "locales": ["id-ID", "en-GB"],
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": ["Select/Listbox", "Date", "Form", "Scrollbar", "Toast", "CRUD"],
+  "ownership": {
+    "Select/Listbox": "native",
+    "Date": "display-only"
+  },
+  "requiredCommands": ["tokens", "typecheck", "unit", "build", "bundle", "designLint"],
+  "commands": {
+    "tokens": "node scripts/check-design-tokens.mjs",
+    "typecheck": "npm run typecheck",
+    "unit": "npm run test:unit",
+    "build": "npm run build",
+    "designLint": "npx -p @google/design.md designmd lint DESIGN.md",
+    "bundle": "npm run check:bundle"
+  },
+  "evidence": {
+    "crudFullFlow": "tests/e2e/operations.spec.ts",
+    "failurePaths": "tests/e2e/operations.spec.ts"
+  }
+}

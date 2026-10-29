@@ -1,0 +1,70 @@
+{
+  "version": "1.2.0",
+  "method": "fresh extracted source; npm ci; production build; Node zlib.gzipSync default",
+  "entry": [
+    {
+      "file": "/assets/index-DIIazTei.js",
+      "rawBytes": 405003,
+      "gzipBytes": 127840
+    },
+    {
+      "file": "/assets/metrics-BCYbyYdb.js",
+      "rawBytes": 116104,
+      "gzipBytes": 17248
+    }
+  ],
+  "shell": {
+    "rawBytes": 521107,
+    "gzipBytes": 145088
+  },
+  "scene": [
+    {
+      "file": "/assets/WorldCanvas-CjnZsffF.js",
+      "rawBytes": 1036090,
+      "gzipBytes": 277728
+    }
+  ],
+  "network": [
+    {
+      "file": "/assets/NetworkPage-CFp-vyEu.css",
+      "rawBytes": 22995,
+      "gzipBytes": 4604
+    },
+    {
+      "file": "/assets/NetworkPage-GAx4JC6I.js",
+      "rawBytes": 40118,
+      "gzipBytes": 13042
+    }
+  ],
+  "allJs": {
+    "rawBytes": 1806267,
+    "gzipBytes": 500146
+  },
+  "allCss": {
+    "rawBytes": 136216,
+    "gzipBytes": 28277
+  },
+  "latinWoff2": [
+    {
+      "file": "/assets/plus-jakarta-sans-latin-400-normal-Dhut76fR.woff2",
+      "rawBytes": 11816
+    },
+    {
+      "file": "/assets/plus-jakarta-sans-latin-500-normal-Bf-nb4oT.woff2",
+      "rawBytes": 12312
+    },
+    {
+      "file": "/assets/plus-jakarta-sans-latin-600-normal-DLTa1BUW.woff2",
+      "rawBytes": 12188
+    },
+    {
+      "file": "/assets/plus-jakarta-sans-latin-700-normal-CfpNZvy6.woff2",
+      "rawBytes": 12244
+    },
+    {
+      "file": "/assets/plus-jakarta-sans-latin-800-normal-CusIZhrK.woff2",
+      "rawBytes": 11896
+    }
+  ],
+  "latinWoff2Bytes": 60456
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "method": "Node gzipSync default compression; sum of unique static import files; dynamic WebGL excluded from first Network.",
+  "buildDirectory": "dist",
+  "passed": true,
+  "checks": [
+    {
+      "name": "bootstrapJavaScriptGzip",
+      "measured": 1240,
+      "limit": 12000,
+      "passed": true
+    },
+    {
+      "name": "appJavaScriptGzip",
+      "measured": 134852,
+      "limit": 175000,
+      "passed": true
+    },
+    {
+      "name": "networkJavaScriptGzip",
+      "measured": 167009,
+      "limit": 210000,
+      "passed": true
+    },
+    {
+      "name": "deferredRendererJavaScriptGzip",
+      "measured": 266991,
+      "limit": 330000,
+      "passed": true
+    },
+    {
+      "name": "gpuRemainsDeferred",
+      "measured": 0,
+      "limit": 0,
+      "passed": true
+    }
+  ],
+  "bootstrap": {
+    "raw": 2520,
+    "gzip": 1240,
+    "files": [
+      {
+        "file": "assets/index-C3nIPqUq.js",
+        "raw": 2520,
+        "gzip": 1240
+      }
+    ]
+  },
+  "app": {
+    "raw": 480046,
+    "gzip": 134852,
+    "files": [
+      {
+        "file": "assets/index-C3nIPqUq.js",
+        "raw": 2520,
+        "gzip": 1240
+      },
+      {
+        "file": "assets/main-Hq-1nkZ1.js",
+        "raw": 230623,
+        "gzip": 72966
+      },
+      {
+        "file": "assets/playback-BSY0MunZ.js",
+        "raw": 121859,
+        "gzip": 19229
+      },
+      {
+        "file": "assets/ui-C_Ue_ajJ.js",
+        "raw": 125044,
+        "gzip": 41417
+      }
+    ]
+  },
+  "firstNetwork": {
+    "raw": 576717,
+    "gzip": 167009,
+    "files": [
+      {
+        "file": "assets/NetworkPage-z67pfoTd.js",
+        "raw": 82475,
+        "gzip": 26281
+      },
+      {
+        "file": "assets/arrow-up-right-CKKlzqHj.js",
+        "raw": 193,
+        "gzip": 174
+      },
+      {
+        "file": "assets/chevron-right-Bmox3CY2.js",
+        "raw": 156,
+        "gzip": 156
+      },
+      {
+        "file": "assets/circle-question-mark-7lA-Atdp.js",
+        "raw": 312,
+        "gzip": 246
+      },
+      {
+        "file": "assets/index-C3nIPqUq.js",
+        "raw": 2520,
+        "gzip": 1240
+      },
+      {
+        "file": "assets/live-operations-DSqkasJf.js",
+        "raw": 12818,
+        "gzip": 4773
+      },
+      {
+        "file": "assets/main-Hq-1nkZ1.js",
+        "raw": 230623,
+        "gzip": 72966
+      },
+      {
+        "file": "assets/map-pin-CF_fghjm.js",
+        "raw": 285,
+        "gzip": 242
+      },
+      {
+        "file": "assets/playback-BSY0MunZ.js",
+        "raw": 121859,
+        "gzip": 19229
+      },
+      {
+        "file": "assets/truck-BnYRgvBQ.js",
+        "raw": 432,
+        "gzip": 285
+      },
+      {
+        "file": "assets/ui-C_Ue_ajJ.js",
+        "raw": 125044,
+        "gzip": 41417
+      }
+    ]
+  },
+  "deferredRenderer": {
+    "raw": 999641,
+    "gzip": 266991,
+    "files": [
+      {
+        "file": "assets/WorldCanvas-CoMDZO7X.js",
+        "raw": 999641,
+        "gzip": 266991
+      }
+    ]
+  },
+  "gpuBoundaryLeaks": []
+}

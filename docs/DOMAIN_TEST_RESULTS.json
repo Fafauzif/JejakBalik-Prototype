@@ -1,0 +1,222 @@
+{
+  "recordedDate": "2026-10-16",
+  "scope": "Domain and shared-state unit tests only; no browser or performance evidence",
+  "command": "npm test -- tests/domain --reporter=json --outputFile=/tmp/jejak-domain-tests.json",
+  "passed": 47,
+  "total": 47,
+  "failed": 0,
+  "suites": [
+    {
+      "file": "tests/domain/canonical.test.ts",
+      "status": "passed",
+      "assertions": [
+        {
+          "name": "authored canonical branch reconciliation recomputes every positive outcome and financial line from eligible events",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation recomputes every specialist_held outcome and financial line from eligible events",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation recomputes every data_held outcome and financial line from eligible events",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation recomputes every capacity_deferred outcome and financial line from eligible events",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation has 35 submitted requests/47 assets before explicit hero submission",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation seek to the end never grants specialist or data permission and excludes the hero draft",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation rewind restores seed state and immutable custody remains exactly stable across repeated reads",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation cannot use decisions from another scenario/window and rejects fabricated late decisions",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation capacity override suppresses every lifecycle event of both deferred devices",
+          "status": "passed"
+        },
+        {
+          "name": "authored canonical branch reconciliation vehicle arrives at the actual stop when collection is recorded and V01 does not overlap routes",
+          "status": "passed"
+        },
+        {
+          "name": "shared lifecycle and receiving preconditions an approval cannot bypass missing collection or produce data clearance at the household",
+          "status": "passed"
+        },
+        {
+          "name": "shared lifecycle and receiving preconditions routing respects receiving slots and declared destination compatibility",
+          "status": "passed"
+        },
+        {
+          "name": "single-use exact-time review tokens rejects late approval without review and then permits the reviewed path",
+          "status": "passed"
+        },
+        {
+          "name": "single-use exact-time review tokens consumes its token; direct seek to an existing gate cannot reverse approval",
+          "status": "passed"
+        },
+        {
+          "name": "single-use exact-time review tokens rejects stale revisions, another context token, unpaused state and an incorrect exact time",
+          "status": "passed"
+        },
+        {
+          "name": "single-use exact-time review tokens retained holds reverse only through review, with downstream decisions invalidated",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "tests/domain/exploration-engine.test.ts",
+      "status": "passed",
+      "assertions": [
+        {
+          "name": "exploration engine outcomes completes only large_appliance first-window allocation with explicit approvals",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine outcomes completes only battery first-window allocation with explicit approvals",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine outcomes completes only phone first-window allocation with explicit approvals",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine outcomes retained specialist hold yields no dispatch, processing, recovery, or collection charge",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine outcomes retained data hold charges collection alone and earns no recovery value",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine outcomes does not create irrelevant data or specialist checkpoints",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine outcomes scopes decisions to one window and one batch, including saved later windows",
+          "status": "passed"
+        },
+        {
+          "name": "exploration persistence compatibility round-trips real mixed exploration batches and complete reservation history",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "tests/domain/exploration.test.ts",
+      "status": "passed",
+      "assertions": [
+        {
+          "name": "bounded exploration allocation allocates 18 large_appliance assets FIFO without borrowing later capacity",
+          "status": "passed"
+        },
+        {
+          "name": "bounded exploration allocation allocates 18 battery assets FIFO without borrowing later capacity",
+          "status": "passed"
+        },
+        {
+          "name": "bounded exploration allocation allocates 18 phone assets FIFO without borrowing later capacity",
+          "status": "passed"
+        },
+        {
+          "name": "bounded exploration allocation rejects the seventh request and leaves the source state unchanged",
+          "status": "passed"
+        },
+        {
+          "name": "bounded exploration allocation rejects invalid category, condition, asset count, and sample address atomically",
+          "status": "passed"
+        },
+        {
+          "name": "bounded exploration allocation respects receiving capacity across classes and permits partial household windows",
+          "status": "passed"
+        },
+        {
+          "name": "bounded exploration allocation uses physical mass constraints in addition to available slots",
+          "status": "passed"
+        },
+        {
+          "name": "bounded exploration allocation never rewinds started history or reuses dates reserved by its deferred windows",
+          "status": "passed"
+        },
+        {
+          "name": "exploration context and authored routes is fresh at zero with no hero gate or base funding and only relevant gates",
+          "status": "passed"
+        },
+        {
+          "name": "exploration context and authored routes collapses repeated household/class stops with Manhattan paths and matching collection times",
+          "status": "passed"
+        },
+        {
+          "name": "exploration context and authored routes guards every specialist lifecycle transition after validation and gates data clearance",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine integration starts a usable fresh progression after canonical completion and preserves canonical results",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine integration keeps data held at the hub until the current window explicitly grants clearance",
+          "status": "passed"
+        },
+        {
+          "name": "exploration engine integration keeps a split request partial in each selected window and requires separate specialist approval",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "tests/domain/store-persistence.test.ts",
+      "status": "passed",
+      "assertions": [
+        {
+          "name": "single active operational store play arrives at every undecided checkpoint and waits for explicit action",
+          "status": "passed"
+        },
+        {
+          "name": "single active operational store direct seek invalidates the review token, repeated actions cannot duplicate custody",
+          "status": "passed"
+        },
+        {
+          "name": "single active operational store switching context pauses previous window and invalidates live reviews",
+          "status": "passed"
+        },
+        {
+          "name": "single active operational store new request after 180 runs freshly; another after start is a separate future batch",
+          "status": "passed"
+        },
+        {
+          "name": "single active operational store request directory aggregates completed history across split windows honestly",
+          "status": "passed"
+        },
+        {
+          "name": "single active operational store exploration reset clears future date reservations and operational history together",
+          "status": "passed"
+        },
+        {
+          "name": "validated JSON and readable real exports round-trips decisions/history/reservations and expires live tokens",
+          "status": "passed"
+        },
+        {
+          "name": "validated JSON and readable real exports rejects corrupt schemas, missing entity references, forged decision scope and capacity reservations atomically",
+          "status": "passed"
+        },
+        {
+          "name": "validated JSON and readable real exports CSV contains current rows and stable unique custody records with safe Indonesian encoding",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

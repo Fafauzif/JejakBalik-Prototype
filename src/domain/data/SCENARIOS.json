@@ -1,0 +1,33 @@
+[
+  {
+    "id": "circular_day",
+    "labelId": "Satu hari sirkular",
+    "durationSeconds": 180,
+    "deferredRequestIds": [],
+    "startingApprovalFlags": {},
+    "expectedPositivePathActions": ["submit_hero", "approve_specialist", "approve_data_release"],
+    "expectedCompletedAssets": 48
+  },
+  {
+    "id": "battery_review",
+    "labelId": "Pemeriksaan baterai",
+    "durationSeconds": 180,
+    "deferredRequestIds": [],
+    "startingApprovalFlags": {},
+    "focusAgent": "guardian",
+    "expectedPositivePathActions": ["submit_hero", "approve_specialist", "approve_data_release"],
+    "expectedCompletedAssets": 48,
+    "holdBranchCompletedAssets": 46
+  },
+  {
+    "id": "capacity_shift",
+    "labelId": "Kapasitas dan jadwal",
+    "durationSeconds": 180,
+    "deferredRequestIds": ["JB-R023", "JB-R024"],
+    "deferredWindow": "2026-10-20 09:00–11:00 Asia/Jakarta",
+    "startingApprovalFlags": {},
+    "expectedPositivePathActions": ["submit_hero", "approve_specialist", "approve_data_release"],
+    "expectedCompletedAssets": 46,
+    "planOverrideKey": "capacity_shift"
+  }
+]

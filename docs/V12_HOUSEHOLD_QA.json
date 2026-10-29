@@ -1,0 +1,3394 @@
+{
+  "checks": {
+    "pause1": {
+      "cursor": 11.993999999910594,
+      "paused": true,
+      "speed": 30,
+      "decisions": [],
+      "window": "EXP-1-W1"
+    },
+    "pause2": {
+      "cursor": 11.993999999910594,
+      "paused": true,
+      "speed": 30,
+      "decisions": [],
+      "window": "EXP-1-W1"
+    },
+    "gateBefore": {
+      "cursor": 130,
+      "paused": true,
+      "speed": 30,
+      "decisions": [],
+      "window": "EXP-1-W1"
+    },
+    "complete": {
+      "cursor": 166,
+      "paused": true,
+      "speed": 30,
+      "decisions": [
+        "approve_data_release"
+      ],
+      "window": "EXP-1-W1"
+    },
+    "errors": []
+  },
+  "branches": {
+    "results": [
+      {
+        "safety": {
+          "cursor": 74,
+          "decisions": [],
+          "batch": "EXP-1",
+          "window": "EXP-1-W1",
+          "requests": [
+            {
+              "id": "JB-R001",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A001",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A037",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R002",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A002",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A038",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R003",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A003",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A039",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R004",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A004",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A040",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R005",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A005",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A041",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R006",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A006",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A042",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R007",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A007",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A043",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R008",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A008",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A044",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R009",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A009",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A045",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R010",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A010",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A046",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R011",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A011",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A047",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R012",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A012",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A048",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R013",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A013",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R014",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A014",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R015",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A015",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R016",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A016",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R017",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A017",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R018",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A018",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R019",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A019",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R020",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A020",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R021",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A021",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R022",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A022",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R023",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A023",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R024",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A024",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R025",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A025",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R026",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A026",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R027",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A027",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R028",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A028",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R029",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A029",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R030",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A030",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R031",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A031",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R032",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A032",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R033",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A033",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R034",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A034",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R035",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A035",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R036",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A036",
+                  "status": "draft",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "EXP-1-1",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "EXP-A-1-1-1",
+                  "status": "assigned",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-2",
+                  "status": "validated",
+                  "held": true
+                }
+              ]
+            }
+          ]
+        },
+        "partial": {
+          "cursor": 166,
+          "decisions": [
+            "retain_specialist_hold",
+            "approve_data_release"
+          ],
+          "batch": "EXP-1",
+          "window": "EXP-1-W1",
+          "requests": [
+            {
+              "id": "JB-R001",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A001",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A037",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R002",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A002",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A038",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R003",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A003",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A039",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R004",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A004",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A040",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R005",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A005",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A041",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R006",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A006",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A042",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R007",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A007",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A043",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R008",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A008",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A044",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R009",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A009",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A045",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R010",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A010",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A046",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R011",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A011",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A047",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R012",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A012",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A048",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R013",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A013",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R014",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A014",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R015",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A015",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R016",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A016",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R017",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A017",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R018",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A018",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R019",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A019",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R020",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A020",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R021",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A021",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R022",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A022",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R023",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A023",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R024",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A024",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R025",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A025",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R026",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A026",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R027",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A027",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R028",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A028",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R029",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A029",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R030",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A030",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R031",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A031",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R032",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A032",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R033",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A033",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R034",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A034",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R035",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A035",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R036",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A036",
+                  "status": "draft",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "EXP-1-1",
+              "total": 2,
+              "complete": 1,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "EXP-A-1-1-1",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-2",
+                  "status": "validated",
+                  "held": true
+                }
+              ]
+            }
+          ]
+        },
+        "terminal": {
+          "cursor": 180,
+          "decisions": [
+            "retain_specialist_hold",
+            "approve_data_release"
+          ],
+          "batch": "EXP-1",
+          "window": "EXP-1-W1",
+          "requests": [
+            {
+              "id": "JB-R001",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A001",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A037",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R002",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A002",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A038",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R003",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A003",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A039",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R004",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A004",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A040",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R005",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A005",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A041",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R006",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A006",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A042",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R007",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A007",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A043",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R008",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A008",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A044",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R009",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A009",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A045",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R010",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A010",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A046",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R011",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A011",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A047",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R012",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A012",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A048",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R013",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A013",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R014",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A014",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R015",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A015",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R016",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A016",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R017",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A017",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R018",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A018",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R019",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A019",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R020",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A020",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R021",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A021",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R022",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A022",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R023",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A023",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R024",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A024",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R025",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A025",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R026",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A026",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R027",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A027",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R028",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A028",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R029",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A029",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R030",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A030",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R031",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A031",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R032",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A032",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R033",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A033",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R034",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A034",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R035",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A035",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R036",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A036",
+                  "status": "draft",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "EXP-1-1",
+              "total": 2,
+              "complete": 1,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "EXP-A-1-1-1",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-2",
+                  "status": "validated",
+                  "held": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "firstWindow": {
+          "cursor": 166,
+          "decisions": [
+            "approve_specialist"
+          ],
+          "batch": "EXP-1",
+          "window": "EXP-1-W1",
+          "requests": [
+            {
+              "id": "JB-R001",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A001",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A037",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R002",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A002",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A038",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R003",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A003",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A039",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R004",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A004",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A040",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R005",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A005",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A041",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R006",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A006",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A042",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R007",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A007",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A043",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R008",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A008",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A044",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R009",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A009",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A045",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R010",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A010",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A046",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R011",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A011",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A047",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R012",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A012",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A048",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R013",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A013",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R014",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A014",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R015",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A015",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R016",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A016",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R017",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A017",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R018",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A018",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R019",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A019",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R020",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A020",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R021",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A021",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R022",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A022",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R023",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A023",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R024",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A024",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R025",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A025",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R026",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A026",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R027",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A027",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R028",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A028",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R029",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A029",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R030",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A030",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R031",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A031",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R032",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A032",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R033",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A033",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R034",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A034",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R035",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A035",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R036",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A036",
+                  "status": "draft",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "EXP-1-1",
+              "total": 3,
+              "complete": 2,
+              "windows": 2,
+              "status": [
+                {
+                  "id": "EXP-A-1-1-1",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-2",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-3",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            }
+          ]
+        },
+        "nextWindow": {
+          "cursor": 0,
+          "decisions": [],
+          "batch": "EXP-1",
+          "window": "EXP-1-W2",
+          "requests": [
+            {
+              "id": "JB-R001",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A001",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A037",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R002",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A002",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A038",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R003",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A003",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A039",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R004",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A004",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A040",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R005",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A005",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A041",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R006",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A006",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A042",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R007",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A007",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A043",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R008",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A008",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A044",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R009",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A009",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A045",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R010",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A010",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A046",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R011",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A011",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A047",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R012",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A012",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A048",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R013",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A013",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R014",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A014",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R015",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A015",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R016",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A016",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R017",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A017",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R018",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A018",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R019",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A019",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R020",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A020",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R021",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A021",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R022",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A022",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R023",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A023",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R024",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A024",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R025",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A025",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R026",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A026",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R027",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A027",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R028",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A028",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R029",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A029",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R030",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A030",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R031",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A031",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R032",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A032",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R033",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A033",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R034",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A034",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R035",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A035",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R036",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A036",
+                  "status": "draft",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "EXP-1-1",
+              "total": 3,
+              "complete": 2,
+              "windows": 2,
+              "status": [
+                {
+                  "id": "EXP-A-1-1-1",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-2",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-3",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "restored": {
+          "cursor": 40,
+          "decisions": [],
+          "batch": "EXP-1",
+          "window": "EXP-1-W2",
+          "requests": [
+            {
+              "id": "JB-R001",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A001",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A037",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R002",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A002",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A038",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R003",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A003",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A039",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R004",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A004",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A040",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R005",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A005",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A041",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R006",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A006",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A042",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R007",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A007",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A043",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R008",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A008",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A044",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R009",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A009",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A045",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R010",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A010",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A046",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R011",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A011",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A047",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R012",
+              "total": 2,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A012",
+                  "status": "requested",
+                  "held": false
+                },
+                {
+                  "id": "JB-A048",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R013",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A013",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R014",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A014",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R015",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A015",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R016",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A016",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R017",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A017",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R018",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A018",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R019",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A019",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R020",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A020",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R021",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A021",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R022",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A022",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R023",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A023",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R024",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A024",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R025",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A025",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R026",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A026",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R027",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A027",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R028",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A028",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R029",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A029",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R030",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A030",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R031",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A031",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R032",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A032",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R033",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A033",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R034",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A034",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R035",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A035",
+                  "status": "requested",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "JB-R036",
+              "total": 1,
+              "complete": 0,
+              "windows": 1,
+              "status": [
+                {
+                  "id": "JB-A036",
+                  "status": "draft",
+                  "held": false
+                }
+              ]
+            },
+            {
+              "id": "EXP-1-1",
+              "total": 3,
+              "complete": 2,
+              "windows": 2,
+              "status": [
+                {
+                  "id": "EXP-A-1-1-1",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-2",
+                  "status": "completed",
+                  "held": false
+                },
+                {
+                  "id": "EXP-A-1-1-3",
+                  "status": "validated",
+                  "held": false
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "errors": []
+  },
+  "scope": "Real forms and controls, no injected approvals; mobile360/390IDEN; scoped request/window custody and Next gates."
+}

@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-16",
+  "delivery_names": [
+    "Jejak_Balik_Project.zip",
+    "Jejak_Balik_Brand_Guidelines.pptx",
+    "Jejak_Balik_Brand_Guidelines.pdf",
+    "Jejak_Balik_Logo_Pack.zip",
+    "Jejak_Balik_Master_Context.md"
+  ],
+  "source_archive": {
+    "root_package_json": true,
+    "required_format_configuration": ".prettierrc.json",
+    "excluded": [
+      "node_modules",
+      "dist",
+      "test-results",
+      "playwright-report",
+      "working screenshots",
+      "private review scores/transcripts"
+    ],
+    "clean_source_file_count": 162,
+    "clean_source_fingerprint_sha256": "c7188416141d59f5923faa82e1bd7ae5907363e8006b7f935684b0a0fad6b30d",
+    "final_code_matches_clean_tested_workspace": true
+  },
+  "executed_checks": [
+    {
+      "command": "npm ci --no-audit --no-fund",
+      "result": "passed",
+      "scope": "fresh extraction, 153 packages installed"
+    },
+    {
+      "command": "npm run typecheck",
+      "result": "passed"
+    },
+    {
+      "command": "npm run test:unit",
+      "result": "passed",
+      "tests": 51,
+      "suites": 5
+    },
+    {
+      "command": "npm run build",
+      "result": "passed",
+      "scope": "clean extraction and final CSS refresh"
+    },
+    {
+      "command": "npm run format:check",
+      "result": "passed"
+    },
+    {
+      "command": "node scripts/check-design-tokens.mjs",
+      "result": "passed",
+      "assertions": 71
+    },
+    {
+      "command": "npm run test:e2e",
+      "result": "passed",
+      "tests": 8,
+      "failures": 0,
+      "skipped": 0,
+      "retries": 0,
+      "duration_seconds": 90.8656,
+      "scope": "full suite before final mobile CSS fixes; affected final CSS controls independently rechecked in MOBILE_ACCEPTANCE.json"
+    }
+  ],
+  "brand": {
+    "slides": 16,
+    "editable_text_runs": 223,
+    "pdf_pages": 16,
+    "all_pdf_pages_searchable": true,
+    "all_pages_visually_reviewed": true,
+    "logo_archive_entries": 52,
+    "zip_integrity": "passed"
+  },
+  "original_context": {
+    "files": [
+      {
+        "path": "AksiCintaBumi_Competition_and_Essay_Hub.md",
+        "sha256": "a340d0ab8c9f3a15b34ee94cf530eab68203bb4dab5ae09369c6deabe7130e6b"
+      },
+      {
+        "path": "README.md",
+        "sha256": "bee6c19b48ba1b753d3e2d1b51fc774b7aa0843c246d8b45adb2d15f669182bf"
+      },
+      {
+        "path": "lintara-history/GRAPHICS.md",
+        "sha256": "7014af1b806874e15f06f11b5b4a50c052d66f3d8a5cafdbfb4d8643ad56f0c5"
+      },
+      {
+        "path": "lintara-history/README.md",
+        "sha256": "c3f1340bd5141225584b65139a20c73eb45a7156a368ae5906ace660c0cf0b01"
+      },
+      {
+        "path": "lintara-history/REVISION_1_2.md",
+        "sha256": "9ac16877c0b8cb777a80b4e7e1c6fdccc3a406554d95715aedf85b3303788f9e"
+      },
+      {
+        "path": "lintara-history/REVISION_1_3.md",
+        "sha256": "7e8d5d3b14aa5edbacc305c1010e69ade1195f2d2525ecf2291e2bfb1713f809"
+      }
+    ],
+    "all_byte_identical": true
+  },
+  "master": {
+    "path": "docs/Jejak_Balik_Master_Context.md",
+    "sha256": "53661b27edf84150cda2b2f9a83f4ffcdf9f011dd1107ab8c23a1de1850c01f8",
+    "standalone_byte_identical": true
+  },
+  "delivered_companions": [
+    {
+      "name": "Jejak_Balik_Brand_Guidelines.pptx",
+      "bytes": 11400176,
+      "sha256": "2808f257574e7cc3a0dd64d06005941dbc92c04dcb27d3b9732af698ec9c1cc5"
+    },
+    {
+      "name": "Jejak_Balik_Brand_Guidelines.pdf",
+      "bytes": 1581322,
+      "sha256": "790e192989e22331625b454b9dfea29f702a00774751a86fdb7a5c8f01f13e9e"
+    },
+    {
+      "name": "Jejak_Balik_Logo_Pack.zip",
+      "bytes": 340162,
+      "sha256": "cfa5ed716616d8f3f44125b68488b298d3f83cf3ff4aeab6d872c04121d2574d"
+    },
+    {
+      "name": "Jejak_Balik_Master_Context.md",
+      "bytes": 23458,
+      "sha256": "53661b27edf84150cda2b2f9a83f4ffcdf9f011dd1107ab8c23a1de1850c01f8"
+    }
+  ],
+  "limits": [
+    "No external deployment",
+    "Software WebGL verified; target 8GB integrated-GPU laptop 1080p30FPS not verified",
+    "Software city profile12.77FPS, p95134.1ms",
+    "Physical phones and hosted cold-cache transfer not measured",
+    "Canonical deferred next day is scheduled; exploration later-window playback works"
+  ]
+}

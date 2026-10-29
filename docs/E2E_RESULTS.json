@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "recordedOn": "2026-10-16",
+  "framework": "@playwright/test",
+  "suite": "tests/e2e/operations.spec.ts",
+  "environment": {
+    "browser": "Chromium",
+    "executable": "/tmp/atma-chromium",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "timezone": "Asia/Jakarta",
+    "locale": "id-ID",
+    "workers": 1,
+    "reducedMotion": "reduce",
+    "webglContextAvailable": false,
+    "rendering": "Operational scene fallback; these results do not verify 3D graphics or GPU performance."
+  },
+  "method": "Rendered UI controls, real forms, timeline slider, review dialogs, downloads, file uploads and navigation. No direct operational state injection. Corrupt localStorage injection is used only for recovery testing.",
+  "summary": {
+    "caseCount": 8,
+    "latestVerifiedPassed": 8,
+    "latestVerifiedFailed": 0,
+    "singleAllPassingFullRun": true,
+    "finalFullRunId": "final-full-suite",
+    "note": "The final complete run passed all 8 cases on the frozen formatted source. Earlier full-suite and focused-regression histories are preserved below, including the original invalid-import feedback failure and its fix verification."
+  },
+  "runs": [
+    {
+      "id": "initial-suite",
+      "command": "npm run test:e2e",
+      "stats": {
+        "startTime": "2026-10-16T13:30:25.912Z",
+        "duration": 106046.167,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "cases": [
+        {
+          "name": "guided entry advances the shared clock to the real hero form and awaits submission",
+          "file": "operations.spec.ts",
+          "line": 82,
+          "status": "passed",
+          "durationMs": 17894,
+          "startedAt": "2026-10-16T13:30:26.802Z"
+        },
+        {
+          "name": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+          "file": "operations.spec.ts",
+          "line": 111,
+          "status": "passed",
+          "durationMs": 13131,
+          "startedAt": "2026-10-16T13:30:44.780Z"
+        },
+        {
+          "name": "authored specialist hold stays coherent across network and impact",
+          "file": "operations.spec.ts",
+          "line": 171,
+          "status": "passed",
+          "durationMs": 11239,
+          "startedAt": "2026-10-16T13:30:57.925Z"
+        },
+        {
+          "name": "authored data hold stays coherent across network and impact",
+          "file": "operations.spec.ts",
+          "line": 171,
+          "status": "passed",
+          "durationMs": 11389,
+          "startedAt": "2026-10-16T13:31:09.176Z"
+        },
+        {
+          "name": "authored capacity deferral stays coherent across network and impact",
+          "file": "operations.spec.ts",
+          "line": 171,
+          "status": "passed",
+          "durationMs": 11234,
+          "startedAt": "2026-10-16T13:31:20.576Z"
+        },
+        {
+          "name": "real downloads, reset, JSON import and reload preserve the reviewed session",
+          "file": "operations.spec.ts",
+          "line": 197,
+          "status": "passed",
+          "durationMs": 21316,
+          "startedAt": "2026-10-16T13:31:31.820Z"
+        },
+        {
+          "name": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+          "file": "operations.spec.ts",
+          "line": 246,
+          "status": "failed",
+          "durationMs": 15524,
+          "startedAt": "2026-10-16T13:31:53.148Z"
+        },
+        {
+          "name": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+          "file": "operations.spec.ts",
+          "line": 276,
+          "status": "passed",
+          "durationMs": 2538,
+          "startedAt": "2026-10-16T13:32:09.278Z"
+        }
+      ]
+    },
+    {
+      "id": "affected-import-regression",
+      "command": "npm run test:e2e -- --grep 'invalid import'",
+      "stats": {
+        "startTime": "2026-10-16T13:32:30.963Z",
+        "duration": 7384.906,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "cases": [
+        {
+          "name": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+          "file": "operations.spec.ts",
+          "line": 244,
+          "status": "passed",
+          "durationMs": 6214,
+          "startedAt": "2026-10-16T13:32:31.954Z"
+        }
+      ]
+    },
+    {
+      "id": "guided-timing-regression",
+      "command": "npm run test:e2e -- --grep 'guided entry'",
+      "stats": {
+        "startTime": "2026-10-16T13:36:43.292Z",
+        "duration": 16863.715,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "cases": [
+        {
+          "name": "guided entry advances the shared clock to the real hero form and awaits submission",
+          "file": "operations.spec.ts",
+          "line": 82,
+          "status": "passed",
+          "durationMs": 15617,
+          "startedAt": "2026-10-16T13:36:44.345Z"
+        }
+      ]
+    },
+    {
+      "id": "final-full-suite",
+      "command": "npm run test:e2e",
+      "stats": {
+        "startTime": "2026-10-16T13:53:55.275Z",
+        "duration": 90865.6,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "cases": [
+        {
+          "name": "guided entry advances the shared clock to the real hero form and awaits submission",
+          "file": "operations.spec.ts",
+          "line": 82,
+          "status": "passed",
+          "durationMs": 15636,
+          "startedAt": "2026-10-16T13:53:56.051Z"
+        },
+        {
+          "name": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+          "file": "operations.spec.ts",
+          "line": 115,
+          "status": "passed",
+          "durationMs": 13605,
+          "startedAt": "2026-10-16T13:54:11.770Z"
+        },
+        {
+          "name": "authored specialist hold stays coherent across network and impact",
+          "file": "operations.spec.ts",
+          "line": 175,
+          "status": "passed",
+          "durationMs": 9572,
+          "startedAt": "2026-10-16T13:54:25.384Z"
+        },
+        {
+          "name": "authored data hold stays coherent across network and impact",
+          "file": "operations.spec.ts",
+          "line": 175,
+          "status": "passed",
+          "durationMs": 10875,
+          "startedAt": "2026-10-16T13:54:34.969Z"
+        },
+        {
+          "name": "authored capacity deferral stays coherent across network and impact",
+          "file": "operations.spec.ts",
+          "line": 175,
+          "status": "passed",
+          "durationMs": 10437,
+          "startedAt": "2026-10-16T13:54:45.854Z"
+        },
+        {
+          "name": "real downloads, reset, JSON import and reload preserve the reviewed session",
+          "file": "operations.spec.ts",
+          "line": 201,
+          "status": "passed",
+          "durationMs": 19920,
+          "startedAt": "2026-10-16T13:54:56.304Z"
+        },
+        {
+          "name": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+          "file": "operations.spec.ts",
+          "line": 248,
+          "status": "passed",
+          "durationMs": 6895,
+          "startedAt": "2026-10-16T13:55:16.232Z"
+        },
+        {
+          "name": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+          "file": "operations.spec.ts",
+          "line": 279,
+          "status": "passed",
+          "durationMs": 2835,
+          "startedAt": "2026-10-16T13:55:23.138Z"
+        }
+      ]
+    }
+  ],
+  "latestCaseResults": [
+    {
+      "name": "guided entry advances the shared clock to the real hero form and awaits submission",
+      "file": "operations.spec.ts",
+      "line": 82,
+      "status": "passed",
+      "durationMs": 15636,
+      "startedAt": "2026-10-16T13:53:56.051Z",
+      "verifiedIn": "final-full-suite"
+    },
+    {
+      "name": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+      "file": "operations.spec.ts",
+      "line": 115,
+      "status": "passed",
+      "durationMs": 13605,
+      "startedAt": "2026-10-16T13:54:11.770Z",
+      "verifiedIn": "final-full-suite"
+    },
+    {
+      "name": "authored specialist hold stays coherent across network and impact",
+      "file": "operations.spec.ts",
+      "line": 175,
+      "status": "passed",
+      "durationMs": 9572,
+      "startedAt": "2026-10-16T13:54:25.384Z",
+      "verifiedIn": "final-full-suite"
+    },
+    {
+      "name": "authored data hold stays coherent across network and impact",
+      "file": "operations.spec.ts",
+      "line": 175,
+      "status": "passed",
+      "durationMs": 10875,
+      "startedAt": "2026-10-16T13:54:34.969Z",
+      "verifiedIn": "final-full-suite"
+    },
+    {
+      "name": "authored capacity deferral stays coherent across network and impact",
+      "file": "operations.spec.ts",
+      "line": 175,
+      "status": "passed",
+      "durationMs": 10437,
+      "startedAt": "2026-10-16T13:54:45.854Z",
+      "verifiedIn": "final-full-suite"
+    },
+    {
+      "name": "real downloads, reset, JSON import and reload preserve the reviewed session",
+      "file": "operations.spec.ts",
+      "line": 201,
+      "status": "passed",
+      "durationMs": 19920,
+      "startedAt": "2026-10-16T13:54:56.304Z",
+      "verifiedIn": "final-full-suite"
+    },
+    {
+      "name": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+      "file": "operations.spec.ts",
+      "line": 248,
+      "status": "passed",
+      "durationMs": 6895,
+      "startedAt": "2026-10-16T13:55:16.232Z",
+      "verifiedIn": "final-full-suite"
+    },
+    {
+      "name": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+      "file": "operations.spec.ts",
+      "line": 279,
+      "status": "passed",
+      "durationMs": 2835,
+      "startedAt": "2026-10-16T13:55:23.138Z",
+      "verifiedIn": "final-full-suite"
+    }
+  ],
+  "limits": [
+    "No 3D visual-quality, WebGL performance, FPS or comprehensive accessibility-conformance claim.",
+    "Household responsiveness, team report/artifact inspection and graphics evidence are recorded separately."
+  ]
+}

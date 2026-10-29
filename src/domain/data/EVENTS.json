@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "EV-0001",
+    "atSecond": 0,
+    "kind": "scenario_loaded",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "scenarioId": "circular_day",
+      "heroInitiallySubmitted": false
+    }
+  },
+  {
+    "id": "EV-0002",
+    "atSecond": 32,
+    "kind": "checkpoint",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "action": "submit_hero",
+      "pause": true
+    }
+  },
+  {
+    "id": "EV-0003",
+    "atSecond": 38,
+    "kind": "artifact_ready",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "agentId": "scout"
+    }
+  },
+  {
+    "id": "EV-0004",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0012",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0020",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0029",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0037",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0045",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0053",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0061",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0069",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0077",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0086",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0094",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0102",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0111",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0120",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0128",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0136",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0145",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0153",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0161",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0170",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0179",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0187",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0195",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0203",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0212",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0220",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0228",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0236",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0245",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0254",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0262",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0271",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0280",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0288",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0296",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {}
+  },
+  {
+    "id": "EV-0305",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0314",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0323",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0331",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0339",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0347",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0355",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0364",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0372",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0381",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0390",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A047",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0399",
+    "atSecond": 40,
+    "kind": "validated",
+    "assetId": "JB-A048",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0391",
+    "atSecond": 42,
+    "kind": "safety_hold",
+    "assetId": "JB-A047",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0400",
+    "atSecond": 42,
+    "kind": "safety_hold",
+    "assetId": "JB-A048",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0408",
+    "atSecond": 46,
+    "kind": "artifact_ready",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "agentId": "route"
+    }
+  },
+  {
+    "id": "EV-0005",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0013",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0021",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0030",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0038",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0046",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0054",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0062",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0070",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0078",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0087",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0095",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0103",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0112",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0121",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0129",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0137",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0146",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0154",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0162",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0171",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0180",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0188",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0196",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0204",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0213",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0221",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0229",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0237",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0246",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0255",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0263",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0272",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0281",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0289",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0297",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {}
+  },
+  {
+    "id": "EV-0306",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0315",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0324",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0332",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0340",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0348",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0356",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0365",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0373",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0382",
+    "atSecond": 50,
+    "kind": "scheduled",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0409",
+    "atSecond": 58,
+    "kind": "artifact_ready",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "agentId": "liaison"
+    }
+  },
+  {
+    "id": "EV-0006",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0014",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0022",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0031",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0039",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0047",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0055",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0063",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0071",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0079",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0088",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0096",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0104",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0113",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0122",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0130",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0138",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0147",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0155",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0163",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0172",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0181",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0189",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0197",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0205",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0214",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0222",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0230",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0238",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0247",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0256",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0264",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0273",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0282",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0290",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0298",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {}
+  },
+  {
+    "id": "EV-0307",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0316",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0325",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0333",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0341",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0349",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0357",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0366",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0374",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0383",
+    "atSecond": 60,
+    "kind": "assigned",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0007",
+    "atSecond": 69.65,
+    "kind": "collected",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0308",
+    "atSecond": 69.65,
+    "kind": "collected",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0015",
+    "atSecond": 69.95,
+    "kind": "collected",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0317",
+    "atSecond": 69.95,
+    "kind": "collected",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0023",
+    "atSecond": 70.25,
+    "kind": "collected",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0326",
+    "atSecond": 70.25,
+    "kind": "collected",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0032",
+    "atSecond": 71.15,
+    "kind": "collected",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0040",
+    "atSecond": 71.45,
+    "kind": "collected",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0342",
+    "atSecond": 71.45,
+    "kind": "collected",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0048",
+    "atSecond": 71.75,
+    "kind": "collected",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0206",
+    "atSecond": 71.788,
+    "kind": "collected",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0215",
+    "atSecond": 72.364,
+    "kind": "collected",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0223",
+    "atSecond": 72.939,
+    "kind": "collected",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0139",
+    "atSecond": 73.164,
+    "kind": "collected",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0148",
+    "atSecond": 73.802,
+    "kind": "collected",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0056",
+    "atSecond": 73.85,
+    "kind": "collected",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0358",
+    "atSecond": 73.85,
+    "kind": "collected",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0410",
+    "atSecond": 74,
+    "kind": "checkpoint",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "action": "review_specialist",
+      "pause": true,
+      "allowedDecisions": ["approve", "retain_hold"]
+    }
+  },
+  {
+    "id": "EV-0367",
+    "atSecond": 74.15,
+    "kind": "collected",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0231",
+    "atSecond": 74.667,
+    "kind": "collected",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0239",
+    "atSecond": 75.242,
+    "kind": "collected",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0248",
+    "atSecond": 75.818,
+    "kind": "collected",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0392",
+    "atSecond": 76,
+    "kind": "scheduled",
+    "assetId": "JB-A047",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0401",
+    "atSecond": 76,
+    "kind": "scheduled",
+    "assetId": "JB-A048",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0393",
+    "atSecond": 77,
+    "kind": "assigned",
+    "assetId": "JB-A047",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0402",
+    "atSecond": 77,
+    "kind": "assigned",
+    "assetId": "JB-A048",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0274",
+    "atSecond": 78.553,
+    "kind": "collected",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0283",
+    "atSecond": 81.474,
+    "kind": "collected",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0334",
+    "atSecond": 81.509,
+    "kind": "collected",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0156",
+    "atSecond": 82.414,
+    "kind": "collected",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0291",
+    "atSecond": 82.447,
+    "kind": "collected",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0350",
+    "atSecond": 82.83,
+    "kind": "collected",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0164",
+    "atSecond": 83.052,
+    "kind": "collected",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0299",
+    "atSecond": 83.421,
+    "kind": "collected",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {}
+  },
+  {
+    "id": "EV-0173",
+    "atSecond": 83.69,
+    "kind": "collected",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0008",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0016",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0024",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0033",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0041",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0049",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0057",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0309",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0318",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0327",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0343",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0359",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0368",
+    "atSecond": 84,
+    "kind": "received",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0182",
+    "atSecond": 85.603,
+    "kind": "collected",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0190",
+    "atSecond": 86.241,
+    "kind": "collected",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0198",
+    "atSecond": 86.879,
+    "kind": "collected",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0072",
+    "atSecond": 87.789,
+    "kind": "collected",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0375",
+    "atSecond": 87.789,
+    "kind": "collected",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0064",
+    "atSecond": 88.116,
+    "kind": "collected",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0080",
+    "atSecond": 89.053,
+    "kind": "collected",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0384",
+    "atSecond": 89.053,
+    "kind": "collected",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0257",
+    "atSecond": 89.061,
+    "kind": "collected",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0089",
+    "atSecond": 89.474,
+    "kind": "collected",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0265",
+    "atSecond": 89.636,
+    "kind": "collected",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0097",
+    "atSecond": 89.895,
+    "kind": "collected",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0394",
+    "atSecond": 91.0,
+    "kind": "collected",
+    "assetId": "JB-A047",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0403",
+    "atSecond": 91.634,
+    "kind": "collected",
+    "assetId": "JB-A048",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0105",
+    "atSecond": 94.947,
+    "kind": "collected",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0114",
+    "atSecond": 95.368,
+    "kind": "collected",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0123",
+    "atSecond": 95.789,
+    "kind": "collected",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0131",
+    "atSecond": 97.053,
+    "kind": "collected",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0140",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0149",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0157",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0165",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0174",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0183",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0191",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0199",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0275",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0284",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0292",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0300",
+    "atSecond": 103,
+    "kind": "received",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {}
+  },
+  {
+    "id": "EV-0207",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0216",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0224",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0232",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0240",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0249",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0258",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0266",
+    "atSecond": 104,
+    "kind": "received",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0065",
+    "atSecond": 105,
+    "kind": "received",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0335",
+    "atSecond": 105,
+    "kind": "received",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0351",
+    "atSecond": 105,
+    "kind": "received",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0073",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0081",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0090",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0098",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0106",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0115",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0124",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0132",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0376",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0385",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {}
+  },
+  {
+    "id": "EV-0395",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A047",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0404",
+    "atSecond": 108,
+    "kind": "received",
+    "assetId": "JB-A048",
+    "guard": "specialist_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0009",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0017",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0025",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0034",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0042",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0050",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {
+      "disposition": "parts"
+    }
+  },
+  {
+    "id": "EV-0058",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0066",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0074",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0082",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {
+      "disposition": "parts"
+    }
+  },
+  {
+    "id": "EV-0091",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0099",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0107",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0116",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0125",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0133",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0141",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0150",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0158",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {
+      "disposition": "parts"
+    }
+  },
+  {
+    "id": "EV-0166",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0175",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0184",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0192",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0200",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {
+      "disposition": "parts"
+    }
+  },
+  {
+    "id": "EV-0208",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0217",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0225",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0233",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {
+      "disposition": "parts"
+    }
+  },
+  {
+    "id": "EV-0241",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0250",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0259",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0267",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0276",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {
+      "disposition": "refurbishment"
+    }
+  },
+  {
+    "id": "EV-0285",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0293",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0301",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0310",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0319",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0328",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0336",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0344",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0352",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0360",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {
+      "disposition": "material"
+    }
+  },
+  {
+    "id": "EV-0369",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {
+      "disposition": "repair"
+    }
+  },
+  {
+    "id": "EV-0377",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {
+      "disposition": "reuse"
+    }
+  },
+  {
+    "id": "EV-0386",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {
+      "disposition": "parts"
+    }
+  },
+  {
+    "id": "EV-0396",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A047",
+    "guard": "specialist_approved",
+    "payload": {
+      "disposition": "specialist"
+    }
+  },
+  {
+    "id": "EV-0405",
+    "atSecond": 116,
+    "kind": "triaged",
+    "assetId": "JB-A048",
+    "guard": "specialist_approved",
+    "payload": {
+      "disposition": "specialist"
+    }
+  },
+  {
+    "id": "EV-0411",
+    "atSecond": 118,
+    "kind": "artifact_ready",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "agentId": "triage"
+    }
+  },
+  {
+    "id": "EV-0412",
+    "atSecond": 130,
+    "kind": "checkpoint",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "action": "review_data_release",
+      "pause": true,
+      "allowedDecisions": ["approve", "retain_hold"]
+    }
+  },
+  {
+    "id": "EV-0026",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A003",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0083",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A010",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0108",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A013",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0117",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A014",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0142",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A017",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0167",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A020",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0176",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A021",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0209",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A025",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0242",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A029",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0251",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A030",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0268",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A032",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0277",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A033",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0302",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A036",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0311",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A037",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0320",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A038",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0361",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A043",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0378",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A045",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0387",
+    "atSecond": 132,
+    "kind": "data_cleared",
+    "assetId": "JB-A046",
+    "guard": "data_release_approved",
+    "payload": {}
+  },
+  {
+    "id": "EV-0010",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0018",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0027",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0035",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0043",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0051",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {
+      "destinationId": "P02",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0059",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0067",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0075",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0084",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {
+      "destinationId": "P02",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0092",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0100",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0109",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0118",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0126",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0134",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0143",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0151",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0159",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {
+      "destinationId": "P02",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0168",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0177",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0185",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0193",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0201",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {
+      "destinationId": "P02",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0210",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0218",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0226",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0234",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {
+      "destinationId": "P02",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0243",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0252",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0260",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0269",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0278",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0286",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0294",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0303",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0312",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0321",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0329",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0337",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0345",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0353",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0362",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {
+      "destinationId": "P03",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0370",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0379",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {
+      "destinationId": "P01",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0388",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {
+      "destinationId": "P02",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0397",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A047",
+    "guard": "specialist_approved",
+    "payload": {
+      "destinationId": "P04",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0406",
+    "atSecond": 140,
+    "kind": "routed",
+    "assetId": "JB-A048",
+    "guard": "specialist_approved",
+    "payload": {
+      "destinationId": "P04",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0011",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A001",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-001",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0019",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A002",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-002",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0028",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A003",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-003",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0036",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A004",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-004",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0044",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A005",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-005",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0052",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A006",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-006",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0060",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A007",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-007",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0068",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A008",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-008",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0076",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A009",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-009",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0085",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A010",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-010",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0093",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A011",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-011",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0101",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A012",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-012",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0110",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A013",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-013",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0119",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A014",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-014",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0127",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A015",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-015",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0135",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A016",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-016",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0144",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A017",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-017",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0152",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A018",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-018",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0160",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A019",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-019",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0169",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A020",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-020",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0178",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A021",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-021",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0186",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A022",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-022",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0194",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A023",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-023",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0202",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A024",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-024",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0211",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A025",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-025",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0219",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A026",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-026",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0227",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A027",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-027",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0235",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A028",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-028",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0244",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A029",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-029",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0253",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A030",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-030",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0261",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A031",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-031",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0270",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A032",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-032",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0279",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A033",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-033",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0287",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A034",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-034",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0295",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A035",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-035",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0304",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A036",
+    "guard": "hero_submitted",
+    "payload": {
+      "recordId": "JB-REC-036",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0313",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A037",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-037",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0322",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A038",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-038",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0330",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A039",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-039",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0338",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A040",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-040",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0346",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A041",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-041",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0354",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A042",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-042",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0363",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A043",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-043",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0371",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A044",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-044",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0380",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A045",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-045",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0389",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A046",
+    "guard": null,
+    "payload": {
+      "recordId": "JB-REC-046",
+      "requiresDataClearance": true
+    }
+  },
+  {
+    "id": "EV-0398",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A047",
+    "guard": "specialist_approved",
+    "payload": {
+      "recordId": "JB-REC-047",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0407",
+    "atSecond": 166,
+    "kind": "completed",
+    "assetId": "JB-A048",
+    "guard": "specialist_approved",
+    "payload": {
+      "recordId": "JB-REC-048",
+      "requiresDataClearance": false
+    }
+  },
+  {
+    "id": "EV-0413",
+    "atSecond": 176,
+    "kind": "artifact_ready",
+    "assetId": null,
+    "guard": null,
+    "payload": {
+      "agentId": "impact"
+    }
+  },
+  {
+    "id": "EV-0414",
+    "atSecond": 180,
+    "kind": "journey_finished",
+    "assetId": null,
+    "guard": null,
+    "payload": {}
+  }
+]

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F6F3EB" />
+    <meta
+      name="description"
+      content="JejakBalik: prototipe pengumpulan elektronik komunitas yang menghubungkan pendanaan, jadwal, kapasitas mitra, dan jejak hasil."
+    />
+    <link rel="icon" type="image/svg+xml" href="/brand/mark.svg" />
+    <title>JejakBalik — Pengumpulan Komunitas</title>
+    <style>
+      #boot-surface {
+        min-height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding: 32px 24px;
+        background: #f6f3eb;
+        color: #25352d;
+        text-align: center;
+        font:
+          15px/1.5 system-ui,
+          sans-serif;
+      }
+      #boot-surface p {
+        margin: 0;
+        max-width: 420px;
+      }
+      #boot-surface img {
+        width: 48px;
+        height: 48px;
+      }
+      #boot-recovery {
+        max-width: 480px;
+      }
+      #boot-recovery[hidden] {
+        display: none;
+      }
+      #boot-retry {
+        min-height: 44px;
+        margin-top: 18px;
+        padding: 10px 18px;
+        border: 0;
+        border-radius: 10px;
+        background: #2d6753;
+        color: white;
+        font: inherit;
+        cursor: pointer;
+      }
+      #boot-retry:hover {
+        background: #28563e;
+      }
+      #boot-retry:focus-visible {
+        outline: 3px solid #226b55;
+        outline-offset: 4px;
+      }
+      html,
+      body {
+        margin: 0;
+        background: #f6f3eb;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <main id="boot-surface" aria-label="Jejak Balik">
+        <img src="/brand/mark.svg" alt="Jejak Balik" width="48" height="48" />
+        <p id="boot-message" role="status">Menyiapkan ruang kerja…</p>
+        <div id="boot-recovery" hidden>
+          <p>Periksa koneksi, lalu muat ulang untuk melanjutkan. Sesi tersimpan tetap ada di browser ini.</p>
+          <button id="boot-retry" type="button">Muat ulang ruang kerja</button>
+        </div>
+        <noscript><p>Aktifkan JavaScript di browser untuk membuka Jejak Balik.</p></noscript>
+      </main>
+    </div>
+    <script>
+      (function () {
+        function recover() {
+          var message = document.getElementById('boot-message');
+          var recovery = document.getElementById('boot-recovery');
+          if (!message || !recovery) return;
+          message.textContent = 'Ruang kerja belum dapat dibuka.';
+          recovery.hidden = false;
+        }
+        document.getElementById('boot-retry').addEventListener('click', function () {
+          window.location.reload();
+        });
+        window.addEventListener('jejak:boot-failed', recover);
+        window.addEventListener('error', recover, true);
+        window.addEventListener('unhandledrejection', recover);
+        setTimeout(recover, 15000);
+      })();
+    </script>
+    <script type="module" src="/src/bootstrap.ts"></script>
+  </body>
+</html>

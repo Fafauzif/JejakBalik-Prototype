@@ -1,0 +1,296 @@
+{
+  "maxAdditionalRequests": 6,
+  "maxAssetsPerRequest": 3,
+  "batchPolicy": "Extra requests use an exploration batch separate from the canonical batch. Submit into the newest unstarted exploration batch; if that batch has begun, queue into a new unstarted batch. Only the selected batch clock advances.",
+  "windowStartDate": "2026-10-21",
+  "windowTime": "09:00–11:00",
+  "timezone": "Asia/Jakarta",
+  "availableVehicleSlotsPerWindow": {
+    "ordinary": 12,
+    "bulky": 4,
+    "specialist": 2
+  },
+  "physicalVehicleIds": {
+    "ordinary": "V02",
+    "bulky": "V03",
+    "specialist": "V05"
+  },
+  "availableDestinationSlotsPerWindow": {
+    "P01": 12,
+    "P02": 6,
+    "P03": 10,
+    "P04": 2
+  },
+  "allocationOrder": "request creation index ascending, then asset index ascending; allocate earliest compatible daily window with available class slots, receiving slots, and physical vehicle mass capacity",
+  "routeStartSeconds": {
+    "ordinary": 62,
+    "bulky": 64,
+    "specialist": 78
+  },
+  "routeEndSecond": 104,
+  "milestones": {
+    "validated": 40,
+    "scheduled": 50,
+    "assigned": 60,
+    "specialistScheduled": 76,
+    "specialistAssigned": 77,
+    "received": 108,
+    "triaged": 116,
+    "dataCleared": 132,
+    "routed": 140,
+    "completed": 166
+  },
+  "templates": [
+    {
+      "category": "phone",
+      "massKg": 0.18,
+      "baseRecoveredValueIdr": 350000,
+      "components": ["screen", "battery", "mainboard", "shell"],
+      "dataBearing": true,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "laptop",
+      "massKg": 1.6,
+      "baseRecoveredValueIdr": 1800000,
+      "components": ["display", "keyboard", "battery", "mainboard", "storage", "shell"],
+      "dataBearing": true,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "tablet",
+      "massKg": 0.5,
+      "baseRecoveredValueIdr": 650000,
+      "components": ["screen", "battery", "mainboard", "shell"],
+      "dataBearing": true,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "router",
+      "massKg": 0.35,
+      "baseRecoveredValueIdr": 90000,
+      "components": ["shell", "mainboard", "antenna", "powerModule"],
+      "dataBearing": false,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "accessories",
+      "massKg": 0.3,
+      "baseRecoveredValueIdr": 20000,
+      "components": ["connector", "conductor", "insulation"],
+      "dataBearing": false,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "small_appliance",
+      "massKg": 2.5,
+      "baseRecoveredValueIdr": 150000,
+      "components": ["shell", "motor", "controlBoard", "powerModule"],
+      "dataBearing": false,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "monitor",
+      "massKg": 4,
+      "baseRecoveredValueIdr": 400000,
+      "components": ["display", "backlight", "controlBoard", "stand", "shell"],
+      "dataBearing": false,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "printer",
+      "massKg": 7,
+      "baseRecoveredValueIdr": 450000,
+      "components": ["shell", "paperPath", "motor", "controlBoard", "powerModule"],
+      "dataBearing": false,
+      "handlingClass": "ordinary",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "large_appliance",
+      "massKg": 40,
+      "baseRecoveredValueIdr": 900000,
+      "components": ["shell", "drumOrCabinet", "motor", "controlBoard", "powerModule"],
+      "dataBearing": false,
+      "handlingClass": "bulky",
+      "conditionToDisposition": {
+        "functional": "reuse",
+        "repairable": "repair",
+        "worn": "refurbishment",
+        "parts_only": "parts",
+        "nonfunctional": "material"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    },
+    {
+      "category": "battery",
+      "massKg": 0.4,
+      "baseRecoveredValueIdr": 0,
+      "components": ["protectiveShell", "cells", "connector"],
+      "dataBearing": false,
+      "handlingClass": "specialist",
+      "conditionToDisposition": {
+        "intact": "specialist",
+        "damaged": "specialist"
+      },
+      "destinationByDisposition": {
+        "reuse": "P01",
+        "repair": "P01",
+        "refurbishment": "P01",
+        "parts": "P02",
+        "material": "P03",
+        "specialist": "P04"
+      }
+    }
+  ],
+  "expectedCapacityCases": [
+    {
+      "category": "large_appliance",
+      "condition": "functional",
+      "assetCount": 18,
+      "firstWindowEligible": 4,
+      "deferred": 14
+    },
+    {
+      "category": "battery",
+      "condition": "damaged",
+      "assetCount": 18,
+      "firstWindowEligible": 2,
+      "deferred": 16
+    },
+    {
+      "category": "phone",
+      "condition": "functional",
+      "assetCount": 18,
+      "firstWindowEligible": 12,
+      "deferred": 6
+    }
+  ],
+  "canonicalReservedThrough": "2026-10-20",
+  "freshBatchStartRule": "Use max(2026-10-21, one day after latest allocated date in all prior canonical/exploration batches, including their deferred windows). Persist reservations; reset history and ledger together.",
+  "decisionScope": ["scenarioId", "batchId", "windowId"]
+}

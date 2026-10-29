@@ -1,0 +1,130 @@
+{
+  "source": "src/features/team/TeamPage.tsx + TeamPage.module.css + liveTeamData.ts",
+  "viewports": [
+    {
+      "width": 1440,
+      "locale": "id",
+      "scrollWidth": 1440,
+      "activeBubbles": 1,
+      "clock": "24",
+      "statuses": [
+        "Meninjau permintaan",
+        "Mencocokkan serah terima",
+        "Menyiapkan penerimaan",
+        "Memilah di pusat",
+        "Merekonsiliasi hasil",
+        "Memeriksa riwayat keselamatan",
+        "Menyambungkan pekerjaan pusat"
+      ]
+    },
+    {
+      "width": 1440,
+      "locale": "en",
+      "scrollWidth": 1440,
+      "axe": []
+    },
+    {
+      "width": 390,
+      "locale": "id",
+      "scrollWidth": 390,
+      "activeBubbles": 1,
+      "clock": "24",
+      "statuses": [
+        "Meninjau permintaan",
+        "Mencocokkan serah terima",
+        "Menyiapkan penerimaan",
+        "Memilah di pusat",
+        "Merekonsiliasi hasil",
+        "Memeriksa riwayat keselamatan",
+        "Menyambungkan pekerjaan pusat"
+      ]
+    },
+    {
+      "width": 390,
+      "locale": "en",
+      "scrollWidth": 390,
+      "axe": []
+    },
+    {
+      "width": 360,
+      "locale": "id",
+      "scrollWidth": 360,
+      "activeBubbles": 1,
+      "clock": "24",
+      "statuses": [
+        "Meninjau permintaan",
+        "Mencocokkan serah terima",
+        "Menyiapkan penerimaan",
+        "Memilah di pusat",
+        "Merekonsiliasi hasil",
+        "Memeriksa riwayat keselamatan",
+        "Menyambungkan pekerjaan pusat"
+      ]
+    },
+    {
+      "width": 360,
+      "locale": "en",
+      "scrollWidth": 360,
+      "axe": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "live-guardian-has-no-review-mutation",
+      "reviewButtons": 0,
+      "hasOpenTutorial": 1
+    },
+    {
+      "name": "tutorial-gates-visible",
+      "tutorialPressed": "true",
+      "reviewButtons": 2
+    },
+    {
+      "name": "shared-clock-pause",
+      "first": "24",
+      "second": "25",
+      "paused": "25",
+      "after": "25",
+      "pausedTransform": "matrix(0.999938, 0.0110979, -0.0110979, 0.999938, 0, 0.536898)",
+      "afterTransform": "matrix(0.999938, 0.0110979, -0.0110979, 0.999938, 0, 0.536898)"
+    },
+    {
+      "name": "shared-speed",
+      "fastBefore": "25",
+      "fastAfter": "37"
+    },
+    {
+      "name": "tutorial-records-unchanged",
+      "unchanged": true
+    },
+    {
+      "name": "reduced-motion",
+      "transforms": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none",
+        "none"
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "captionFrames": 84,
+  "captionCounts": [
+    1
+  ],
+  "captionOverlapFrames": 0,
+  "captionCharacterOverlapFrames": 0,
+  "captionLabelOverlapFrames": 0,
+  "captionLabelKinds": [
+    "name",
+    "role",
+    "status"
+  ],
+  "captionGeometryLocales": [
+    "id",
+    "en"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "renderer": "Chromium153/ANGLE SwiftShader software WebGL2; not target-hardware FPS",
+  "integrated": {
+    "success": true,
+    "cases": [
+      {
+        "name": "city-1440",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "canvasCount": 1
+      },
+      {
+        "name": "hub-1440",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "canvasCount": 1
+      },
+      {
+        "name": "city-selected-1440",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "canvasCount": 1
+      },
+      {
+        "name": "city-orbit-1440",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "canvasCount": 1
+      },
+      {
+        "name": "city-768",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 768,
+        "scrollWidth": 768,
+        "canvasCount": 1
+      },
+      {
+        "name": "hub-768",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 768,
+        "scrollWidth": 768,
+        "canvasCount": 1
+      },
+      {
+        "name": "city-390",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 390,
+        "scrollWidth": 390,
+        "canvasCount": 1
+      },
+      {
+        "name": "hub-390",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 390,
+        "scrollWidth": 390,
+        "canvasCount": 1
+      },
+      {
+        "name": "city-360",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 360,
+        "scrollWidth": 360,
+        "canvasCount": 1
+      },
+      {
+        "name": "hub-360",
+        "overlaps": [],
+        "overflows": [],
+        "overlayCollisions": [],
+        "viewport": 360,
+        "scrollWidth": 360,
+        "canvasCount": 1
+      }
+    ],
+    "errors": [],
+    "shortCitySample": {
+      "scene": "city",
+      "drawCalls": 134,
+      "triangles": 80958,
+      "geometries": 70,
+      "textures": 3,
+      "frames": 27,
+      "durationSeconds": 7.382399999991058,
+      "averageFps": 3.657347204165678,
+      "p95FrameMs": 868.5,
+      "dpr": 0.85,
+      "viewport": "1046\u00d7520",
+      "quality": "auto"
+    }
+  },
+  "hub": {
+    "success": true,
+    "cases": 13,
+    "moving": true,
+    "pauseFrozen": true,
+    "reducedMotionFrozen": true,
+    "sample": {
+      "drawCalls": 24,
+      "triangles": 7560
+    },
+    "errors": []
+  },
+  "independentPhysicalOcclusion": {
+    "params": {
+      "mode": "city",
+      "elapsed": 0,
+      "paused": true,
+      "reducedMotion": false,
+      "speed": 1,
+      "roofVisible": false,
+      "selectedId": "H01"
+    },
+    "camera": [
+      72.93570244284717,
+      7.715357263951151,
+      77.93129850057645
+    ],
+    "expectedAnchor": [
+      0,
+      5,
+      -3
+    ],
+    "independentRay": {
+      "blocked": true,
+      "distance": 44.00227052502118,
+      "instanceId": 169,
+      "isInstancedMesh": true,
+      "geometry": "BoxGeometry"
+    },
+    "dom": {
+      "occluded": "true",
+      "visibility": "hidden",
+      "pointerEvents": "none",
+      "tabIndex": -1,
+      "ariaHidden": "true",
+      "border": "2px solid rgb(169, 81, 53)"
+    }
+  },
+  "sixVehicleKinds": [
+    "partner_van",
+    "delivery_box",
+    "bulky_truck",
+    "cargo_bike",
+    "specialist",
+    "community_pickup"
+  ],
+  "fallback": {
+    "errors": [],
+    "cityMoving": true,
+    "cityPauseFrozen": true,
+    "hubMoving": true,
+    "reducedFrozen": true,
+    "roofZoneLabels": 0,
+    "success": true
+  },
+  "fallbackCases": 7
+}

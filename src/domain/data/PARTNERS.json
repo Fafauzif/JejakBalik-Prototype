@@ -1,0 +1,38 @@
+[
+  {
+    "id": "P01",
+    "name": "Kembali Guna",
+    "role": "Repair, refurbishment and reuse",
+    "acceptedDispositions": ["reuse", "repair", "refurbishment"],
+    "capacityAssets": 40,
+    "position": [32, 30],
+    "fictional": true
+  },
+  {
+    "id": "P02",
+    "name": "Sirkula Komponen",
+    "role": "Parts recovery",
+    "acceptedDispositions": ["parts"],
+    "capacityAssets": 20,
+    "position": [-36, -26],
+    "fictional": true
+  },
+  {
+    "id": "P03",
+    "name": "Pulih Material",
+    "role": "Electronics material recovery",
+    "acceptedDispositions": ["material"],
+    "capacityAssets": 25,
+    "position": [38, -24],
+    "fictional": true
+  },
+  {
+    "id": "P04",
+    "name": "Jaga Residu",
+    "role": "Specialist handling",
+    "acceptedDispositions": ["specialist"],
+    "capacityAssets": 6,
+    "position": [-35, 32],
+    "fictional": true
+  }
+]

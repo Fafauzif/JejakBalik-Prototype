@@ -1,0 +1,201 @@
+[
+  {
+    "path": "07-tooling/vendor/taste/README.md",
+    "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/README.md",
+    "retrieved": "2026-10-16",
+    "sha256": "5f38d137da629b97572aa59f9faaca4f36afc8ba5366025b47dac6ff4f5721a2",
+    "bytes": 18616,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/taste/LICENSE",
+    "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/LICENSE",
+    "retrieved": "2026-10-16",
+    "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df",
+    "bytes": 1065,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/taste/soft-skill/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/soft-skill/SKILL.md",
+    "retrieved": "2026-10-16",
+    "sha256": "e1e32f5e2d420872c6c7332b53d5ff7721946766b78c4822b424c2d512c8fdbc",
+    "bytes": 10561,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/taste/output-skill/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/skills/output-skill/SKILL.md",
+    "retrieved": "2026-10-16",
+    "sha256": "e5bf48b1ae561511439cf71672209a10a88cee0968cc925909ff861dfa0a96a7",
+    "bytes": 2592,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/vercel-web-design/SKILL.md",
+    "url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/web-design-guidelines/SKILL.md",
+    "retrieved": "2026-10-16",
+    "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+    "bytes": 1231,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/vercel-web-design/AGENT_SKILLS_LICENSE",
+    "url": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/LICENSE",
+    "retrieved": "2026-10-16",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "07-tooling/vendor/vercel-web-design/WEB_INTERFACE_GUIDELINES.md",
+    "url": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md",
+    "retrieved": "2026-10-16",
+    "sha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234",
+    "bytes": 8055,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/vercel-web-design/WEB_INTERFACE_LICENSE",
+    "url": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/LICENSE",
+    "retrieved": "2026-10-16",
+    "sha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2",
+    "bytes": 1068,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/awesome-design-md/README.md",
+    "url": "https://raw.githubusercontent.com/voltagent/awesome-design-md/main/README.md",
+    "retrieved": "2026-10-16",
+    "sha256": "3847536c93a8262b779ee04692fe0efb4bfa644ffcfb8c43565576f00a4a32e0",
+    "bytes": 16863,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/awesome-design-md/LICENSE",
+    "url": "https://raw.githubusercontent.com/voltagent/awesome-design-md/main/LICENSE",
+    "retrieved": "2026-10-16",
+    "sha256": "6d4bdc9a9cf30e7beb593475fdcdbf29f981ea6bd7923f202866145409f87b44",
+    "bytes": 1066,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/README.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/README.md",
+    "retrieved": "2026-10-16",
+    "sha256": "45680e2004227e89dec1e2764722acb3cb3576db3d65f80ca74f64f6dce97f5e",
+    "bytes": 25617,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/SKILL.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/SKILL.md",
+    "retrieved": "2026-10-16",
+    "sha256": "9bba755285a4c9ad72a4a41b9c7baef6fb516d329c0b44ed0573715f4479b906",
+    "bytes": 15428,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/LICENSE",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/LICENSE",
+    "retrieved": "2026-10-16",
+    "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+    "bytes": 11552,
+    "status": "downloaded"
+  },
+  {
+    "path": "07-tooling/vendor/awesome-design-md/shopify_DESIGN.md",
+    "url": "https://raw.githubusercontent.com/voltagent/awesome-design-md/main/design-md/shopify/DESIGN.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 27067,
+    "sha256": "495e89b8d0a1848ded013c040f7a2ae62077e9d87fc4385350e25dee02ccdb38"
+  },
+  {
+    "path": "07-tooling/vendor/awesome-design-md/stripe_DESIGN.md",
+    "url": "https://raw.githubusercontent.com/voltagent/awesome-design-md/main/design-md/stripe/DESIGN.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 24606,
+    "sha256": "5c8806b7dd3e0c2554ccba9d1e2a7c78e7c6e50e44fcf6ff5daea6026f8a9ed9"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/element-attributes.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/element-attributes.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 665,
+    "sha256": "bf19aa4671e0a50a0fefa9c790f39124e803060eefe395042b723c29fcb7faa2"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/playwright-tests.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/playwright-tests.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 1690,
+    "sha256": "c5b0719fef2cfdff50bd744051b2f9afc119775db4b48e9b2882c1cf3886797c"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/pr-attachments.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/pr-attachments.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 2830,
+    "sha256": "24b118e74598be72e73e24fe223d295b9099c85b1860a7c8f6e5690c9038fa2a"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/request-mocking.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/request-mocking.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 2182,
+    "sha256": "54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/running-code.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/running-code.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 5913,
+    "sha256": "3029569ed6ddaeffc0b87badde967efdc2973b1677f078830098146eb3b78ebe"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/session-management.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/session-management.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 5929,
+    "sha256": "a4f16271f95d3eec7bc56e659d8adbb8f6ad7d603a6fa15efdcdd071a50c6ce3"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/storage-state.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/storage-state.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 5198,
+    "sha256": "9ac47f9ae4a1aedcd2077f8ac9ab1ba6bee1962cb83ff51adcd36fb6d83b5ec6"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/test-generation.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/test-generation.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 16070,
+    "sha256": "27ecb11ef647999bd7486695bb1aacc3682097e6bb5742804cb6c8769c2b5364"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/tracing.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/tracing.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 3456,
+    "sha256": "ef73e71bee792e341df9cd4f60529c929ade48b538ac76e033f4f20843e8dbda"
+  },
+  {
+    "path": "07-tooling/vendor/playwright-cli/references/video-recording.md",
+    "url": "https://raw.githubusercontent.com/microsoft/playwright-cli/main/skills/playwright-cli/references/video-recording.md",
+    "retrieved": "2026-10-16",
+    "status": "downloaded",
+    "bytes": 9388,
+    "sha256": "1c800b897824cb54394c34265d8ebffdbb530adfc8d612c5d798b667a1799f48"
+  }
+]

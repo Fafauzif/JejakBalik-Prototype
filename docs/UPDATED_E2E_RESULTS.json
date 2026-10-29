@@ -1,0 +1,219 @@
+{
+  "suite": "Continuous live Network and preserved tutorial operations",
+  "command": "npm run test:e2e",
+  "browser": "Chromium via /tmp/atma-chromium; operational SVG fallback (WebGL unavailable in this binary)",
+  "runs": [
+    {
+      "kind": "full suite before additional scoped accessibility assertion",
+      "stats": {
+        "startTime": "2026-10-16T17:00:09.360Z",
+        "duration": 239373.64299999998,
+        "expected": 13,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "reportSha256": "fba8533ce0e15155fd2ad1bc462898617523be2f0fa66a40d1cb5b902d5f57a4",
+      "tests": [
+        {
+          "file": "live-network.spec.ts",
+          "title": "fresh Network opens mid-shift and its rendered trucks and hub keep working",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 8739
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "live operation survives 26 virtual hours and repeated cadences without tutorial gates or authorization",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 16421
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "live pause freezes trucks and resume survives navigation without restarting the shift",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 15038
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "tutorial begins with parked trucks and its explicit 32-second request checkpoint, then returns to the ongoing live shift",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 33007
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "observing live hours cannot approve a pending story review or alter an existing user decision",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 20535
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "guided entry advances the shared clock to the real hero form and awaits submission",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 19955
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 16086
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored specialist hold stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 17981
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored data hold stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 19098
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored capacity deferral stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 20003
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "real downloads, reset, JSON import and reload preserve the reviewed session",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 37118
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 11241
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 2729
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "focused final fresh Network regression with scoped English 360x844 WCAG 2A/AA and 2.1A/AA axe assertion",
+      "command": "npm run test:e2e -- --grep 'fresh Network'",
+      "stats": {
+        "startTime": "2026-10-16T17:04:33.026Z",
+        "duration": 17550.313,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "reportSha256": "ab2ea3c8fa8af1fdd84cbfcb124f317e5ceee3ec5567d051eacc2c37cd2e09f5",
+      "tests": [
+        {
+          "file": "live-network.spec.ts",
+          "title": "fresh Network opens mid-shift and its rendered trucks and hub keep working",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 16351
+            }
+          ]
+        }
+      ],
+      "accessibility": {
+        "scope": ".network-page",
+        "language": "English",
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "tags": ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"],
+        "violations": 0
+      }
+    }
+  ],
+  "boundaries": [
+    "Virtual elapsed duration is not physical endurance or memory profiling.",
+    "WebGL visuals and performance are verified separately.",
+    "No operational state or approvals injected; existing corrupted-storage test deliberately seeds invalid JSON only."
+  ],
+  "summary": {
+    "fullSuite": {
+      "expected": 13,
+      "passed": 13,
+      "failed": 0,
+      "retries": 0
+    },
+    "finalChangedCase": {
+      "expected": 1,
+      "passed": 1,
+      "failed": 0,
+      "scopedAccessibilityViolations": 0
+    }
+  }
+}

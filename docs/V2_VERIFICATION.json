@@ -1,0 +1,41 @@
+{
+  "release": "2.0.0",
+  "verification_date": "2026-10-29",
+  "unit_tests": {
+    "passed": 137,
+    "files": 22
+  },
+  "browser_tests": {
+    "startTime": "2026-10-29T03:08:35.311Z",
+    "duration": 474645.397,
+    "expected": 34,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "checks": {
+    "typecheck": "passed through production build",
+    "production_build": "passed",
+    "format_check": "passed",
+    "bundle_budgets": "passed",
+    "fresh_archive_npm_ci": "passed",
+    "fresh_archive_unit_tests": "137 passed across 22 files",
+    "fresh_archive_production_build": "passed",
+    "fresh_archive_bundle_budgets": "passed",
+    "software_webgl_visual_inspection": "city, hub, device and mobile guide inspected",
+    "archive_crc": "verified by packaging script"
+  },
+  "limitations": [
+    "No deployment performed.",
+    "No paid OpenRouter call: credentials absent.",
+    "Software WebGL verification does not establish target-device hardware frame rate.",
+    "Data, finances and operations are illustrative scenarios, not field results.",
+    "Demand, contracts, renewal, costs and real-world routing advantages require a pilot."
+  ],
+  "excluded_from_release": [
+    "Internal reviewer scores and exchanges",
+    "QA screenshots and traces",
+    "Dependencies and build output",
+    "Secrets"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": "1.1.0",
+  "output": "Jejak_Balik_Project_Updated.zip",
+  "source_archive": {
+    "package_json_at_root": true,
+    "version": "1.1.0",
+    "lockfile_matches": true,
+    "clean_install_from_extracted_candidate": "passed,153 packages",
+    "clean_typecheck": "passed",
+    "clean_unit": "61/61,7 suites",
+    "clean_production_build": "passed",
+    "clean_format": "passed",
+    "clean_tokens": "71/71",
+    "final_source_matches_clean_tested_source": true,
+    "code_file_count": 169,
+    "code_fingerprint_sha256": "3026ed12d2e99d5420bfa2d257ffbc5785363f2689704fceaf62844d86de30dc",
+    "excluded": [
+      "node_modules",
+      "dist",
+      "test-results",
+      "playwright-report",
+      "private screenshots and review transcripts"
+    ]
+  },
+  "browser": {
+    "full_cases": 13,
+    "result": "passed without retries",
+    "final_focused_mobile_axe": "passed,zero matching violations",
+    "record": "UPDATED_E2E_RESULTS.json"
+  },
+  "graphics": {
+    "actual_webgl_cases": 10,
+    "short_mobile_overlay_cases": 2,
+    "svg_fallback_cases": 5,
+    "overlaps": 0,
+    "page_errors": 0,
+    "record": "NETWORK_UPDATE_VERIFICATION.json"
+  },
+  "design": {
+    "premium_strict_findings": 0,
+    "design_lint_errors": 0,
+    "design_lint_warnings": 8,
+    "impeccable_scan": "147 findings reviewed:146 advisory,one deliberately retained approved-font warning"
+  },
+  "context_source": {
+    "unchanged_files": [
+      "AksiCintaBumi_Competition_and_Essay_Hub.md",
+      "README.md",
+      "lintara-history/GRAPHICS.md",
+      "lintara-history/README.md",
+      "lintara-history/REVISION_1_2.md",
+      "lintara-history/REVISION_1_3.md"
+    ],
+    "byte_identical": true
+  },
+  "brand": "Original three brand artifacts byte-identical to version1.0;interfacecaptureshistorical,documented in deliverables/brand/README.md",
+  "master": {
+    "path": "docs/Jejak_Balik_Master_Context.md",
+    "version": "2.1",
+    "sha256": "71ffffaf66fbc11867e591704335e985b30efe72c61472018a0a2ea6fb1e9150"
+  },
+  "limits": [
+    "Client-side rolling fixture,notexternaltelemetry",
+    "Reloadopensfreshmid-shiftview",
+    "Otherworkspacesretaintutorial/explorationdata",
+    "TargethardwareFPSandphysicalphoneperformanceremainunverified",
+    "Originalbrandguidescreenshotsarenotrefreshed"
+  ]
+}

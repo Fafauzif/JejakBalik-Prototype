@@ -1,0 +1,808 @@
+{
+  "suite": "Jejak Balik v1.2 operational workspaces",
+  "browser": "Chromium via /tmp/atma-chromium; operational SVG fallback active because this binary cannot initialize WebGL",
+  "runs": [
+    {
+      "kind": "initial complete 19-case run",
+      "command": "npm run test:e2e",
+      "stats": {
+        "startTime": "2026-10-16T17:33:37.211Z",
+        "duration": 376226.19999999995,
+        "expected": 16,
+        "skipped": 0,
+        "unexpected": 3,
+        "flaky": 0
+      },
+      "reportSha256": "2f431c15071cc89fcb7686dce911feab8cb11ed1c617fdf75a54b8402b12ba5b",
+      "tests": [
+        {
+          "file": "live-network.spec.ts",
+          "title": "fresh Network opens mid-shift and its rendered trucks and hub keep working",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 23810
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "live operation survives 26 virtual hours and repeated cadences without tutorial gates or authorization",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 19522
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "live pause freezes trucks and resume survives navigation without restarting the shift",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 30851
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "tutorial begins with parked trucks and its explicit 32-second request checkpoint, then returns to the ongoing live shift",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 51541
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "observing live hours cannot approve a pending story review or alter an existing user decision",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 28877
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "guided entry advances the shared clock to the real hero form and awaits submission",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 27488
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+          "status": "unexpected",
+          "attempts": [
+            {
+              "status": "timedOut",
+              "durationMs": 60702,
+              "errors": [
+                "Test timeout of 60000ms exceeded.",
+                "Error: locator.click: Test timeout of 60000ms exceeded.\nCall log:\n  - waiting for locator('a[href=\"/network?asset=JB-A036\"]:visible').first()\n\n\n  138 |   await navigation(page, 'Perangkat');\n  139 |   await page.getByLabel('Cari perangkat, permintaan, atau alamat', { exact: true }).fill('JB-A036');\n> 140 |   await page.locator('a[href=\"/network?asset=JB-A036\"]:visible').first().click();\n      |                                                                          ^\n  141 |   await expect(page.getByRole('complementary', { name: 'Detail pilihan' })).toContainText('Tuntas');\n  142 |   await expect(page.getByRole('complementary', { name: 'Detail pilihan' })).toContainText(\n  143 |     'Dilepas setelah tinjauan',\n    at /workspace/scratch/9a94930fed29/jejak-balik-v1-2/tests/e2e/operations.spec.ts:140:74"
+              ]
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored specialist hold stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 19012
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored data hold stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 15870
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored capacity deferral stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 16731
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "real downloads, reset, JSON import and reload preserve the reviewed session",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 29647
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 11207
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 2997
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "10\u00d7 and 30\u00d7 live speed share elapsed time while accelerated Tutorial still stops at the request gate",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 14100
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "guided Next reaches all three exact gates and acknowledges each interaction without granting a decision",
+          "status": "unexpected",
+          "attempts": [
+            {
+              "status": "failed",
+              "durationMs": 7157,
+              "errors": [
+                "Error: locator.click: Error: strict mode violation: getByRole('button', { name: 'Lanjutkan', exact: true }) resolved to 2 elements:\n    1) <button type=\"button\" title=\"Lanjutkan\" aria-label=\"Lanjutkan\" class=\"button button--ghost button--sm icon-button \">\u2026</button> aka getByRole('button', { name: 'Lanjutkan', description: 'Lanjutkan' })\n    2) <button type=\"submit\" class=\"button button--primary button--md \">\u2026</button> aka getByText('Lanjutkan', { exact: true })\n\nCall log:\n  - waiting for getByRole('button', { name: 'Lanjutkan', exact: true })\n\n\n  37 | async function finishHeroForm(page: Page) {\n  38 |   for (let step = 0; step < 3; step++)\n> 39 |     await page.getByRole('button', { name: 'Lanjutkan', exact: true }).click();\n     |                                                                        ^\n  40 |   await page.getByLabel('Informasi perangkat dan penjemputan sudah sesuai.').check();\n  41 |   await page.getByRole('button', { name: 'Jadwalkan penjemputan', exact: true }).click();\n  42 |   await expect(page).toHaveURL(/\\/household\\/requests\\/JB-R036/);\n    at finishHeroForm (/workspace/scratch/9a94930fed29/jejak-balik-v1-2/tests/e2e/v12-workspaces.spec.ts:39:72)\n    at /workspace/scratch/9a94930fed29/jejak-balik-v1-2/tests/e2e/v12-workspaces.spec.ts:114:9"
+              ]
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "default asset history exports selected periods and filters and opens the matching historical passport",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 1766
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Impact period CSV, JSON and report reconcile completed outcomes and retained economics",
+          "status": "unexpected",
+          "attempts": [
+            {
+              "status": "failed",
+              "durationMs": 2444,
+              "errors": [
+                "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  -   1\n+ Received  + 108\n\n- Array []\n+ Array [\n+   Object {\n+     \"description\": \"Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds\",\n+     \"help\": \"Elements must meet minimum color contrast ratio thresholds\",\n+     \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright\",\n+     \"id\": \"color-contrast\",\n+     \"impact\": \"serious\",\n+     \"nodes\": Array [\n+       Object {\n+         \"all\": Array [],\n+         \"any\": Array [\n+           Object {\n+             \"data\": Object {\n+               \"bgColor\": \"#edf3e7\",\n+               \"contrastRatio\": 4.41,\n+               \"expectedContrastRatio\": \"4.5:1\",\n+               \"fgColor\": \"#5c7750\",\n+               \"fontSize\": \"9.0pt (12px)\",\n+               \"fontWeight\": \"normal\",\n+               \"messageKey\": null,\n+             },\n+             \"id\": \"color-contrast\",\n+             \"impact\": \"serious\",\n+             \"message\": \"Element has insufficient color contrast of 4.41 (foreground color: #5c7750, background color: #edf3e7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1\",\n+             \"relatedNodes\": Array [\n+               Object {\n+                 \"html\": \"<p class=\\\"_feedback_efyg4_728\\\" role=\\\"status\\\">Laporan terbuka di tab baru. Cetak untuk menyimpan PDF.</p>\",\n+                 \"target\": Array [\n+                   \"._feedback_efyg4_728\",\n+                 ],\n+               },\n+             ],\n+           },\n+         ],\n+         \"failureSummary\": \"Fix any of the following:\n+   Element has insufficient color contrast of 4.41 (foreground color: #5c7750, background color: #edf3e7, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1\",\n+         \"html\": \"<p class=\\\"_feedback_efyg4_728\\\" role=\\\"status\\\">Laporan terbuka di tab baru. Cetak untuk menyimpan PDF.</p>\",\n+         \"impact\": \"serious\","
+              ]
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Team bubbles change with shared operations and pause consistently with Network",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 5581
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Household Next advances only its one-item activity counts and requires explicit reviews before completion",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 2545
+            }
+          ]
+        }
+      ],
+      "findings": [
+        {
+          "kind": "test selector update",
+          "test": "seek cannot grant approvals",
+          "reason": "The tutorial asset link now includes mode=tutorial; the test had an obsolete exact href."
+        },
+        {
+          "kind": "test selector update",
+          "test": "guided Next",
+          "reason": "Paused guided Continue and form Continue have the same accessible label; scope the form controls to their form."
+        },
+        {
+          "kind": "application accessibility",
+          "test": "Impact period",
+          "reason": "Historical economics print feedback had contrast 4.41:1 and the horizontally scrollable table lacked keyboard focus. Affected case will be rerun after fixes."
+        }
+      ]
+    },
+    {
+      "kind": "focused selector correction run",
+      "command": "npm run test:e2e -- --grep 'seek cannot grant approvals|guided Next'",
+      "stats": {
+        "startTime": "2026-10-16T17:41:00.514Z",
+        "duration": 79569.263,
+        "expected": 1,
+        "skipped": 0,
+        "unexpected": 1,
+        "flaky": 0
+      },
+      "reportSha256": "1a116b39db3f1b63f5219282b95659799d83132c580ab90c10e776615a06bf32",
+      "tests": [
+        {
+          "file": "operations.spec.ts",
+          "title": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+          "status": "unexpected",
+          "attempts": [
+            {
+              "status": "timedOut",
+              "durationMs": 60436,
+              "errors": [
+                "Test timeout of 60000ms exceeded.",
+                "Error: locator.click: Test timeout of 60000ms exceeded.\nCall log:\n  - waiting for locator('a[href*=\"asset=JB-A036\"]:visible').first()\n\n\n  138 |   await navigation(page, 'Perangkat');\n  139 |   await page.getByLabel('Cari perangkat, permintaan, atau alamat', { exact: true }).fill('JB-A036');\n> 140 |   await page.locator('a[href*=\"asset=JB-A036\"]:visible').first().click();\n      |                                                                  ^\n  141 |   await expect(page.getByRole('complementary', { name: 'Detail pilihan' })).toContainText('Tuntas');\n  142 |   await expect(page.getByRole('complementary', { name: 'Detail pilihan' })).toContainText(\n  143 |     'Dilepas setelah tinjauan',\n    at /workspace/scratch/9a94930fed29/jejak-balik-v1-2/tests/e2e/operations.spec.ts:140:66"
+              ]
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "guided Next reaches all three exact gates and acknowledges each interaction without granting a decision",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 16542
+            }
+          ]
+        }
+      ],
+      "finding": "Guided Next passed through all gates and interactions. The registry test still failed because typing immediately after a source tab navigation raced its asynchronous render; the helper now waits for Tutorial aria-selected=true before searching."
+    },
+    {
+      "kind": "focused final registry and history accessibility verification",
+      "command": "npm run test:e2e -- --grep 'seek cannot grant approvals|Impact period'",
+      "stats": {
+        "startTime": "2026-10-16T17:42:50.264Z",
+        "duration": 19482.108,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "reportSha256": "e3df34d4f4ddcb1d8b20fb9b4166d745ffa790676a83a5ba8ca46ef634ad2d59",
+      "tests": [
+        {
+          "file": "operations.spec.ts",
+          "title": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 15446
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Impact period CSV, JSON and report reconcile completed outcomes and retained economics",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 2503
+            }
+          ]
+        }
+      ],
+      "accessibility": {
+        "scope": "English historical Impact economics at 360 \u00d7 844",
+        "tags": ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"],
+        "violations": 0
+      },
+      "resolved": "Tutorial source selection now awaited. Historical feedback contrast and locale refresh and scroll table keyboard access fixed."
+    },
+    {
+      "kind": "source-hot-reload invalidated complete-run attempt, intentionally stopped",
+      "command": "npm run test:e2e",
+      "invalidatedReason": "Root formatting rewrote App.tsx at 00:44:07 and network-store.ts at 00:44:10 during the 26-hour case. Vite hot reload reset the nonpersisted live clock to 0 (restored-session notice). Root confirmed source freeze afterward. This attempt was interrupted and is not the final verification.",
+      "evidence": "Partial console transcript; interruption did not flush a new Playwright JSON report.",
+      "consoleSha256": "347c25ea63fb25cebdddb783bc706c0f21a9e237b847f501d9e2da1f5b89190e",
+      "observedResults": [
+        {
+          "passed": true,
+          "console": "\u2713   1 tests/e2e/live-network.spec.ts:56:1 \u203a fresh Network opens mid-shift and its rendered trucks and hub keep working (25.0s)"
+        },
+        {
+          "passed": false,
+          "console": "\u2718   2 tests/e2e/live-network.spec.ts:84:1 \u203a live operation survives 26 virtual hours and repeated cadences without tutorial gates or authorization (22.1s)"
+        },
+        {
+          "passed": true,
+          "console": "\u2713   3 tests/e2e/live-network.spec.ts:105:1 \u203a live pause freezes trucks and resume survives navigation without restarting the shift (21.6s)"
+        },
+        {
+          "passed": true,
+          "console": "\u2713   4 tests/e2e/live-network.spec.ts:129:1 \u203a tutorial begins with parked trucks and its explicit 32-second request checkpoint, then returns to the ongoing live shift (49.6s)"
+        },
+        {
+          "passed": true,
+          "console": "\u2713   5 tests/e2e/live-network.spec.ts:160:1 \u203a observing live hours cannot approve a pending story review or alter an existing user decision (27.6s)"
+        }
+      ]
+    },
+    {
+      "kind": "first source-frozen complete run",
+      "command": "npm run test:e2e",
+      "stats": {
+        "startTime": "2026-10-16T17:46:29.522Z",
+        "duration": 374531.429,
+        "expected": 17,
+        "skipped": 0,
+        "unexpected": 2,
+        "flaky": 0
+      },
+      "reportSha256": "b5c62b218975bcfd74085992902a7d40afb716da3687e4c81f7a88a9d78e8a8c",
+      "tests": [
+        {
+          "file": "live-network.spec.ts",
+          "title": "fresh Network opens mid-shift and its rendered trucks and hub keep working",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 19778
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "live operation survives 26 virtual hours and repeated cadences without tutorial gates or authorization",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 16656
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "live pause freezes trucks and resume survives navigation without restarting the shift",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 25916
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "tutorial begins with parked trucks and its explicit 32-second request checkpoint, then returns to the ongoing live shift",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 44536
+            }
+          ]
+        },
+        {
+          "file": "live-network.spec.ts",
+          "title": "observing live hours cannot approve a pending story review or alter an existing user decision",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 24495
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "guided entry advances the shared clock to the real hero form and awaits submission",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 24787
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 15683
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored specialist hold stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 15861
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored data hold stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 17928
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "authored capacity deferral stays coherent across network and impact",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 19357
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "real downloads, reset, JSON import and reload preserve the reviewed session",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 29884
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 11512
+            }
+          ]
+        },
+        {
+          "file": "operations.spec.ts",
+          "title": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 2857
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "10\u00d7 and 30\u00d7 live speed share elapsed time while accelerated Tutorial still stops at the request gate",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 14521
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "guided Next reaches all three exact gates and acknowledges each interaction without granting a decision",
+          "status": "unexpected",
+          "attempts": [
+            {
+              "status": "failed",
+              "durationMs": 20421,
+              "errors": [
+                "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('.journey-strip').locator('.journey-time')\nExpected: \"38 / 180 dtk\"\nReceived: \"50 / 180 dtk\"\nTimeout:  12000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('.journey-strip').locator('.journey-time') with timeout 12000ms\n  - waiting for locator('.journey-strip').locator('.journey-time')\n    28 \u00d7 locator resolved to <span class=\"journey-time\">50 / 180 dtk</span>\n       - unexpected value \"50 / 180 dtk\"\n\n\n  105 |   const next = async (at: number) => {\n  106 |     await strip.getByRole('button', { name: 'Berikutnya', exact: true }).click();\n> 107 |     if (at < 180) await expect(strip.locator('.journey-time')).toHaveText(`${at} / 180 dtk`);\n      |                                                                ^\n  108 |   };\n  109 |   await next(8);\n  110 |   await next(18);\n    at next (/workspace/scratch/9a94930fed29/jejak-balik-v1-2/tests/e2e/v12-workspaces.spec.ts:107:64)\n    at /workspace/scratch/9a94930fed29/jejak-balik-v1-2/tests/e2e/v12-workspaces.spec.ts:115:3"
+              ]
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "default asset history exports selected periods and filters and opens the matching historical passport",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 1653
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Impact period CSV, JSON and report reconcile completed outcomes and retained economics",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 2332
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Team bubbles change with shared operations and pause consistently with Network",
+          "status": "unexpected",
+          "attempts": [
+            {
+              "status": "timedOut",
+              "durationMs": 60263,
+              "errors": [
+                "Test timeout of 60000ms exceeded.",
+                "Error: locator.click: Test timeout of 60000ms exceeded.\nCall log:\n  - waiting for locator('form').getByRole('button', { name: 'Lanjutkan', exact: true })\n\n\n  245 |   await navigation(page, 'Tim');\n  246 |   await page.getByLabel('Laju operasi', { exact: true }).selectOption('10');\n> 247 |   await page.locator('form').getByRole('button', { name: 'Lanjutkan', exact: true }).click();\n      |                                                                                      ^\n  248 |   await page.clock.runFor(2_000);\n  249 |   expect(Number(await canvas.getAttribute('data-clock'))).toBeGreaterThanOrEqual(Number(pausedClock) + 20);\n  250 |   await page.locator('[data-team-agent=\"guardian\"]').click();\n    at /workspace/scratch/9a94930fed29/jejak-balik-v1-2/tests/e2e/v12-workspaces.spec.ts:247:86"
+              ]
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Household Next advances only its one-item activity counts and requires explicit reviews before completion",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 3038
+            }
+          ]
+        }
+      ],
+      "testFindings": [
+        "Guided Next selected 30\u00d7 and then let real time flow after submission, so by the next UI click the app had correctly advanced beyond38 seconds. Pause the virtual clock while testing exact manual steps.",
+        "A prior helper selector edit had accidentally scoped the Team Resume button to a form; restore the Team button selector. Neither failure required an application change."
+      ]
+    },
+    {
+      "kind": "final affected manual-clock and Team selector rerun, application unchanged",
+      "command": "npm run test:e2e -- --grep 'guided Next|Team bubbles'",
+      "stats": {
+        "startTime": "2026-10-16T17:54:10.843Z",
+        "duration": 16455.903000000002,
+        "expected": 2,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "reportSha256": "e7ada936c915bf7d7d530c61c2a9c903e58d5a110309bfd56bc1e51c33c19329",
+      "tests": [
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "guided Next reaches all three exact gates and acknowledges each interaction without granting a decision",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 8964
+            }
+          ]
+        },
+        {
+          "file": "v12-workspaces.spec.ts",
+          "title": "Team bubbles change with shared operations and pause consistently with Network",
+          "status": "expected",
+          "attempts": [
+            {
+              "status": "passed",
+              "durationMs": 6070
+            }
+          ]
+        }
+      ],
+      "resolved": "Exact manual Next boundaries use a paused virtual clock, so 30\u00d7 playback cannot run ahead between UI clicks. Team Resume targets the actual Team button. No application changes were needed."
+    }
+  ],
+  "independentHistoryEvidence": {
+    "captures": 12,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 360,
+        "height": 844
+      }
+    ],
+    "horizontalDocumentOverflow": 0,
+    "actualCsvCounts": {
+      "year2026": 2812,
+      "january2026": 188,
+      "october2026": 284,
+      "octoberCompleted": 225
+    },
+    "octoberCompletedRecoveryMassKg": 1050.49,
+    "octoberOperatingContributionIdr": -407778,
+    "report": {
+      "pages": 2,
+      "format": "A4",
+      "bothPagesVisuallyInspected": true
+    },
+    "note": "Actual browser downloads and print PDF; source records are authored operating history."
+  },
+  "boundaries": [
+    "Virtual elapsed duration is not physical endurance or memory profiling.",
+    "These workflow checks exercise the operational SVG fallback; actual WebGL and performance are separate evidence.",
+    "No operational state or decisions are injected; existing corrupt-storage recovery deliberately supplies malformed JSON only."
+  ],
+  "finalCombinedCoverage": {
+    "distinctCases": 19,
+    "latestPassed": 19,
+    "latestFailed": 0,
+    "applicationSourceChangedBetweenFrozenFullRunAndFinalRerun": false,
+    "sourceFrozenCompleteRun": {
+      "passed": 17,
+      "failed": 2,
+      "failures": "QA test timing/selector issues only"
+    },
+    "finalAffectedRerun": {
+      "passed": 2,
+      "failed": 0
+    },
+    "retriesConfigured": 0,
+    "explanation": "This is combined coverage, not a claim that a single complete run passed19. The17 passing frozen-source cases were retained and the two corrected test cases rerun on unchanged application source.",
+    "scopedMobileAccessibility": {
+      "language": "English",
+      "width": 360,
+      "height": 844,
+      "views": ["Live Network", "Historical Impact economics", "Team operations"],
+      "tags": ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"],
+      "latestViolations": 0
+    },
+    "tests": [
+      {
+        "file": "live-network.spec.ts",
+        "title": "fresh Network opens mid-shift and its rendered trucks and hub keep working",
+        "status": "passed"
+      },
+      {
+        "file": "live-network.spec.ts",
+        "title": "live operation survives 26 virtual hours and repeated cadences without tutorial gates or authorization",
+        "status": "passed"
+      },
+      {
+        "file": "live-network.spec.ts",
+        "title": "live pause freezes trucks and resume survives navigation without restarting the shift",
+        "status": "passed"
+      },
+      {
+        "file": "live-network.spec.ts",
+        "title": "tutorial begins with parked trucks and its explicit 32-second request checkpoint, then returns to the ongoing live shift",
+        "status": "passed"
+      },
+      {
+        "file": "live-network.spec.ts",
+        "title": "observing live hours cannot approve a pending story review or alter an existing user decision",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "guided entry advances the shared clock to the real hero form and awaits submission",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "authored specialist hold stays coherent across network and impact",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "authored data hold stays coherent across network and impact",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "authored capacity deferral stays coherent across network and impact",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "real downloads, reset, JSON import and reload preserve the reviewed session",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+        "status": "passed"
+      },
+      {
+        "file": "operations.spec.ts",
+        "title": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+        "status": "passed"
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "title": "10\u00d7 and 30\u00d7 live speed share elapsed time while accelerated Tutorial still stops at the request gate",
+        "status": "passed"
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "title": "guided Next reaches all three exact gates and acknowledges each interaction without granting a decision",
+        "status": "passed"
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "title": "default asset history exports selected periods and filters and opens the matching historical passport",
+        "status": "passed"
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "title": "Impact period CSV, JSON and report reconcile completed outcomes and retained economics",
+        "status": "passed"
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "title": "Team bubbles change with shared operations and pause consistently with Network",
+        "status": "passed"
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "title": "Household Next advances only its one-item activity counts and requires explicit reviews before completion",
+        "status": "passed"
+      }
+    ]
+  },
+  "testFileSha256": {
+    "tests/e2e/live-network.spec.ts": "1fad787b8d9c6eae467ae80f32214350c567bc1abc92219a904f8589271ed98b",
+    "tests/e2e/operations.spec.ts": "f87d1cf03aa4c9cfb0a6722669cf6f10ec97161067b85ae5c8a3ecfa6fa780b5",
+    "tests/e2e/v12-workspaces.spec.ts": "e410f7f308eb62932d83845c68eec378e6c6743f3698a28d0c7bfa60331b1087"
+  }
+}

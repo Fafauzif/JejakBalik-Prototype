@@ -1,0 +1,9 @@
+{
+  "matchedFiles": 108,
+  "sourceMatchesCleanBuild": true,
+  "sourceManifestSha256": "37c48aaf196ffee06badf4ff0a7ac2817730a9f7c4e2f0173e4a703428904770",
+  "excludedUnusedFile": "src/features/world/WorldSurface.tsx (not imported, excluded from delivered archive)",
+  "cleanInstall": "npm ci --offline --no-audit --no-fund",
+  "cleanBuild": "npm run build",
+  "bundleBudgetPassed": true
+}

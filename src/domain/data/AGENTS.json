@@ -1,0 +1,79 @@
+[
+  {
+    "id": "scout",
+    "name": "Scout",
+    "roleId": "Pemeriksaan permintaan",
+    "roleEn": "Pickup intelligence",
+    "artifactType": "Item review",
+    "descriptionId": "Meninjau jenis, kondisi, foto contoh, dan kebutuhan penanganan perangkat.",
+    "descriptionEn": "Reviews device type, condition, sample photos, and handling needs.",
+    "characterAssetStem": "scout",
+    "statusSource": "derive from current snapshot and events; no independent timers"
+  },
+  {
+    "id": "route",
+    "name": "Rute",
+    "roleId": "Perencanaan rute balik",
+    "roleEn": "Reverse-route planning",
+    "artifactType": "Route proposal",
+    "descriptionId": "Mengelompokkan penjemputan sesuai area, jadwal, kapasitas, dan jenis penanganan.",
+    "descriptionEn": "Groups collections by area, window, capacity, and handling class.",
+    "characterAssetStem": "route",
+    "statusSource": "derive from current snapshot and events; no independent timers"
+  },
+  {
+    "id": "liaison",
+    "name": "Mitra",
+    "roleId": "Koordinasi kapasitas",
+    "roleEn": "Partner coordination",
+    "artifactType": "Handoff manifest",
+    "descriptionId": "Menyiapkan manifest dan memeriksa kapasitas tujuan.",
+    "descriptionEn": "Prepares manifests and checks receiving capacity.",
+    "characterAssetStem": "liaison",
+    "statusSource": "derive from current snapshot and events; no independent timers"
+  },
+  {
+    "id": "triage",
+    "name": "Pilah",
+    "roleId": "Penilaian perangkat",
+    "roleEn": "Device triage",
+    "artifactType": "Triage assessment",
+    "descriptionId": "Menentukan jalur pemulihan berdasarkan hasil pemeriksaan.",
+    "descriptionEn": "Assigns recovery pathways from inspection findings.",
+    "characterAssetStem": "triage",
+    "statusSource": "derive from current snapshot and events; no independent timers"
+  },
+  {
+    "id": "impact",
+    "name": "Dampak",
+    "roleId": "Pelaporan hasil",
+    "roleEn": "Outcome reporting",
+    "artifactType": "Batch report",
+    "descriptionId": "Menyatukan hasil pemulihan, serah terima, dan biaya dalam satu laporan.",
+    "descriptionEn": "Reconciles recovery, custody, and costs in one report.",
+    "characterAssetStem": "impact",
+    "statusSource": "derive from current snapshot and events; no independent timers"
+  },
+  {
+    "id": "guardian",
+    "name": "Jaga",
+    "roleId": "Keselamatan dan pengecualian",
+    "roleEn": "Safety and exceptions",
+    "artifactType": "Hold review",
+    "descriptionId": "Menahan jalur yang memerlukan tinjauan keselamatan atau data.",
+    "descriptionEn": "Holds pathways that need safety or data review.",
+    "characterAssetStem": "guardian",
+    "statusSource": "derive from current snapshot and events; no independent timers"
+  },
+  {
+    "id": "orchestrator",
+    "name": "Kendali",
+    "roleId": "Koordinasi operasi",
+    "roleEn": "Operations coordination",
+    "artifactType": "Batch coordination",
+    "descriptionId": "Menjaga urutan kerja dan menampilkan keputusan operator berikutnya.",
+    "descriptionEn": "Coordinates dependencies and the next operator decision.",
+    "characterAssetStem": "orchestrator",
+    "statusSource": "derive from current snapshot and events; no independent timers"
+  }
+]

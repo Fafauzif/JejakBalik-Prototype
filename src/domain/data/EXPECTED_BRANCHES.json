@@ -1,0 +1,50 @@
+[
+  {
+    "id": "positive",
+    "scenarioId": "circular_day",
+    "heroSubmitted": true,
+    "specialistApproved": true,
+    "dataReleaseApproved": true,
+    "collected": 48,
+    "completed": 48,
+    "heldUncollected": 0,
+    "heldAtHub": 0,
+    "deferred": 0
+  },
+  {
+    "id": "specialist_held",
+    "scenarioId": "battery_review",
+    "heroSubmitted": true,
+    "specialistApproved": false,
+    "dataReleaseApproved": true,
+    "collected": 46,
+    "completed": 46,
+    "heldUncollected": 2,
+    "heldAtHub": 0,
+    "deferred": 0
+  },
+  {
+    "id": "data_held",
+    "scenarioId": "circular_day",
+    "heroSubmitted": true,
+    "specialistApproved": true,
+    "dataReleaseApproved": false,
+    "collected": 48,
+    "completed": 30,
+    "heldUncollected": 0,
+    "heldAtHub": 18,
+    "deferred": 0
+  },
+  {
+    "id": "capacity_deferred",
+    "scenarioId": "capacity_shift",
+    "heroSubmitted": true,
+    "specialistApproved": true,
+    "dataReleaseApproved": true,
+    "collected": 46,
+    "completed": 46,
+    "heldUncollected": 0,
+    "heldAtHub": 0,
+    "deferred": 2
+  }
+]

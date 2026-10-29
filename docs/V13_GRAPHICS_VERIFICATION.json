@@ -1,0 +1,150 @@
+{
+  "renderer": "Chromium / ANGLE SwiftShader software WebGL; viewport emulation",
+  "layoutCases": [
+    {
+      "name": "city-desktop-moving",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "city-desktop-30x-a",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "city-desktop-30x-b",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "city-desktop-paused",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "city-selected",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "hub-desktop-paused-a",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "hub-desktop-paused-b",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "hub-desktop-30x-a",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "hub-desktop-30x-b",
+      "state": "ready",
+      "canvas": true,
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "city-mobile-390-moving",
+      "state": "ready",
+      "canvas": true,
+      "width": 390,
+      "scrollWidth": 390,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "hub-mobile-390-moving",
+      "state": "ready",
+      "canvas": true,
+      "width": 390,
+      "scrollWidth": 390,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "hub-mobile-390-paused",
+      "state": "ready",
+      "canvas": true,
+      "width": 390,
+      "scrollWidth": 390,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "hub-fallback-390",
+      "state": "2d",
+      "canvas": false,
+      "width": 390,
+      "scrollWidth": 390,
+      "overlaps": [],
+      "overlayCollisions": []
+    },
+    {
+      "name": "city-fallback-390",
+      "state": "2d",
+      "canvas": false,
+      "width": 390,
+      "scrollWidth": 390,
+      "overlaps": [],
+      "overlayCollisions": []
+    }
+  ],
+  "pageErrors": [],
+  "fleetMotion": {
+    "samples": 25,
+    "allSixVehicleGroupsPresentAndVisible": true,
+    "speed": "30x"
+  },
+  "focusedChecks": {
+    "hubPausedFrozen": true,
+    "hubResumesMotion": true,
+    "chosen2dStable": true,
+    "skipActivatesMain": true,
+    "reducedMotionWorkersAndCartsFrozen": true
+  },
+  "notes": [
+    "Geometry visibility is independent of labels; normal building depth occlusion remains.",
+    "Settled pause and isolated fresh-context reduced-motion checks supersede initial timing-sensitive samples.",
+    "Fallback rendering is capped at 30 updates/second; achieved hardware frame rate is not established.",
+    "Physical phones, target laptop FPS and absence of future browser/GPU failures are not claimed."
+  ]
+}

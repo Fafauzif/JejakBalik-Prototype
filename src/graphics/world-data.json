@@ -1,0 +1,356 @@
+{
+  "name": "Jakarta",
+  "geographicAccuracy": "authored fictional city; no real-address accuracy claim",
+  "coordinateUnitKm": 0.1,
+  "hub": {
+    "id": "H01",
+    "name": "Pusat Konsolidasi Jakarta",
+    "position": [0, 0]
+  },
+  "districts": [
+    {
+      "id": "D01",
+      "name": "Mentari",
+      "center": [-30, 20],
+      "active": true
+    },
+    {
+      "id": "D02",
+      "name": "Sedayu",
+      "center": [-15, 25],
+      "active": true
+    },
+    {
+      "id": "D03",
+      "name": "Teratai",
+      "center": [10, 24],
+      "active": true
+    },
+    {
+      "id": "D04",
+      "name": "Cempaka",
+      "center": [25, 10],
+      "active": true
+    },
+    {
+      "id": "D05",
+      "name": "Merdeka",
+      "center": [20, -15],
+      "active": true
+    },
+    {
+      "id": "D06",
+      "name": "Seruni",
+      "center": [-15, -20],
+      "active": true
+    },
+    {
+      "id": "D07",
+      "name": "Pesisir",
+      "center": [-45, 40],
+      "active": false
+    },
+    {
+      "id": "D08",
+      "name": "Taman Kota",
+      "center": [0, 43],
+      "active": false
+    },
+    {
+      "id": "D09",
+      "name": "Langit Timur",
+      "center": [43, 35],
+      "active": false
+    },
+    {
+      "id": "D10",
+      "name": "Barat Raya",
+      "center": [-47, -3],
+      "active": false
+    },
+    {
+      "id": "D11",
+      "name": "Selatan Baru",
+      "center": [0, -42],
+      "active": false
+    },
+    {
+      "id": "D12",
+      "name": "Lentera",
+      "center": [45, -6],
+      "active": false
+    }
+  ],
+  "households": [
+    {
+      "id": "HH-001",
+      "districtId": "D01",
+      "label": "Rumah Mentari 1",
+      "position": [-32, 19],
+      "active": true
+    },
+    {
+      "id": "HH-002",
+      "districtId": "D01",
+      "label": "Rumah Mentari 2",
+      "position": [-30, 19],
+      "active": true
+    },
+    {
+      "id": "HH-003",
+      "districtId": "D01",
+      "label": "Rumah Mentari 3",
+      "position": [-28, 19],
+      "active": true
+    },
+    {
+      "id": "HH-004",
+      "districtId": "D01",
+      "label": "Rumah Mentari 4",
+      "position": [-32, 21],
+      "active": true
+    },
+    {
+      "id": "HH-005",
+      "districtId": "D01",
+      "label": "Rumah Mentari 5",
+      "position": [-30, 21],
+      "active": true
+    },
+    {
+      "id": "HH-006",
+      "districtId": "D01",
+      "label": "Rumah Mentari 6",
+      "position": [-28, 21],
+      "active": true
+    },
+    {
+      "id": "HH-007",
+      "districtId": "D02",
+      "label": "Rumah Sedayu 1",
+      "position": [-17, 24],
+      "active": true
+    },
+    {
+      "id": "HH-008",
+      "districtId": "D02",
+      "label": "Rumah Sedayu 2",
+      "position": [-15, 24],
+      "active": true
+    },
+    {
+      "id": "HH-009",
+      "districtId": "D02",
+      "label": "Rumah Sedayu 3",
+      "position": [-13, 24],
+      "active": true
+    },
+    {
+      "id": "HH-010",
+      "districtId": "D02",
+      "label": "Rumah Sedayu 4",
+      "position": [-17, 26],
+      "active": true
+    },
+    {
+      "id": "HH-011",
+      "districtId": "D02",
+      "label": "Rumah Sedayu 5",
+      "position": [-15, 26],
+      "active": true
+    },
+    {
+      "id": "HH-012",
+      "districtId": "D02",
+      "label": "Rumah Sedayu 6",
+      "position": [-13, 26],
+      "active": true
+    },
+    {
+      "id": "HH-013",
+      "districtId": "D03",
+      "label": "Rumah Teratai 1",
+      "position": [8, 23],
+      "active": true
+    },
+    {
+      "id": "HH-014",
+      "districtId": "D03",
+      "label": "Rumah Teratai 2",
+      "position": [10, 23],
+      "active": true
+    },
+    {
+      "id": "HH-015",
+      "districtId": "D03",
+      "label": "Rumah Teratai 3",
+      "position": [12, 23],
+      "active": true
+    },
+    {
+      "id": "HH-016",
+      "districtId": "D03",
+      "label": "Rumah Teratai 4",
+      "position": [8, 25],
+      "active": true
+    },
+    {
+      "id": "HH-017",
+      "districtId": "D03",
+      "label": "Rumah Teratai 5",
+      "position": [10, 25],
+      "active": true
+    },
+    {
+      "id": "HH-018",
+      "districtId": "D03",
+      "label": "Rumah Teratai 6",
+      "position": [12, 25],
+      "active": true
+    },
+    {
+      "id": "HH-019",
+      "districtId": "D04",
+      "label": "Rumah Cempaka 1",
+      "position": [23, 9],
+      "active": true
+    },
+    {
+      "id": "HH-020",
+      "districtId": "D04",
+      "label": "Rumah Cempaka 2",
+      "position": [25, 9],
+      "active": true
+    },
+    {
+      "id": "HH-021",
+      "districtId": "D04",
+      "label": "Rumah Cempaka 3",
+      "position": [27, 9],
+      "active": true
+    },
+    {
+      "id": "HH-022",
+      "districtId": "D04",
+      "label": "Rumah Cempaka 4",
+      "position": [23, 11],
+      "active": true
+    },
+    {
+      "id": "HH-023",
+      "districtId": "D04",
+      "label": "Rumah Cempaka 5",
+      "position": [25, 11],
+      "active": true
+    },
+    {
+      "id": "HH-024",
+      "districtId": "D04",
+      "label": "Rumah Cempaka 6",
+      "position": [27, 11],
+      "active": true
+    },
+    {
+      "id": "HH-025",
+      "districtId": "D05",
+      "label": "Rumah Merdeka 1",
+      "position": [18, -16],
+      "active": true
+    },
+    {
+      "id": "HH-026",
+      "districtId": "D05",
+      "label": "Rumah Merdeka 2",
+      "position": [20, -16],
+      "active": true
+    },
+    {
+      "id": "HH-027",
+      "districtId": "D05",
+      "label": "Rumah Merdeka 3",
+      "position": [22, -16],
+      "active": true
+    },
+    {
+      "id": "HH-028",
+      "districtId": "D05",
+      "label": "Rumah Merdeka 4",
+      "position": [18, -14],
+      "active": true
+    },
+    {
+      "id": "HH-029",
+      "districtId": "D05",
+      "label": "Rumah Merdeka 5",
+      "position": [20, -14],
+      "active": true
+    },
+    {
+      "id": "HH-030",
+      "districtId": "D05",
+      "label": "Rumah Merdeka 6",
+      "position": [22, -14],
+      "active": true
+    },
+    {
+      "id": "HH-031",
+      "districtId": "D06",
+      "label": "Rumah Seruni 1",
+      "position": [-17, -21],
+      "active": true
+    },
+    {
+      "id": "HH-032",
+      "districtId": "D06",
+      "label": "Rumah Seruni 2",
+      "position": [-15, -21],
+      "active": true
+    },
+    {
+      "id": "HH-033",
+      "districtId": "D06",
+      "label": "Rumah Seruni 3",
+      "position": [-13, -21],
+      "active": true
+    },
+    {
+      "id": "HH-034",
+      "districtId": "D06",
+      "label": "Rumah Seruni 4",
+      "position": [-17, -19],
+      "active": true
+    },
+    {
+      "id": "HH-035",
+      "districtId": "D06",
+      "label": "Rumah Seruni 5",
+      "position": [-15, -19],
+      "active": true
+    },
+    {
+      "id": "HH-036",
+      "districtId": "D06",
+      "label": "Rumah Seruni 6",
+      "position": [-13, -19],
+      "active": true
+    }
+  ],
+  "decorativeTargets": {
+    "buildingInstances": 320,
+    "treeInstances": 220,
+    "districtClusters": 12,
+    "heroLandmarkCount": 3
+  },
+  "sceneExtents": [-60, 60, -55, 55],
+  "riverPolyline": [
+    [-50, 45],
+    [-28, 30],
+    [-12, 4],
+    [6, -8],
+    [22, -28],
+    [45, -48]
+  ],
+  "activeVehicleCount": 6,
+  "routeSegmentCount": 7,
+  "downstreamDestinationCount": 4
+}

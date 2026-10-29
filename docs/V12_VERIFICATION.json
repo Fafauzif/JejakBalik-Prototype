@@ -1,0 +1,60 @@
+{
+  "version": "1.2.0",
+  "date": "2026-10-16",
+  "sourceScope": "Updated local project; not deployed",
+  "unit": {
+    "passed": 78,
+    "failed": 0,
+    "files": 10,
+    "success": true
+  },
+  "cleanArchiveChecks": {
+    "npmCi": "153 packages installed from lockfile",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "format": "passed",
+    "designTokens": 71,
+    "testedCodeFingerprint": "79755724af25c9fca70727f26717f60748aca31ab13bb1b59a5b7a18cc63f209",
+    "codeFileCount": 183
+  },
+  "browser": {
+    "cases": 19,
+    "latestPassedPerCase": 19,
+    "latestFailedPerCase": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "durationMs": 390987.332,
+    "record": "V12_E2E_RESULTS.json",
+    "scope": "17 passes in frozen-source full run plus two affected passing reruns after test-only corrections; all attempts preserved"
+  },
+  "graphics": "V12_GRAPHICS_QA.json",
+  "team": "V12_TEAM_QA.json",
+  "household": "V12_HOUSEHOLD_QA.json",
+  "history": {
+    "devices": 2812,
+    "cohorts": 40,
+    "asOf": "2026-10-20",
+    "periods": "January\u2013October 2026 plus YTD; authored, immutable, not field records",
+    "actualOctoberExport": {
+      "devices": 284,
+      "completed": 225,
+      "recoveredMassKg": 1050.49,
+      "operatingContributionIdr": -407778
+    },
+    "actualPrintedReport": "2 A4 pages, visually inspected; no clipping",
+    "provenance": "OPERATING_HISTORY.md"
+  },
+  "design": {
+    "premiumStrictFindings": 0,
+    "designLintErrors": 0,
+    "designLintWarnings": 8,
+    "impeccable": "One broader current scan: 696 advisories / four warnings reviewed; accent border corrected; approved identity and selector-context false positive retained as documented."
+  },
+  "limits": [
+    "Browser-local authored continuous workload, not server telemetry",
+    "Historical totals are authored concept records through 20 October, not observed results",
+    "No deployment, outreach or real booking",
+    "Integrated-laptop sustained FPS, physical phones and hosted cold-cache transfer unverified",
+    "Original brand-guide screenshots remain v1.0"
+  ]
+}

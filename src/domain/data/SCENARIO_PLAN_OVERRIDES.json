@@ -1,0 +1,115 @@
+{
+  "capacity_shift": {
+    "effectiveRouteCapacityAssets": {
+      "JB-RT03": 6
+    },
+    "baseRouteAssetCount": 8,
+    "priorityRule": "Keep request order ascending; defer the final two one-asset requests R023/R024 to the next window.",
+    "deferredRequestIds": ["JB-R023", "JB-R024"],
+    "routeOverrides": [
+      {
+        "id": "JB-RT03",
+        "vehicleId": "V02",
+        "handlingClass": "ordinary",
+        "mode": "backhaul",
+        "assetIds": ["JB-A017", "JB-A018", "JB-A019", "JB-A020", "JB-A021", "JB-A022"],
+        "stops": [
+          {
+            "householdId": "HH-017",
+            "position": [10, 25],
+            "distanceFromStartUnits": 35,
+            "assetIds": ["JB-A017"],
+            "arrivalStorySecond": 73.991
+          },
+          {
+            "householdId": "HH-018",
+            "position": [12, 25],
+            "distanceFromStartUnits": 37,
+            "assetIds": ["JB-A018"],
+            "arrivalStorySecond": 74.676
+          },
+          {
+            "householdId": "HH-019",
+            "position": [23, 9],
+            "distanceFromStartUnits": 64,
+            "assetIds": ["JB-A019"],
+            "arrivalStorySecond": 83.926
+          },
+          {
+            "householdId": "HH-020",
+            "position": [25, 9],
+            "distanceFromStartUnits": 66,
+            "assetIds": ["JB-A020"],
+            "arrivalStorySecond": 84.611
+          },
+          {
+            "householdId": "HH-021",
+            "position": [27, 9],
+            "distanceFromStartUnits": 68,
+            "assetIds": ["JB-A021"],
+            "arrivalStorySecond": 85.296
+          },
+          {
+            "householdId": "HH-022",
+            "position": [23, 11],
+            "distanceFromStartUnits": 74,
+            "assetIds": ["JB-A022"],
+            "arrivalStorySecond": 87.352
+          }
+        ],
+        "path": [
+          [0, 0],
+          [10, 0],
+          [10, 25],
+          [12, 25],
+          [23, 25],
+          [23, 9],
+          [25, 9],
+          [27, 9],
+          [23, 9],
+          [23, 11],
+          [0, 11],
+          [0, 0]
+        ],
+        "distanceKm": 10.8,
+        "startStorySecond": 62,
+        "endStorySecond": 99,
+        "loadKg": 7.98,
+        "guard": null
+      }
+    ],
+    "eventOverrides": [
+      {
+        "assetId": "JB-A017",
+        "kind": "collected",
+        "atSecond": 73.991
+      },
+      {
+        "assetId": "JB-A018",
+        "kind": "collected",
+        "atSecond": 74.676
+      },
+      {
+        "assetId": "JB-A019",
+        "kind": "collected",
+        "atSecond": 83.926
+      },
+      {
+        "assetId": "JB-A020",
+        "kind": "collected",
+        "atSecond": 84.611
+      },
+      {
+        "assetId": "JB-A021",
+        "kind": "collected",
+        "atSecond": 85.296
+      },
+      {
+        "assetId": "JB-A022",
+        "kind": "collected",
+        "atSecond": 87.352
+      }
+    ],
+    "rebuildRule": "Filter inactive assets; remove empty stops; retain original stop order; reconstruct axis-aligned x-then-y legs from hub and back; keep route start/end window; resample arrival times by cumulative distance; update collection event times. Drop empty routes and their dispatch fees. Rebuild dedicated trips for exactly the active asset set."
+  }
+}

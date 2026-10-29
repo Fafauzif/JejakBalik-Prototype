@@ -1,0 +1,56 @@
+[
+  {
+    "id": "V01",
+    "label": "Van koleksi 1",
+    "handlingClass": "ordinary",
+    "capacityKg": 200,
+    "capacityAssets": 24,
+    "ratePerKmIdr": 4500,
+    "dispatchFeeIdr": 25000
+  },
+  {
+    "id": "V02",
+    "label": "Van koleksi 2",
+    "handlingClass": "ordinary",
+    "capacityKg": 200,
+    "capacityAssets": 24,
+    "ratePerKmIdr": 4500,
+    "dispatchFeeIdr": 25000
+  },
+  {
+    "id": "V03",
+    "label": "Truk barang besar 3",
+    "handlingClass": "bulky",
+    "capacityKg": 800,
+    "capacityAssets": 24,
+    "ratePerKmIdr": 6500,
+    "dispatchFeeIdr": 45000
+  },
+  {
+    "id": "V04",
+    "label": "Van koleksi 4",
+    "handlingClass": "ordinary",
+    "capacityKg": 200,
+    "capacityAssets": 24,
+    "ratePerKmIdr": 4500,
+    "dispatchFeeIdr": 25000
+  },
+  {
+    "id": "V05",
+    "label": "Kendaraan penanganan khusus 5",
+    "handlingClass": "specialist",
+    "capacityKg": 200,
+    "capacityAssets": 24,
+    "ratePerKmIdr": 9000,
+    "dispatchFeeIdr": 70000
+  },
+  {
+    "id": "V06",
+    "label": "Van koleksi 6",
+    "handlingClass": "ordinary",
+    "capacityKg": 200,
+    "capacityAssets": 24,
+    "ratePerKmIdr": 4500,
+    "dispatchFeeIdr": 25000
+  }
+]

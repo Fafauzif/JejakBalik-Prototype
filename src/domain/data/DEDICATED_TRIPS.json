@@ -1,0 +1,330 @@
+[
+  {
+    "id": "DT-001",
+    "householdId": "HH-001",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A001", "JB-A037"],
+    "distanceKm": 10.2,
+    "costIdr": 70900
+  },
+  {
+    "id": "DT-002",
+    "householdId": "HH-002",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A002", "JB-A038"],
+    "distanceKm": 9.8,
+    "costIdr": 69100
+  },
+  {
+    "id": "DT-003",
+    "householdId": "HH-003",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A003", "JB-A039"],
+    "distanceKm": 9.4,
+    "costIdr": 67300
+  },
+  {
+    "id": "DT-004",
+    "householdId": "HH-004",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A004"],
+    "distanceKm": 10.6,
+    "costIdr": 72700
+  },
+  {
+    "id": "DT-005",
+    "householdId": "HH-005",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A005", "JB-A041"],
+    "distanceKm": 10.2,
+    "costIdr": 70900
+  },
+  {
+    "id": "DT-006",
+    "householdId": "HH-006",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A006"],
+    "distanceKm": 9.8,
+    "costIdr": 69100
+  },
+  {
+    "id": "DT-007",
+    "householdId": "HH-007",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A007", "JB-A043"],
+    "distanceKm": 8.2,
+    "costIdr": 61900
+  },
+  {
+    "id": "DT-008",
+    "householdId": "HH-008",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A044"],
+    "distanceKm": 7.8,
+    "costIdr": 60100
+  },
+  {
+    "id": "DT-009",
+    "householdId": "HH-009",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A009", "JB-A045"],
+    "distanceKm": 7.4,
+    "costIdr": 58300
+  },
+  {
+    "id": "DT-010",
+    "householdId": "HH-010",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A010", "JB-A046"],
+    "distanceKm": 8.6,
+    "costIdr": 63700
+  },
+  {
+    "id": "DT-011",
+    "householdId": "HH-011",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A011"],
+    "distanceKm": 8.2,
+    "costIdr": 61900
+  },
+  {
+    "id": "DT-012",
+    "householdId": "HH-012",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A012"],
+    "distanceKm": 7.8,
+    "costIdr": 60100
+  },
+  {
+    "id": "DT-013",
+    "householdId": "HH-013",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A013"],
+    "distanceKm": 6.2,
+    "costIdr": 52900
+  },
+  {
+    "id": "DT-014",
+    "householdId": "HH-014",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A014"],
+    "distanceKm": 6.6,
+    "costIdr": 54700
+  },
+  {
+    "id": "DT-015",
+    "householdId": "HH-015",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A015"],
+    "distanceKm": 7.0,
+    "costIdr": 56500
+  },
+  {
+    "id": "DT-016",
+    "householdId": "HH-016",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A016"],
+    "distanceKm": 6.6,
+    "costIdr": 54700
+  },
+  {
+    "id": "DT-017",
+    "householdId": "HH-017",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A017"],
+    "distanceKm": 7.0,
+    "costIdr": 56500
+  },
+  {
+    "id": "DT-018",
+    "householdId": "HH-018",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A018"],
+    "distanceKm": 7.4,
+    "costIdr": 58300
+  },
+  {
+    "id": "DT-019",
+    "householdId": "HH-019",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A019"],
+    "distanceKm": 6.4,
+    "costIdr": 53800
+  },
+  {
+    "id": "DT-020",
+    "householdId": "HH-020",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A020"],
+    "distanceKm": 6.8,
+    "costIdr": 55600
+  },
+  {
+    "id": "DT-021",
+    "householdId": "HH-021",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A021"],
+    "distanceKm": 7.2,
+    "costIdr": 57400
+  },
+  {
+    "id": "DT-022",
+    "householdId": "HH-022",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A022"],
+    "distanceKm": 6.8,
+    "costIdr": 55600
+  },
+  {
+    "id": "DT-023",
+    "householdId": "HH-023",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A023"],
+    "distanceKm": 7.2,
+    "costIdr": 57400
+  },
+  {
+    "id": "DT-024",
+    "householdId": "HH-024",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A024"],
+    "distanceKm": 7.6,
+    "costIdr": 59200
+  },
+  {
+    "id": "DT-025",
+    "householdId": "HH-025",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A025"],
+    "distanceKm": 6.8,
+    "costIdr": 55600
+  },
+  {
+    "id": "DT-026",
+    "householdId": "HH-026",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A026"],
+    "distanceKm": 7.2,
+    "costIdr": 57400
+  },
+  {
+    "id": "DT-027",
+    "householdId": "HH-027",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A027"],
+    "distanceKm": 7.6,
+    "costIdr": 59200
+  },
+  {
+    "id": "DT-028",
+    "householdId": "HH-028",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A028"],
+    "distanceKm": 6.4,
+    "costIdr": 53800
+  },
+  {
+    "id": "DT-029",
+    "householdId": "HH-029",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A029"],
+    "distanceKm": 6.8,
+    "costIdr": 55600
+  },
+  {
+    "id": "DT-030",
+    "householdId": "HH-030",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A030"],
+    "distanceKm": 7.2,
+    "costIdr": 57400
+  },
+  {
+    "id": "DT-031",
+    "householdId": "HH-031",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A031"],
+    "distanceKm": 7.6,
+    "costIdr": 59200
+  },
+  {
+    "id": "DT-032",
+    "householdId": "HH-032",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A032"],
+    "distanceKm": 7.2,
+    "costIdr": 57400
+  },
+  {
+    "id": "DT-033",
+    "householdId": "HH-033",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A033"],
+    "distanceKm": 6.8,
+    "costIdr": 55600
+  },
+  {
+    "id": "DT-034",
+    "householdId": "HH-034",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A034"],
+    "distanceKm": 7.2,
+    "costIdr": 57400
+  },
+  {
+    "id": "DT-035",
+    "householdId": "HH-035",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A035"],
+    "distanceKm": 6.8,
+    "costIdr": 55600
+  },
+  {
+    "id": "DT-036",
+    "householdId": "HH-036",
+    "handlingClass": "ordinary",
+    "assetIds": ["JB-A036"],
+    "distanceKm": 6.4,
+    "costIdr": 53800
+  },
+  {
+    "id": "DT-037",
+    "householdId": "HH-004",
+    "handlingClass": "bulky",
+    "assetIds": ["JB-A040"],
+    "distanceKm": 10.6,
+    "costIdr": 113900
+  },
+  {
+    "id": "DT-038",
+    "householdId": "HH-006",
+    "handlingClass": "bulky",
+    "assetIds": ["JB-A042"],
+    "distanceKm": 9.8,
+    "costIdr": 108700
+  },
+  {
+    "id": "DT-039",
+    "householdId": "HH-008",
+    "handlingClass": "bulky",
+    "assetIds": ["JB-A008"],
+    "distanceKm": 7.8,
+    "costIdr": 95700
+  },
+  {
+    "id": "DT-040",
+    "householdId": "HH-011",
+    "handlingClass": "specialist",
+    "assetIds": ["JB-A047"],
+    "distanceKm": 8.2,
+    "costIdr": 143800
+  },
+  {
+    "id": "DT-041",
+    "householdId": "HH-012",
+    "handlingClass": "specialist",
+    "assetIds": ["JB-A048"],
+    "distanceKm": 7.8,
+    "costIdr": 140200
+  }
+]

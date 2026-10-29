@@ -1,0 +1,506 @@
+[
+  {
+    "id": "JB-RT01",
+    "vehicleId": "V01",
+    "handlingClass": "ordinary",
+    "mode": "backhaul",
+    "assetIds": [
+      "JB-A001",
+      "JB-A002",
+      "JB-A003",
+      "JB-A004",
+      "JB-A005",
+      "JB-A006",
+      "JB-A007",
+      "JB-A037",
+      "JB-A038",
+      "JB-A039",
+      "JB-A041",
+      "JB-A043",
+      "JB-A044"
+    ],
+    "stops": [
+      {
+        "householdId": "HH-001",
+        "position": [-32, 19],
+        "distanceFromStartUnits": 51.0,
+        "assetIds": ["JB-A001", "JB-A037"],
+        "arrivalStorySecond": 69.65
+      },
+      {
+        "householdId": "HH-002",
+        "position": [-30, 19],
+        "distanceFromStartUnits": 53.0,
+        "assetIds": ["JB-A002", "JB-A038"],
+        "arrivalStorySecond": 69.95
+      },
+      {
+        "householdId": "HH-003",
+        "position": [-28, 19],
+        "distanceFromStartUnits": 55.0,
+        "assetIds": ["JB-A003", "JB-A039"],
+        "arrivalStorySecond": 70.25
+      },
+      {
+        "householdId": "HH-004",
+        "position": [-32, 21],
+        "distanceFromStartUnits": 61.0,
+        "assetIds": ["JB-A004"],
+        "arrivalStorySecond": 71.15
+      },
+      {
+        "householdId": "HH-005",
+        "position": [-30, 21],
+        "distanceFromStartUnits": 63.0,
+        "assetIds": ["JB-A005", "JB-A041"],
+        "arrivalStorySecond": 71.45
+      },
+      {
+        "householdId": "HH-006",
+        "position": [-28, 21],
+        "distanceFromStartUnits": 65.0,
+        "assetIds": ["JB-A006"],
+        "arrivalStorySecond": 71.75
+      },
+      {
+        "householdId": "HH-007",
+        "position": [-17, 24],
+        "distanceFromStartUnits": 79.0,
+        "assetIds": ["JB-A007", "JB-A043"],
+        "arrivalStorySecond": 73.85
+      },
+      {
+        "householdId": "HH-008",
+        "position": [-15, 24],
+        "distanceFromStartUnits": 81.0,
+        "assetIds": ["JB-A044"],
+        "arrivalStorySecond": 74.15
+      }
+    ],
+    "path": [
+      [0, 0],
+      [-32, 0],
+      [-32, 19],
+      [-30, 19],
+      [-28, 19],
+      [-32, 19],
+      [-32, 21],
+      [-30, 21],
+      [-28, 21],
+      [-17, 21],
+      [-17, 24],
+      [-15, 24],
+      [0, 24],
+      [0, 0]
+    ],
+    "distanceKm": 12.0,
+    "startStorySecond": 62,
+    "endStorySecond": 80,
+    "loadKg": 27.53,
+    "guard": null
+  },
+  {
+    "id": "JB-RT02",
+    "vehicleId": "V01",
+    "handlingClass": "ordinary",
+    "mode": "grouped_reverse",
+    "assetIds": [
+      "JB-A009",
+      "JB-A010",
+      "JB-A011",
+      "JB-A012",
+      "JB-A013",
+      "JB-A014",
+      "JB-A015",
+      "JB-A016",
+      "JB-A045",
+      "JB-A046"
+    ],
+    "stops": [
+      {
+        "householdId": "HH-009",
+        "position": [-13, 24],
+        "distanceFromStartUnits": 37.0,
+        "assetIds": ["JB-A009", "JB-A045"],
+        "arrivalStorySecond": 87.789
+      },
+      {
+        "householdId": "HH-010",
+        "position": [-17, 26],
+        "distanceFromStartUnits": 43.0,
+        "assetIds": ["JB-A010", "JB-A046"],
+        "arrivalStorySecond": 89.053
+      },
+      {
+        "householdId": "HH-011",
+        "position": [-15, 26],
+        "distanceFromStartUnits": 45.0,
+        "assetIds": ["JB-A011"],
+        "arrivalStorySecond": 89.474
+      },
+      {
+        "householdId": "HH-012",
+        "position": [-13, 26],
+        "distanceFromStartUnits": 47.0,
+        "assetIds": ["JB-A012"],
+        "arrivalStorySecond": 89.895
+      },
+      {
+        "householdId": "HH-013",
+        "position": [8, 23],
+        "distanceFromStartUnits": 71.0,
+        "assetIds": ["JB-A013"],
+        "arrivalStorySecond": 94.947
+      },
+      {
+        "householdId": "HH-014",
+        "position": [10, 23],
+        "distanceFromStartUnits": 73.0,
+        "assetIds": ["JB-A014"],
+        "arrivalStorySecond": 95.368
+      },
+      {
+        "householdId": "HH-015",
+        "position": [12, 23],
+        "distanceFromStartUnits": 75.0,
+        "assetIds": ["JB-A015"],
+        "arrivalStorySecond": 95.789
+      },
+      {
+        "householdId": "HH-016",
+        "position": [8, 25],
+        "distanceFromStartUnits": 81.0,
+        "assetIds": ["JB-A016"],
+        "arrivalStorySecond": 97.053
+      }
+    ],
+    "path": [
+      [0, 0],
+      [-13, 0],
+      [-13, 24],
+      [-17, 24],
+      [-17, 26],
+      [-15, 26],
+      [-13, 26],
+      [8, 26],
+      [8, 23],
+      [10, 23],
+      [12, 23],
+      [8, 23],
+      [8, 25],
+      [0, 25],
+      [0, 0]
+    ],
+    "distanceKm": 11.4,
+    "startStorySecond": 80,
+    "endStorySecond": 104,
+    "loadKg": 13.66,
+    "guard": null
+  },
+  {
+    "id": "JB-RT03",
+    "vehicleId": "V02",
+    "handlingClass": "ordinary",
+    "mode": "backhaul",
+    "assetIds": ["JB-A017", "JB-A018", "JB-A019", "JB-A020", "JB-A021", "JB-A022", "JB-A023", "JB-A024"],
+    "stops": [
+      {
+        "householdId": "HH-017",
+        "position": [10, 25],
+        "distanceFromStartUnits": 35.0,
+        "assetIds": ["JB-A017"],
+        "arrivalStorySecond": 73.164
+      },
+      {
+        "householdId": "HH-018",
+        "position": [12, 25],
+        "distanceFromStartUnits": 37.0,
+        "assetIds": ["JB-A018"],
+        "arrivalStorySecond": 73.802
+      },
+      {
+        "householdId": "HH-019",
+        "position": [23, 9],
+        "distanceFromStartUnits": 64.0,
+        "assetIds": ["JB-A019"],
+        "arrivalStorySecond": 82.414
+      },
+      {
+        "householdId": "HH-020",
+        "position": [25, 9],
+        "distanceFromStartUnits": 66.0,
+        "assetIds": ["JB-A020"],
+        "arrivalStorySecond": 83.052
+      },
+      {
+        "householdId": "HH-021",
+        "position": [27, 9],
+        "distanceFromStartUnits": 68.0,
+        "assetIds": ["JB-A021"],
+        "arrivalStorySecond": 83.69
+      },
+      {
+        "householdId": "HH-022",
+        "position": [23, 11],
+        "distanceFromStartUnits": 74.0,
+        "assetIds": ["JB-A022"],
+        "arrivalStorySecond": 85.603
+      },
+      {
+        "householdId": "HH-023",
+        "position": [25, 11],
+        "distanceFromStartUnits": 76.0,
+        "assetIds": ["JB-A023"],
+        "arrivalStorySecond": 86.241
+      },
+      {
+        "householdId": "HH-024",
+        "position": [27, 11],
+        "distanceFromStartUnits": 78.0,
+        "assetIds": ["JB-A024"],
+        "arrivalStorySecond": 86.879
+      }
+    ],
+    "path": [
+      [0, 0],
+      [10, 0],
+      [10, 25],
+      [12, 25],
+      [23, 25],
+      [23, 9],
+      [25, 9],
+      [27, 9],
+      [23, 9],
+      [23, 11],
+      [25, 11],
+      [27, 11],
+      [0, 11],
+      [0, 0]
+    ],
+    "distanceKm": 11.6,
+    "startStorySecond": 62,
+    "endStorySecond": 99,
+    "loadKg": 17.48,
+    "guard": null
+  },
+  {
+    "id": "JB-RT04",
+    "vehicleId": "V04",
+    "handlingClass": "ordinary",
+    "mode": "route_compatible",
+    "assetIds": ["JB-A025", "JB-A026", "JB-A027", "JB-A028", "JB-A029", "JB-A030", "JB-A031", "JB-A032"],
+    "stops": [
+      {
+        "householdId": "HH-025",
+        "position": [18, -16],
+        "distanceFromStartUnits": 34.0,
+        "assetIds": ["JB-A025"],
+        "arrivalStorySecond": 71.788
+      },
+      {
+        "householdId": "HH-026",
+        "position": [20, -16],
+        "distanceFromStartUnits": 36.0,
+        "assetIds": ["JB-A026"],
+        "arrivalStorySecond": 72.364
+      },
+      {
+        "householdId": "HH-027",
+        "position": [22, -16],
+        "distanceFromStartUnits": 38.0,
+        "assetIds": ["JB-A027"],
+        "arrivalStorySecond": 72.939
+      },
+      {
+        "householdId": "HH-028",
+        "position": [18, -14],
+        "distanceFromStartUnits": 44.0,
+        "assetIds": ["JB-A028"],
+        "arrivalStorySecond": 74.667
+      },
+      {
+        "householdId": "HH-029",
+        "position": [20, -14],
+        "distanceFromStartUnits": 46.0,
+        "assetIds": ["JB-A029"],
+        "arrivalStorySecond": 75.242
+      },
+      {
+        "householdId": "HH-030",
+        "position": [22, -14],
+        "distanceFromStartUnits": 48.0,
+        "assetIds": ["JB-A030"],
+        "arrivalStorySecond": 75.818
+      },
+      {
+        "householdId": "HH-031",
+        "position": [-17, -21],
+        "distanceFromStartUnits": 94.0,
+        "assetIds": ["JB-A031"],
+        "arrivalStorySecond": 89.061
+      },
+      {
+        "householdId": "HH-032",
+        "position": [-15, -21],
+        "distanceFromStartUnits": 96.0,
+        "assetIds": ["JB-A032"],
+        "arrivalStorySecond": 89.636
+      }
+    ],
+    "path": [
+      [0, 0],
+      [18, 0],
+      [18, -16],
+      [20, -16],
+      [22, -16],
+      [18, -16],
+      [18, -14],
+      [20, -14],
+      [22, -14],
+      [-17, -14],
+      [-17, -21],
+      [-15, -21],
+      [0, -21],
+      [0, 0]
+    ],
+    "distanceKm": 13.2,
+    "startStorySecond": 62,
+    "endStorySecond": 100,
+    "loadKg": 5.54,
+    "guard": null
+  },
+  {
+    "id": "JB-RT05",
+    "vehicleId": "V06",
+    "handlingClass": "ordinary",
+    "mode": "grouped_reverse",
+    "assetIds": ["JB-A033", "JB-A034", "JB-A035", "JB-A036"],
+    "stops": [
+      {
+        "householdId": "HH-033",
+        "position": [-13, -21],
+        "distanceFromStartUnits": 34.0,
+        "assetIds": ["JB-A033"],
+        "arrivalStorySecond": 78.553
+      },
+      {
+        "householdId": "HH-034",
+        "position": [-17, -19],
+        "distanceFromStartUnits": 40.0,
+        "assetIds": ["JB-A034"],
+        "arrivalStorySecond": 81.474
+      },
+      {
+        "householdId": "HH-035",
+        "position": [-15, -19],
+        "distanceFromStartUnits": 42.0,
+        "assetIds": ["JB-A035"],
+        "arrivalStorySecond": 82.447
+      },
+      {
+        "householdId": "HH-036",
+        "position": [-13, -19],
+        "distanceFromStartUnits": 44.0,
+        "assetIds": ["JB-A036"],
+        "arrivalStorySecond": 83.421
+      }
+    ],
+    "path": [
+      [0, 0],
+      [-13, 0],
+      [-13, -21],
+      [-17, -21],
+      [-17, -19],
+      [-15, -19],
+      [-13, -19],
+      [0, -19],
+      [0, 0]
+    ],
+    "distanceKm": 7.6,
+    "startStorySecond": 62,
+    "endStorySecond": 99,
+    "loadKg": 4.63,
+    "guard": null
+  },
+  {
+    "id": "JB-RT06",
+    "vehicleId": "V03",
+    "handlingClass": "bulky",
+    "mode": "grouped_reverse",
+    "assetIds": ["JB-A008", "JB-A040", "JB-A042"],
+    "stops": [
+      {
+        "householdId": "HH-004",
+        "position": [-32, 21],
+        "distanceFromStartUnits": 53.0,
+        "assetIds": ["JB-A040"],
+        "arrivalStorySecond": 81.509
+      },
+      {
+        "householdId": "HH-006",
+        "position": [-28, 21],
+        "distanceFromStartUnits": 57.0,
+        "assetIds": ["JB-A042"],
+        "arrivalStorySecond": 82.83
+      },
+      {
+        "householdId": "HH-008",
+        "position": [-15, 24],
+        "distanceFromStartUnits": 73.0,
+        "assetIds": ["JB-A008"],
+        "arrivalStorySecond": 88.116
+      }
+    ],
+    "path": [
+      [0, 0],
+      [-32, 0],
+      [-32, 21],
+      [-28, 21],
+      [-15, 21],
+      [-15, 24],
+      [0, 24],
+      [0, 0]
+    ],
+    "distanceKm": 11.2,
+    "startStorySecond": 64,
+    "endStorySecond": 101,
+    "loadKg": 120,
+    "guard": null
+  },
+  {
+    "id": "JB-RT07",
+    "vehicleId": "V05",
+    "handlingClass": "specialist",
+    "mode": "specialist",
+    "assetIds": ["JB-A047", "JB-A048"],
+    "stops": [
+      {
+        "householdId": "HH-011",
+        "position": [-15, 26],
+        "distanceFromStartUnits": 41.0,
+        "assetIds": ["JB-A047"],
+        "arrivalStorySecond": 91.0
+      },
+      {
+        "householdId": "HH-012",
+        "position": [-13, 26],
+        "distanceFromStartUnits": 43.0,
+        "assetIds": ["JB-A048"],
+        "arrivalStorySecond": 91.634
+      }
+    ],
+    "path": [
+      [0, 0],
+      [-15, 0],
+      [-15, 26],
+      [-13, 26],
+      [0, 26],
+      [0, 0]
+    ],
+    "distanceKm": 8.2,
+    "startStorySecond": 78,
+    "endStorySecond": 104,
+    "loadKg": 0.8,
+    "guard": "specialist_approved"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "status": "Authored scenario assumptions; not quotes or observed outcomes",
+  "currency": "IDR",
+  "coordinateUnitKm": 0.1,
+  "processingCostPerAssetIdr": {
+    "reuse": 15000,
+    "repair": 120000,
+    "refurbishment": 180000,
+    "parts": 20000,
+    "material": 10000,
+    "specialist": 65000
+  },
+  "recoveredValueMultiplier": {
+    "reuse": 1,
+    "repair": 0.65,
+    "refurbishment": 0.8,
+    "parts": 0.12,
+    "material": 0,
+    "specialist": 0
+  },
+  "materialValuePerKgIdr": 9000,
+  "platformRecoveredValueShare": 0.2,
+  "dataClearanceCostPerAssetIdr": 3500,
+  "serviceContractFeeIdr": 1800000,
+  "communityAccessSponsorIdr": 700000,
+  "excludedCosts": [
+    "corporate overhead",
+    "capital equipment",
+    "tax",
+    "working capital",
+    "actual partner quotations"
+  ],
+  "comparisonBoundary": "Household-to-hub collection for the same assets and handling classes; excludes equal downstream legs from both sides."
+}

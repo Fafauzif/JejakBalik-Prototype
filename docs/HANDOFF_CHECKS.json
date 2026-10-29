@@ -1,0 +1,100 @@
+{
+  "version": "1.2.0",
+  "output": "Jejak_Balik_Project_v1.2.zip",
+  "source_archive": {
+    "package_json_at_root": true,
+    "version": "1.2.0",
+    "lockfile_matches": true,
+    "clean_install_from_extracted_candidate": "passed; 153 packages",
+    "clean_typecheck": "passed",
+    "clean_unit": "78/78; 10 files",
+    "clean_production_build": "passed",
+    "clean_format": "passed",
+    "clean_tokens": "71/71",
+    "final_source_matches_clean_tested_source": true,
+    "code_file_count": 183,
+    "code_fingerprint_sha256": "79755724af25c9fca70727f26717f60748aca31ab13bb1b59a5b7a18cc63f209",
+    "excluded": [
+      "node_modules",
+      "dist",
+      "test-results",
+      "playwright-report",
+      "private screenshots and review transcripts"
+    ]
+  },
+  "browser": {
+    "full_cases": 19,
+    "result": "19 unique cases verified: 17 passed in frozen-source full run, two test-only timing/selector corrections passed focused rerun",
+    "duration_ms": 390987.332,
+    "record": "V12_E2E_RESULTS.json",
+    "prior_attempts": "preserved,including actual contrast/focus corrections, test adaptations and interrupted hot-reload run"
+  },
+  "graphics": {
+    "final_actual_webgl_cases": 13,
+    "independent_selected_occlusion": "blocked by instanced building 169; hidden, untabbable and noninteractive",
+    "integrated_responsive_cases": 10,
+    "svg_fallback_cases": 7,
+    "observed_label_overlaps": 0,
+    "page_errors": 0,
+    "hub_sample": {
+      "drawCalls": 24,
+      "triangles": 7560
+    },
+    "record": "V12_GRAPHICS_QA.json"
+  },
+  "team": {
+    "frames": 84,
+    "widths": [
+      1440,
+      1200,
+      1024,
+      768,
+      390,
+      360
+    ],
+    "locales": [
+      "id",
+      "en"
+    ],
+    "caption_label_image_intersections": 0,
+    "record": "V12_TEAM_QA.json"
+  },
+  "history": {
+    "assets": 2812,
+    "cohorts": 40,
+    "scope": "Authored January\u2013October 2026 YTD through 20 October",
+    "actual_report_pages": 2,
+    "records_reconcile": true,
+    "provenance": "OPERATING_HISTORY.md"
+  },
+  "design": {
+    "premium_strict_findings": 0,
+    "design_lint_errors": 0,
+    "design_lint_warnings": 8,
+    "impeccable_scan": "700 broader-tree observations reviewed: 696 advisory / four warnings; one corrected, approved identity and report-header false positive documented"
+  },
+  "context_source": {
+    "unchanged_files": [
+      "AksiCintaBumi_Competition_and_Essay_Hub.md",
+      "README.md",
+      "lintara-history/GRAPHICS.md",
+      "lintara-history/README.md",
+      "lintara-history/REVISION_1_2.md",
+      "lintara-history/REVISION_1_3.md"
+    ],
+    "byte_identical": true
+  },
+  "brand": "Original three brand artifacts byte-identical to v1.1; interface captures historical as documented",
+  "master": {
+    "path": "docs/Jejak_Balik_Master_Context.md",
+    "version": "2.2",
+    "sha256": "8ebe9e4fe6b22fe3adec7fffa90626b6199311d2b020302101ff0b5f117c8e78"
+  },
+  "limits": [
+    "Browser-local continuous authored workload; not external telemetry",
+    "Historical ledger is fictional concept data; not field results",
+    "Reload opens fresh mid-shift live view",
+    "Target-hardware FPS and physical-phone performance unverified",
+    "Original brand-guide screenshots are retained"
+  ]
+}

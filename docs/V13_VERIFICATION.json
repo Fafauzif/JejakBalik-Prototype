@@ -1,0 +1,230 @@
+{
+  "version": "1.3.1",
+  "verifiedAtUTC": "2026-10-16T18:27:56.528669+00:00",
+  "unit": {
+    "files": 16,
+    "passed": 109,
+    "failed": 0,
+    "command": "npm test"
+  },
+  "browser": {
+    "verifiedWorkflows": 27,
+    "finalFailed": 0,
+    "initialFullRun": {
+      "passed": 25,
+      "failed": 2
+    },
+    "targetedRecheck": {
+      "passed": 2,
+      "failed": 0
+    },
+    "note": "Two pre-existing tests assumed synchronous entry loading. They now wait for the app/route before keyboard interaction or freezing mocked timers; both targeted reruns pass. All assertions, manual approval boundaries and actual graphics recovery checks are retained.",
+    "cases": [
+      {
+        "file": "live-network.spec.ts",
+        "name": "fresh Network opens mid-shift and its rendered trucks and hub keep working",
+        "status": "passed",
+        "durationMs": 19275
+      },
+      {
+        "file": "live-network.spec.ts",
+        "name": "live operation survives 26 virtual hours and repeated cadences without tutorial gates or authorization",
+        "status": "passed",
+        "durationMs": 17222
+      },
+      {
+        "file": "live-network.spec.ts",
+        "name": "live pause freezes trucks and resume survives navigation without restarting the shift",
+        "status": "passed",
+        "durationMs": 24958
+      },
+      {
+        "file": "live-network.spec.ts",
+        "name": "tutorial begins with parked trucks and its explicit 32-second request checkpoint, then returns to the ongoing live shift",
+        "status": "passed",
+        "durationMs": 44294
+      },
+      {
+        "file": "live-network.spec.ts",
+        "name": "observing live hours cannot approve a pending story review or alter an existing user decision",
+        "status": "passed",
+        "durationMs": 22801
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "guided entry advances the shared clock to the real hero form and awaits submission",
+        "status": "passed",
+        "durationMs": 31938
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "seek cannot grant approvals; explicit reviews reconcile household, asset and impact views",
+        "status": "passed",
+        "durationMs": 28530
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "authored specialist hold stays coherent across network and impact",
+        "status": "passed",
+        "durationMs": 29253
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "authored data hold stays coherent across network and impact",
+        "status": "passed",
+        "durationMs": 28874
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "authored capacity deferral stays coherent across network and impact",
+        "status": "passed",
+        "durationMs": 28789
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "real downloads, reset, JSON import and reload preserve the reviewed session",
+        "status": "passed",
+        "durationMs": 31555
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "invalid import preserves the current session; corrupted storage recovers to a usable workspace",
+        "status": "passed",
+        "durationMs": 15850
+      },
+      {
+        "file": "operations.spec.ts",
+        "name": "keyboard reaches main content, changes scene tabs, and dismisses focus-trapped settings",
+        "status": "passed",
+        "durationMs": 8733
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "entry download failure exposes recovery before React is available",
+        "status": "passed",
+        "durationMs": 1453
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "a stalled main module has a bounded static loading state",
+        "status": "passed",
+        "durationMs": 327
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "route download failure retains navigation and provides reload recovery",
+        "status": "passed",
+        "durationMs": 2334
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "a stalled route stops spinning and leaves the rest of the workspace available",
+        "status": "passed",
+        "durationMs": 861
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "renderer download failure leaves a working animated map and other views",
+        "status": "passed",
+        "durationMs": 5645
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "a stalled renderer reaches its deadline without blanking the working map",
+        "status": "passed",
+        "durationMs": 4950
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "unsupported mobile graphics skips the GPU download and keeps controls usable",
+        "status": "passed",
+        "durationMs": 4757
+      },
+      {
+        "file": "startup-recovery.spec.ts",
+        "name": "a first draw replaces the map and GPU loss restores it with a fresh 3D retry",
+        "status": "passed",
+        "durationMs": 19106
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "name": "10\u00d7 and 30\u00d7 live speed share elapsed time while accelerated Tutorial still stops at the request gate",
+        "status": "passed",
+        "durationMs": 18126
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "name": "guided Next reaches all three exact gates and acknowledges each interaction without granting a decision",
+        "status": "passed",
+        "durationMs": 11401
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "name": "default asset history exports selected periods and filters and opens the matching historical passport",
+        "status": "passed",
+        "durationMs": 2170
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "name": "Impact period CSV, JSON and report reconcile completed outcomes and retained economics",
+        "status": "passed",
+        "durationMs": 3381
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "name": "Team bubbles change with shared operations and pause consistently with Network",
+        "status": "passed",
+        "durationMs": 8294
+      },
+      {
+        "file": "v12-workspaces.spec.ts",
+        "name": "Household Next advances only its one-item activity counts and requires explicit reviews before completion",
+        "status": "passed",
+        "durationMs": 3181
+      }
+    ]
+  },
+  "cleanInstallBuild": {
+    "matchedFiles": 108,
+    "sourceMatchesCleanBuild": true,
+    "sourceManifestSha256": "37c48aaf196ffee06badf4ff0a7ac2817730a9f7c4e2f0173e4a703428904770",
+    "excludedUnusedFile": "src/features/world/WorldSurface.tsx (not imported, excluded from delivered archive)",
+    "cleanInstall": "npm ci --offline --no-audit --no-fund",
+    "cleanBuild": "npm run build",
+    "bundleBudgetPassed": true
+  },
+  "bundle": {
+    "passed": true,
+    "bootstrapGzipBytes": 1240,
+    "firstNetworkGzipBytes": 167009,
+    "deferredRendererGzipBytes": 266991,
+    "gpuBoundaryLeaks": 0
+  },
+  "design": {
+    "tokenChecks": 71,
+    "tokenErrors": 0,
+    "strictPremiumFindings": 0,
+    "designLintErrors": 0,
+    "designLintWarnings": 8,
+    "warningsNote": "Existing documentation orphan-token warnings; runtime token mirror/adapter checks pass.",
+    "format": "pass"
+  },
+  "graphics": {
+    "layoutCases": 14,
+    "pageErrors": [],
+    "fleetSamples": 25,
+    "allSixVehiclesPresentAndVisible": true,
+    "focusedChecks": {
+      "hubPausedFrozen": true,
+      "hubResumesMotion": true,
+      "chosen2dStable": true,
+      "skipActivatesMain": true,
+      "reducedMotionWorkersAndCartsFrozen": true
+    }
+  },
+  "limitations": [
+    "Graphics checks used software WebGL and emulated viewports. Physical-phone and target-laptop FPS remain unverified.",
+    "The delivered source ZIP requires deployment to update the existing Vercel site.",
+    "Normal building depth occlusion remains; label visibility does not change vehicle mesh visibility."
+  ]
+}

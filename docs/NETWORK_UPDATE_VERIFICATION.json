@@ -1,0 +1,1375 @@
+{
+  "revision": "1.1.0",
+  "purpose": "Continuous default Network, independent tutorial, collision-aware labels and design refinement",
+  "unit": {
+    "suites": 7,
+    "cases": 61,
+    "result": "passed"
+  },
+  "browser": {
+    "full_cases": 13,
+    "result": "passed",
+    "retries": 0,
+    "record": "UPDATED_E2E_RESULTS.json",
+    "virtual_durations": "26-hour continuity; six-hour approval isolation, not physical endurance"
+  },
+  "accessibility": {
+    "scope": "360x844 English live Network",
+    "axe_matching_violations": 0,
+    "record": "UPDATED_E2E_RESULTS.json"
+  },
+  "webgl_label_cases": [
+    {
+      "name": "city-1440",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 496.5,
+          "top": 538.296875,
+          "right": 641.4375,
+          "bottom": 568.796875,
+          "width": 144.9375,
+          "height": 30.5
+        },
+        {
+          "id": "partner-P01",
+          "visible": true,
+          "left": 530.75,
+          "top": 705.046875,
+          "right": 624.484375,
+          "bottom": 735.546875,
+          "width": 93.734375,
+          "height": 30.5
+        },
+        {
+          "id": "partner-P02",
+          "visible": true,
+          "left": 470.25,
+          "top": 462.296875,
+          "right": 587.171875,
+          "bottom": 492.796875,
+          "width": 116.921875,
+          "height": 30.5
+        },
+        {
+          "id": "partner-P03",
+          "visible": true,
+          "left": 708.25,
+          "top": 565.796875,
+          "right": 799.28125,
+          "bottom": 596.296875,
+          "width": 91.03125,
+          "height": 30.5
+        },
+        {
+          "id": "partner-P04",
+          "visible": true,
+          "left": 288.25,
+          "top": 523.796875,
+          "right": 370.484375,
+          "bottom": 554.296875,
+          "width": 82.234375,
+          "height": 30.5
+        },
+        {
+          "id": "district-D02",
+          "visible": true,
+          "left": 378,
+          "top": 617.046875,
+          "right": 466.515625,
+          "bottom": 647.546875,
+          "width": 88.515625,
+          "height": 30.5
+        },
+        {
+          "id": "district-D03",
+          "visible": true,
+          "left": 460.5,
+          "top": 661.796875,
+          "right": 544.40625,
+          "bottom": 692.296875,
+          "width": 83.90625,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V01",
+          "visible": true,
+          "left": 498.5,
+          "top": 610.046875,
+          "right": 538.390625,
+          "bottom": 640.546875,
+          "width": 39.890625,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V03",
+          "visible": true,
+          "left": 599.25,
+          "top": 637.546875,
+          "right": 641.4375,
+          "bottom": 668.046875,
+          "width": 42.1875,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V04",
+          "visible": true,
+          "left": 637.75,
+          "top": 591.046875,
+          "right": 680.40625,
+          "bottom": 621.546875,
+          "width": 42.65625,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V05",
+          "visible": true,
+          "left": 371.75,
+          "top": 566.296875,
+          "right": 413.984375,
+          "bottom": 596.796875,
+          "width": 42.234375,
+          "height": 30.5
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "canvasCount": 1
+    },
+    {
+      "name": "hub-1440",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 469.25,
+          "top": 451.796875,
+          "right": 561.28125,
+          "bottom": 482.296875,
+          "width": 92.03125,
+          "height": 30.5
+        },
+        {
+          "id": "zone-intake",
+          "visible": true,
+          "left": 510.5,
+          "top": 512.796875,
+          "right": 649.34375,
+          "bottom": 543.296875,
+          "width": 138.84375,
+          "height": 30.5
+        },
+        {
+          "id": "zone-triage",
+          "visible": true,
+          "left": 603.5,
+          "top": 465.546875,
+          "right": 701.953125,
+          "bottom": 496.046875,
+          "width": 98.453125,
+          "height": 30.5
+        },
+        {
+          "id": "zone-data",
+          "visible": true,
+          "left": 671.25,
+          "top": 532.796875,
+          "right": 797.203125,
+          "bottom": 563.296875,
+          "width": 125.953125,
+          "height": 30.5
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 390.75,
+          "top": 492.046875,
+          "right": 480.28125,
+          "bottom": 522.546875,
+          "width": 89.53125,
+          "height": 30.5
+        },
+        {
+          "id": "zone-material",
+          "visible": true,
+          "left": 511.75,
+          "top": 553.296875,
+          "right": 642.453125,
+          "bottom": 583.796875,
+          "width": 130.703125,
+          "height": 30.5
+        },
+        {
+          "id": "zone-specialist",
+          "visible": true,
+          "left": 595.25,
+          "top": 590.296875,
+          "right": 730.234375,
+          "bottom": 620.796875,
+          "width": 134.984375,
+          "height": 30.5
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "canvasCount": 1
+    },
+    {
+      "name": "city-selected-1440",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 522,
+          "top": 442.046875,
+          "right": 666.9375,
+          "bottom": 472.546875,
+          "width": 144.9375,
+          "height": 30.5
+        },
+        {
+          "id": "district-D06",
+          "visible": true,
+          "left": 470.5,
+          "top": 365.796875,
+          "right": 552.21875,
+          "bottom": 396.296875,
+          "width": 81.71875,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V01",
+          "visible": true,
+          "left": 531,
+          "top": 538.546875,
+          "right": 572.890625,
+          "bottom": 571.046875,
+          "width": 41.890625,
+          "height": 32.5
+        },
+        {
+          "id": "vehicle-V02",
+          "visible": true,
+          "left": 621.75,
+          "top": 540.046875,
+          "right": 663.78125,
+          "bottom": 570.546875,
+          "width": 42.03125,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V06",
+          "visible": true,
+          "left": 924.75,
+          "top": 709.046875,
+          "right": 966.828125,
+          "bottom": 739.546875,
+          "width": 42.078125,
+          "height": 30.5
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "canvasCount": 1
+    },
+    {
+      "name": "city-orbit-1440",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 426.75,
+          "top": 468.046875,
+          "right": 571.6875,
+          "bottom": 498.546875,
+          "width": 144.9375,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V01",
+          "visible": true,
+          "left": 545.25,
+          "top": 550.546875,
+          "right": 587.140625,
+          "bottom": 583.046875,
+          "width": 41.890625,
+          "height": 32.5
+        },
+        {
+          "id": "vehicle-V02",
+          "visible": true,
+          "left": 654.75,
+          "top": 351.296875,
+          "right": 696.78125,
+          "bottom": 381.796875,
+          "width": 42.03125,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V04",
+          "visible": true,
+          "left": 371,
+          "top": 354.796875,
+          "right": 413.65625,
+          "bottom": 385.296875,
+          "width": 42.65625,
+          "height": 30.5
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "canvasCount": 1
+    },
+    {
+      "name": "city-768",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 326.25,
+          "top": 536.75,
+          "right": 471.1875,
+          "bottom": 567.25,
+          "width": 144.9375,
+          "height": 30.5
+        },
+        {
+          "id": "partner-P01",
+          "visible": true,
+          "left": 359.25,
+          "top": 686,
+          "right": 452.984375,
+          "bottom": 716.5,
+          "width": 93.734375,
+          "height": 30.5
+        },
+        {
+          "id": "partner-P02",
+          "visible": true,
+          "left": 305.25,
+          "top": 471,
+          "right": 422.171875,
+          "bottom": 501.5,
+          "width": 116.921875,
+          "height": 30.5
+        },
+        {
+          "id": "partner-P03",
+          "visible": true,
+          "left": 513,
+          "top": 560.5,
+          "right": 604.03125,
+          "bottom": 591,
+          "width": 91.03125,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V01",
+          "visible": true,
+          "left": 297.75,
+          "top": 577,
+          "right": 337.640625,
+          "bottom": 607.5,
+          "width": 39.890625,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V02",
+          "visible": true,
+          "left": 370.5,
+          "top": 582.5,
+          "right": 412.53125,
+          "bottom": 613,
+          "width": 42.03125,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V03",
+          "visible": true,
+          "left": 430.75,
+          "top": 616,
+          "right": 472.9375,
+          "bottom": 646.5,
+          "width": 42.1875,
+          "height": 30.5
+        },
+        {
+          "id": "vehicle-V05",
+          "visible": true,
+          "left": 219.75,
+          "top": 557.75,
+          "right": 261.984375,
+          "bottom": 588.25,
+          "width": 42.234375,
+          "height": 30.5
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "canvasCount": 1
+    },
+    {
+      "name": "hub-768",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 306.75,
+          "top": 462,
+          "right": 397.984375,
+          "bottom": 492.5,
+          "width": 91.234375,
+          "height": 30.5
+        },
+        {
+          "id": "zone-triage",
+          "visible": true,
+          "left": 422,
+          "top": 468.75,
+          "right": 520.453125,
+          "bottom": 499.25,
+          "width": 98.453125,
+          "height": 30.5
+        },
+        {
+          "id": "zone-data",
+          "visible": true,
+          "left": 479,
+          "top": 531.75,
+          "right": 603.890625,
+          "bottom": 562.25,
+          "width": 124.890625,
+          "height": 30.5
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 241.5,
+          "top": 533.75,
+          "right": 325.984375,
+          "bottom": 564.25,
+          "width": 84.484375,
+          "height": 30.5
+        },
+        {
+          "id": "zone-material",
+          "visible": true,
+          "left": 340.75,
+          "top": 549.75,
+          "right": 470.390625,
+          "bottom": 580.25,
+          "width": 129.640625,
+          "height": 30.5
+        },
+        {
+          "id": "zone-specialist",
+          "visible": true,
+          "left": 412.25,
+          "top": 618.75,
+          "right": 547.234375,
+          "bottom": 649.25,
+          "width": 134.984375,
+          "height": 30.5
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 768,
+      "scrollWidth": 768,
+      "canvasCount": 1
+    },
+    {
+      "name": "city-390",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 132,
+          "top": 582.484375,
+          "right": 276.9375,
+          "bottom": 626.484375,
+          "width": 144.9375,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V01",
+          "visible": true,
+          "left": 133.75,
+          "top": 656.484375,
+          "right": 173.640625,
+          "bottom": 700.484375,
+          "width": 39.890625,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V03",
+          "visible": true,
+          "left": 213.25,
+          "top": 679.734375,
+          "right": 255.4375,
+          "bottom": 723.734375,
+          "width": 42.1875,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V05",
+          "visible": true,
+          "left": 85.25,
+          "top": 644.484375,
+          "right": 127.484375,
+          "bottom": 688.484375,
+          "width": 42.234375,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "canvasCount": 1
+    },
+    {
+      "name": "hub-390",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 131.25,
+          "top": 534.234375,
+          "right": 222.484375,
+          "bottom": 578.234375,
+          "width": 91.234375,
+          "height": 44
+        },
+        {
+          "id": "zone-data",
+          "visible": true,
+          "left": 230,
+          "top": 580.734375,
+          "right": 354.890625,
+          "bottom": 624.734375,
+          "width": 124.890625,
+          "height": 44
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 90.75,
+          "top": 606.484375,
+          "right": 175.234375,
+          "bottom": 650.484375,
+          "width": 84.484375,
+          "height": 44
+        },
+        {
+          "id": "zone-specialist",
+          "visible": true,
+          "left": 183.25,
+          "top": 659.984375,
+          "right": 318.234375,
+          "bottom": 703.984375,
+          "width": 134.984375,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "canvasCount": 1
+    },
+    {
+      "name": "city-360",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 117,
+          "top": 595.828125,
+          "right": 261.9375,
+          "bottom": 639.828125,
+          "width": 144.9375,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V01",
+          "visible": true,
+          "left": 124.75,
+          "top": 673.078125,
+          "right": 164.640625,
+          "bottom": 717.078125,
+          "width": 39.890625,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V03",
+          "visible": true,
+          "left": 196.75,
+          "top": 694.078125,
+          "right": 238.9375,
+          "bottom": 738.078125,
+          "width": 42.1875,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V05",
+          "visible": true,
+          "left": 71.25,
+          "top": 658.328125,
+          "right": 113.484375,
+          "bottom": 702.328125,
+          "width": 42.234375,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 360,
+      "scrollWidth": 360,
+      "canvasCount": 1
+    },
+    {
+      "name": "hub-360",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 116.25,
+          "top": 547.578125,
+          "right": 207.484375,
+          "bottom": 591.578125,
+          "width": 91.234375,
+          "height": 44
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 75.75,
+          "top": 619.828125,
+          "right": 160.234375,
+          "bottom": 663.828125,
+          "width": 84.484375,
+          "height": 44
+        },
+        {
+          "id": "zone-material",
+          "visible": true,
+          "left": 191.5,
+          "top": 603.828125,
+          "right": 321.140625,
+          "bottom": 647.828125,
+          "width": 129.640625,
+          "height": 44
+        },
+        {
+          "id": "zone-specialist",
+          "visible": true,
+          "left": 168.25,
+          "top": 673.328125,
+          "right": 303.234375,
+          "bottom": 717.328125,
+          "width": 134.984375,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 360,
+      "scrollWidth": 360,
+      "canvasCount": 1
+    }
+  ],
+  "webgl_label_errors": [],
+  "short_mobile_overlay_cases": [
+    {
+      "name": "city-edge-390",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 132,
+          "top": 514.484375,
+          "right": 276.9375,
+          "bottom": 558.484375,
+          "width": 144.9375,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V02",
+          "visible": true,
+          "left": 178.75,
+          "top": 569.984375,
+          "right": 220.78125,
+          "bottom": 613.984375,
+          "width": 42.03125,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V04",
+          "visible": true,
+          "left": 230,
+          "top": 572.984375,
+          "right": 272.65625,
+          "bottom": 616.984375,
+          "width": 42.65625,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V05",
+          "visible": true,
+          "left": 85.25,
+          "top": 576.484375,
+          "right": 127.484375,
+          "bottom": 620.484375,
+          "width": 42.234375,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "canvasCount": 1
+    },
+    {
+      "name": "hub-edge-390",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 131.25,
+          "top": 466.234375,
+          "right": 222.484375,
+          "bottom": 510.234375,
+          "width": 91.234375,
+          "height": 44
+        },
+        {
+          "id": "zone-data",
+          "visible": true,
+          "left": 230,
+          "top": 512.734375,
+          "right": 354.890625,
+          "bottom": 556.734375,
+          "width": 124.890625,
+          "height": 44
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 90.75,
+          "top": 538.484375,
+          "right": 175.234375,
+          "bottom": 582.484375,
+          "width": 84.484375,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "canvasCount": 1
+    }
+  ],
+  "short_mobile_note": "The edge harness initially queried a nested SVG incorrectly after its successful WebGL cases. It was corrected for the separate fallback run; no app failure was inferred.",
+  "fallback_label_cases": [
+    {
+      "name": "fallback-city-1440",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 487.9004211425781,
+          "top": 522.6311645507812,
+          "right": 636.8253173828125,
+          "bottom": 552.6311645507812,
+          "width": 148.92489624023438,
+          "height": 30
+        },
+        {
+          "id": "vehicle-V01",
+          "visible": true,
+          "left": 462.27728271484375,
+          "top": 582.67236328125,
+          "right": 520.2772827148438,
+          "bottom": 612.6724243164062,
+          "width": 58,
+          "height": 30.00006103515625
+        },
+        {
+          "id": "vehicle-V03",
+          "visible": true,
+          "left": 577.7947998046875,
+          "top": 631.4782104492188,
+          "right": 635.7947998046875,
+          "bottom": 661.478271484375,
+          "width": 58,
+          "height": 30.00006103515625
+        },
+        {
+          "id": "vehicle-V04",
+          "visible": true,
+          "left": 633.5371704101562,
+          "top": 560.98486328125,
+          "right": 691.537109375,
+          "bottom": 590.98486328125,
+          "width": 57.99993896484375,
+          "height": 30
+        },
+        {
+          "id": "vehicle-V05",
+          "visible": true,
+          "left": 330.6771240234375,
+          "top": 567.8899536132812,
+          "right": 388.6771240234375,
+          "bottom": 597.8900146484375,
+          "width": 58,
+          "height": 30.00006103515625
+        },
+        {
+          "id": "vehicle-V06",
+          "visible": true,
+          "left": 561.1878051757812,
+          "top": 572.2529907226562,
+          "right": 619.187744140625,
+          "bottom": 602.2530517578125,
+          "width": 57.99993896484375,
+          "height": 30.00006103515625
+        },
+        {
+          "id": "partner-P01",
+          "visible": true,
+          "left": 510.04229736328125,
+          "top": 671.211181640625,
+          "right": 607.7748413085938,
+          "bottom": 701.211181640625,
+          "width": 97.7325439453125,
+          "height": 30
+        },
+        {
+          "id": "partner-P02",
+          "visible": true,
+          "left": 457.00250244140625,
+          "top": 437.1654357910156,
+          "right": 577.9117431640625,
+          "bottom": 467.1654357910156,
+          "width": 120.90924072265625,
+          "height": 30
+        },
+        {
+          "id": "partner-P03",
+          "visible": true,
+          "left": 718.6524658203125,
+          "top": 558.5482788085938,
+          "right": 813.678955078125,
+          "bottom": 588.54833984375,
+          "width": 95.0264892578125,
+          "height": 30.00006103515625
+        },
+        {
+          "id": "partner-P04",
+          "visible": true,
+          "left": 277.4495849609375,
+          "top": 495.3968811035156,
+          "right": 363.6761474609375,
+          "bottom": 525.3968505859375,
+          "width": 86.2265625,
+          "height": 29.999969482421875
+        },
+        {
+          "id": "district-D07",
+          "visible": true,
+          "left": 211.81141662597656,
+          "top": 540.5711669921875,
+          "right": 270.41717529296875,
+          "bottom": 570.5711669921875,
+          "width": 58.60575866699219,
+          "height": 30
+        },
+        {
+          "id": "district-D08",
+          "visible": true,
+          "left": 343.2349853515625,
+          "top": 653.2340087890625,
+          "right": 429.153564453125,
+          "bottom": 683.2340087890625,
+          "width": 85.9185791015625,
+          "height": 30
+        },
+        {
+          "id": "district-D09",
+          "visible": true,
+          "left": 517.9351196289062,
+          "top": 709.134033203125,
+          "right": 606.7905883789062,
+          "bottom": 739.134033203125,
+          "width": 88.85546875,
+          "height": 30
+        },
+        {
+          "id": "district-D10",
+          "visible": true,
+          "left": 342.1787109375,
+          "top": 432.6997375488281,
+          "right": 423.3013000488281,
+          "bottom": 462.69970703125,
+          "width": 81.12258911132812,
+          "height": 29.999969482421875
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "canvasCount": 0
+    },
+    {
+      "name": "fallback-hub-1440",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 468.64404296875,
+          "top": 416.142578125,
+          "right": 569.9845581054688,
+          "bottom": 446.142578125,
+          "width": 101.34051513671875,
+          "height": 30
+        },
+        {
+          "id": "zone-intake",
+          "visible": true,
+          "left": 525.0633544921875,
+          "top": 453.1368713378906,
+          "right": 674.0223999023438,
+          "bottom": 483.1368713378906,
+          "width": 148.95904541015625,
+          "height": 30
+        },
+        {
+          "id": "zone-triage",
+          "visible": true,
+          "left": 625.4877319335938,
+          "top": 490.13116455078125,
+          "right": 734.0551147460938,
+          "bottom": 520.1311645507812,
+          "width": 108.5673828125,
+          "height": 30
+        },
+        {
+          "id": "zone-data",
+          "visible": true,
+          "left": 692.4998779296875,
+          "top": 527.1254272460938,
+          "right": 827.5001220703125,
+          "bottom": 557.12548828125,
+          "width": 135.000244140625,
+          "height": 30.00006103515625
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 365.0440979003906,
+          "top": 465.46832275390625,
+          "right": 459.6416015625,
+          "bottom": 495.46832275390625,
+          "width": 94.59750366210938,
+          "height": 30
+        },
+        {
+          "id": "zone-repair",
+          "visible": true,
+          "left": 411.2004089355469,
+          "top": 502.46258544921875,
+          "right": 573.9424438476562,
+          "bottom": 532.4625854492188,
+          "width": 162.74203491210938,
+          "height": 30
+        },
+        {
+          "id": "zone-material",
+          "visible": true,
+          "left": 502.929443359375,
+          "top": 539.4568481445312,
+          "right": 642.6705322265625,
+          "bottom": 569.4569091796875,
+          "width": 139.7410888671875,
+          "height": 30.00006103515625
+        },
+        {
+          "id": "zone-specialist",
+          "visible": true,
+          "left": 580.4850463867188,
+          "top": 576.451171875,
+          "right": 725.5721435546875,
+          "bottom": 606.451171875,
+          "width": 145.08709716796875,
+          "height": 30
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "canvasCount": 0
+    },
+    {
+      "name": "fallback-city-390",
+      "labels": [
+        {
+          "id": "hub-H01",
+          "visible": true,
+          "left": 124.72254943847656,
+          "top": 516.369384765625,
+          "right": 273.6474609375,
+          "bottom": 560.369384765625,
+          "width": 148.92491149902344,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V02",
+          "visible": true,
+          "left": 166,
+          "top": 579.2783813476562,
+          "right": 224,
+          "bottom": 623.2783813476562,
+          "width": 58,
+          "height": 44
+        },
+        {
+          "id": "vehicle-V05",
+          "visible": true,
+          "left": 87.52539825439453,
+          "top": 584.2744140625,
+          "right": 145.525390625,
+          "bottom": 628.2744140625,
+          "width": 57.99999237060547,
+          "height": 44
+        },
+        {
+          "id": "partner-P02",
+          "visible": true,
+          "left": 120.5953598022461,
+          "top": 431.8543701171875,
+          "right": 241.50465393066406,
+          "bottom": 475.8543701171875,
+          "width": 120.90929412841797,
+          "height": 44
+        },
+        {
+          "id": "partner-P03",
+          "visible": true,
+          "left": 233.9767608642578,
+          "top": 580.8743896484375,
+          "right": 329.0032043457031,
+          "bottom": 624.8743896484375,
+          "width": 95.02644348144531,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "canvasCount": 0
+    },
+    {
+      "name": "fallback-hub-390",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 131.1297607421875,
+          "top": 473.3643798828125,
+          "right": 232.47023010253906,
+          "bottom": 517.3643798828125,
+          "width": 101.34046936035156,
+          "height": 44
+        },
+        {
+          "id": "zone-triage",
+          "visible": true,
+          "left": 252.0283660888672,
+          "top": 503.244384765625,
+          "right": 360.59576416015625,
+          "bottom": 547.244384765625,
+          "width": 108.56739807128906,
+          "height": 44
+        },
+        {
+          "id": "zone-data",
+          "visible": true,
+          "left": 211.49989318847656,
+          "top": 568.1843872070312,
+          "right": 346.5001220703125,
+          "bottom": 612.1843872070312,
+          "width": 135.00022888183594,
+          "height": 44
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 91.3012466430664,
+          "top": 543.2843627929688,
+          "right": 185.89874267578125,
+          "bottom": 587.2843627929688,
+          "width": 94.59749603271484,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "canvasCount": 0
+    },
+    {
+      "name": "fallback-hub-scrolled-390",
+      "labels": [
+        {
+          "id": "zone-inbound",
+          "visible": true,
+          "left": 131.1297607421875,
+          "top": 143.3643798828125,
+          "right": 232.47023010253906,
+          "bottom": 187.3643798828125,
+          "width": 101.34046936035156,
+          "height": 44
+        },
+        {
+          "id": "zone-triage",
+          "visible": true,
+          "left": 252.0283660888672,
+          "top": 173.24436950683594,
+          "right": 360.59576416015625,
+          "bottom": 217.24436950683594,
+          "width": 108.56739807128906,
+          "height": 44
+        },
+        {
+          "id": "zone-data",
+          "visible": true,
+          "left": 211.49989318847656,
+          "top": 238.1843719482422,
+          "right": 346.5001220703125,
+          "bottom": 282.18438720703125,
+          "width": 135.00022888183594,
+          "height": 44.00001525878906
+        },
+        {
+          "id": "zone-outbound",
+          "visible": true,
+          "left": 91.3012466430664,
+          "top": 213.28436279296875,
+          "right": 185.89874267578125,
+          "bottom": 257.28436279296875,
+          "width": 94.59749603271484,
+          "height": 44
+        }
+      ],
+      "overlaps": [],
+      "overflows": [],
+      "overlayCollisions": [],
+      "viewport": 390,
+      "scrollWidth": 390,
+      "canvasCount": 0
+    }
+  ],
+  "fallback_label_errors": [],
+  "design": {
+    "results": [
+      {
+        "width": 1440,
+        "locale": "id",
+        "scrollWidth": 1440,
+        "heading": "Jaringan terus bergerak.",
+        "liveLabels": [
+          {
+            "text": "Operasi berjalan",
+            "width": 120.921875,
+            "height": 36
+          },
+          {
+            "text": "Tutorial",
+            "width": 68.6875,
+            "height": 36
+          }
+        ],
+        "sceneHeight": 520
+      },
+      {
+        "width": 1440,
+        "locale": "en",
+        "scrollWidth": 1440,
+        "heading": "A network in motion."
+      },
+      {
+        "width": 768,
+        "locale": "id",
+        "scrollWidth": 768,
+        "heading": "Jaringan terus bergerak.",
+        "liveLabels": [
+          {
+            "text": "Operasi berjalan",
+            "width": 120.921875,
+            "height": 36
+          },
+          {
+            "text": "Tutorial",
+            "width": 68.6875,
+            "height": 36
+          }
+        ],
+        "sceneHeight": 450
+      },
+      {
+        "width": 768,
+        "locale": "en",
+        "scrollWidth": 768,
+        "heading": "A network in motion."
+      },
+      {
+        "width": 390,
+        "locale": "id",
+        "scrollWidth": 390,
+        "heading": "Jaringan terus bergerak.",
+        "liveLabels": [
+          {
+            "text": "Operasi berjalan",
+            "width": 175,
+            "height": 40
+          },
+          {
+            "text": "Tutorial",
+            "width": 175,
+            "height": 40
+          }
+        ],
+        "sceneHeight": 385
+      },
+      {
+        "width": 390,
+        "locale": "en",
+        "scrollWidth": 390,
+        "heading": "A network in motion."
+      },
+      {
+        "width": 390,
+        "tutorial": true,
+        "scrollWidth": 390,
+        "heading": "A second life starts here."
+      },
+      {
+        "width": 360,
+        "locale": "id",
+        "scrollWidth": 360,
+        "heading": "Jaringan terus bergerak.",
+        "liveLabels": [
+          {
+            "text": "Operasi berjalan",
+            "width": 160,
+            "height": 40
+          },
+          {
+            "text": "Tutorial",
+            "width": 160,
+            "height": 40
+          }
+        ],
+        "sceneHeight": 385
+      },
+      {
+        "width": 360,
+        "locale": "en",
+        "scrollWidth": 360,
+        "heading": "A network in motion."
+      }
+    ],
+    "errors": []
+  },
+  "design_final_followup": {
+    "results": [
+      {
+        "width": 390,
+        "locale": "id",
+        "scrollWidth": 390,
+        "heading": "Jaringan terus bergerak.",
+        "liveLabels": [
+          {
+            "text": "Operasi berjalan",
+            "width": 175,
+            "height": 44
+          },
+          {
+            "text": "Tutorial",
+            "width": 175,
+            "height": 44
+          }
+        ],
+        "sceneHeight": 385
+      },
+      {
+        "width": 390,
+        "locale": "en",
+        "scrollWidth": 390,
+        "heading": "A network in motion."
+      },
+      {
+        "width": 390,
+        "tutorial": true,
+        "scrollWidth": 390,
+        "heading": "A second life starts here."
+      }
+    ],
+    "errors": []
+  },
+  "city_short_interaction_sample": {
+    "scene": "city",
+    "drawCalls": 196,
+    "triangles": 79106,
+    "geometries": 101,
+    "textures": 3,
+    "frames": 37,
+    "durationSeconds": 5.977499999999998,
+    "averageFps": 6.189878711836052,
+    "p95FrameMs": 666.5999999940395,
+    "dpr": 0.85,
+    "viewport": "1046\u00d7520",
+    "quality": "auto"
+  },
+  "performance_limit": "Six-second software renderer sample is not a sustained FPS benchmark. Intended integrated laptop and physical phone performance remain unverified.",
+  "impeccable": "context and detector executed; 146 advisories and one approved-font warning retained explicitly in IMPECCABLE_SCAN.json",
+  "premium_audit": "strict audit zero findings; see PREMIUM_AUDIT.json",
+  "tokens": {
+    "assertions": 71,
+    "result": "passed"
+  }
+}

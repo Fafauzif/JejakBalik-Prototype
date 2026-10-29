@@ -1,0 +1,44 @@
+.recovery-surface {
+  min-height: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 36px 24px;
+  text-align: center;
+  background: var(--canvas);
+}
+.recovery-surface h2,
+.recovery-surface p {
+  margin: 0;
+  max-width: 530px;
+}
+.recovery-surface h2 {
+  font-size: 22px;
+  line-height: 1.4;
+}
+.recovery-surface p {
+  color: var(--text-secondary);
+}
+.recovery-surface__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 6px;
+}
+.recovery-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  color: var(--forest);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.recovery-link:hover {
+  text-decoration-thickness: 2px;
+}

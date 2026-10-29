@@ -1,0 +1,71 @@
+[
+  {
+    "filename": "AksiCintaBumi_Essay_Competition_2026_Combined_Hub (3).md",
+    "available": true,
+    "sizeBytes": 137195,
+    "sha256": "a340d0ab8c9f3a15b34ee94cf530eab68203bb4dab5ae09369c6deabe7130e6b",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Lintara_Mega_Prompt_Pack.zip",
+    "available": true,
+    "sizeBytes": 28871225,
+    "sha256": "fbf57afaf679cd5fb94acf1c74b2edf8150e3ebf232dae49f477d2312faf7094",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Lintara_Project (4).zip",
+    "available": true,
+    "sizeBytes": 3778712,
+    "sha256": "e051b27283ed5b6a8ca5389171e104216704b17ca28a27643edc0d4e32c6aa49",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Screenshot 2026-10-16 180256.png",
+    "available": true,
+    "sizeBytes": 244759,
+    "sha256": "0fd8256cc82bf9b5887ec26138e5348699dc975dbb943bbdebc9689b061d732f",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Shopify Web Collection detail.zip",
+    "available": true,
+    "sizeBytes": 1036734,
+    "sha256": "2f245cc63bac08dba75e40ad81cf8b29524347637353723e9e9af8729ea48689",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Shopify Web Creating an order.zip",
+    "available": true,
+    "sizeBytes": 5194192,
+    "sha256": "e98ea2df873c7165d2aec1af45f7ed24893852240b0d6cde96dd5537f13bfb4a",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Shopify Web Marking orders as fulfilled.zip",
+    "available": true,
+    "sizeBytes": 2171950,
+    "sha256": "755d2e06464fdea8ee43a55153c580140ad813622af6b30deb68ab860a9f5922",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Shopify Web Products.zip",
+    "available": true,
+    "sizeBytes": 3960740,
+    "sha256": "dd20ad9de66d51b26a012e67a3273fe4bbca53e9cc028633e2fda4c77346e1d9",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Shopify Web Selecting orders.zip",
+    "available": true,
+    "sizeBytes": 871000,
+    "sha256": "0c023c15417e9fdc48432c9ca79ffb32fdb5a25174fcbaae86cf203c66170c4a",
+    "role": "source context, selected reference extraction, or historical inspiration; not all bytes copied to handoff"
+  },
+  {
+    "filename": "Contra web Oct 2025 - Copy.zip",
+    "available": false,
+    "used": false,
+    "reason": "Attachment was not materialized by the server; not inspected."
+  }
+]
