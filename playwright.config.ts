@@ -8,6 +8,7 @@ const executablePath =
 
 export default defineConfig({
   testDir: './tests/e2e',
+  testMatch: ['recovery-v3.spec.ts'],
   fullyParallel: false,
   workers: 1,
   timeout: 60_000,

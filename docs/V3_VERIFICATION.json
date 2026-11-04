@@ -1,0 +1,150 @@
+{
+  "release": "3.0.0",
+  "verification_date": "2026-11-04",
+  "status": "passed_with_documented_boundaries",
+  "source_baseline": {
+    "repository": "https://github.com/Fafauzif/JejakBalik-Prototype",
+    "commit": "be9066de5e4f1abeed649c255075a4e4cdfb8898"
+  },
+  "unit_tests": {
+    "command": "npm test",
+    "passed": 157,
+    "files": 24,
+    "scope": "Inherited unit coverage plus 17 recovery-domain tests and 3 route-overlay tests."
+  },
+  "production_build": {
+    "command": "npm run build",
+    "result": "passed",
+    "includes": "TypeScript project build and Vite production output"
+  },
+  "format_check": {
+    "command": "npm run format:check",
+    "result": "passed"
+  },
+  "design_token_checks": {
+    "command": "node scripts/check-design-tokens.mjs",
+    "checks": 71,
+    "errors": 0
+  },
+  "static_ui_audit": {
+    "mode": "strict",
+    "errors": 0,
+    "warnings": 0,
+    "findings": 0
+  },
+  "design_lint": {
+    "command": "npx --yes -p @google/design.md designmd lint DESIGN.md",
+    "errors": 0,
+    "warnings": 8,
+    "warning_scope": "Orphaned-token declarations in the existing mirrored design context. No runtime token error was found; warnings remain recorded."
+  },
+  "bundle_budget": {
+    "command": "npm run check:bundle",
+    "passed": true,
+    "measurements": [
+      {
+        "name": "bootstrapJavaScriptGzip",
+        "measured": 1227,
+        "limit": 12000,
+        "passed": true
+      },
+      {
+        "name": "appJavaScriptGzip",
+        "measured": 123079,
+        "limit": 175000,
+        "passed": true
+      },
+      {
+        "name": "networkJavaScriptGzip",
+        "measured": 155457,
+        "limit": 210000,
+        "passed": true
+      },
+      {
+        "name": "deferredRendererJavaScriptGzip",
+        "measured": 265961,
+        "limit": 330000,
+        "passed": true
+      },
+      {
+        "name": "gpuRemainsDeferred",
+        "measured": 0,
+        "limit": 0,
+        "passed": true
+      }
+    ]
+  },
+  "browser_tests": {
+    "suite": "tests/e2e/recovery-v3.spec.ts",
+    "passed": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0,
+    "duration_seconds": 186.2,
+    "environment": {
+      "node": "24.22.1",
+      "browser": "Chromium 153.0.8010.0",
+      "webgl": "ANGLE / SwiftShader software rendering",
+      "viewport_checks": [
+        "1440 × 1000 desktop",
+        "390px-wide mobile"
+      ],
+      "launch": "Compatible serverless Chromium launch arguments; no single-process flag; isolated browser contexts. HMR disabled for stable lifecycle testing."
+    },
+    "verified_workflows": [
+      "Request creation rejects invalid input and preserves unapproved consent.",
+      "Journey preview does not approve; explicit approval permits progression; changes invalidate stale approval.",
+      "Chronological pickup, carrier cancellation, retained physical custody, restoration, receiver data hold, explicit clearance and completion.",
+      "JSON and CSV download, invalid-import protection, valid import and safe reload.",
+      "Actual city, vehicle, receiver and device WebGL views; Decisions and Results surfaces; desktop and mobile viewport rendering.",
+      "Mobile overflow checks across workspaces, English, keyboard focus restoration and legacy route aliases.",
+      "Forced WebGL initialization failure retains interactive map and planning controls.",
+      "Actual WEBGL_lose_context transitions to interactive map and recovers through explicit 3D retry."
+    ],
+    "automated_accessibility": {
+      "tool": "axe-core via Playwright",
+      "tags": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21aa"
+      ],
+      "surfaces": [
+        "Initial Network map",
+        "Add Device dialog"
+      ],
+      "violations": 0,
+      "scope": "Automated checks on these surfaces, not a complete accessibility certification."
+    }
+  },
+  "replace_all_acceptance": {
+    "source": "Complete archive extracted over a clean git-archive checkout of the baseline commit.",
+    "commands": [
+      "npm ci --no-audit --no-fund",
+      "npm test",
+      "npm run build",
+      "node scripts/check-bundle-budget.mjs"
+    ],
+    "results": "All passed. Application, API, server and script content matched the final source. Latest E2E formatting and release documentation were subsequently overlaid and checked.",
+    "archive_contract": "Repository-root contents; no wrapper directory; no manual obsolete-file deletion; no node_modules, dist, credentials or git metadata."
+  },
+  "reference_scenario": {
+    "inputs": "Fictional authored cohort",
+    "requests": 18,
+    "matched": 18,
+    "additional_km": 28.8,
+    "service_cost_idr": 438700,
+    "baseline_feasible": true,
+    "baseline_served": 18,
+    "baseline_km": 112.8,
+    "baseline_cost_idr": 662400
+  },
+  "limitations": [
+    "All operating inputs and events are fictional planning assumptions.",
+    "Planning is deterministic greedy pre-departure insertion, not global optimization or live-position rerouting.",
+    "Local/imported history is unauthenticated demonstration data, not a shared operational audit record.",
+    "No actual carrier/receiver integration, physical collection, data erasure, treatment, payment or external deployment.",
+    "No live paid-model request; model output quality and real deployed endpoint behavior were not established.",
+    "Software WebGL does not certify physical-device frame rate, battery use or thermal performance.",
+    "Eight documented design-lint warnings remain; automated accessibility coverage is limited to the listed surfaces."
+  ]
+}

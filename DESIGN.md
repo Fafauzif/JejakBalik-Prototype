@@ -123,9 +123,9 @@ components:
 
 ## Overview
 
-The creative reference is a cared-for miniature city with a helpful operating team. The main Network view presents an already active service day: vehicles, hub work, and recent activity continue on a repeating operational cadence. A separate guided tutorial tells one device's handoff story through the city, inspectors, team artifacts, household forms, and outcome records. The signature is the inhabitable little city and original expressive staff characters; operational content remains quiet and aligned.
+The creative reference is an inhabited architectural miniature that visitors can operate. The signature is visible insertion of electronics pickups into existing journeys, followed by inspectable decisions and handoffs. Version 3 replaces the authored operating spectacle with one editable recovery scenario. Geography remains fixed while routes and assignments change. The warm light identity is an explicit retained owner preference.
 
-This is a product workspace for Indonesian households and service operators, presented to judges as an existing circular-electronics service. Network, Team, Assets, and Impact use a product register. Household adds a warmer editorial introduction while retaining the same controls. The approved brief is recorded in `docs/brief/APPROVED_DECISIONS.md`; runtime boundaries are recorded in `docs/ARCHITECTURE.md`.
+This is a bilingual interactive prototype for Indonesian participants and competition reviewers. Network, Requests, Decisions and Results share one scenario. All providers and journeys are fictional examples, not existing partnerships. Current scope and behavior are recorded in `docs/V3_ARCHITECTURE.md`; earlier briefs describe historical releases.
 
 Bahasa Indonesia is the default; English is complete at the interface level. Both use one locally bundled, licensed Plus Jakarta Sans family. The setting is Jakarta with fictional neighborhoods and partners. No Japanese locale or Japan-market data contract applies. Household forms prioritize a phone; operational views must remain usable on a phone and a small laptop.
 
@@ -165,9 +165,9 @@ Use short, concrete sentence-case copy. Structural labels describe a real status
 
 The approved rhythm is 4, 8, 12, 16, 20, 24, 32, 40, 48, and 64px. Standard controls are 40px high on desktop and 44px on mobile. Dialog actions remain reachable above the safe area. Page content uses a bounded maximum width and natural document scrolling; only maps, data surfaces, and long dialog bodies own an internal scroller.
 
-The shell becomes a compact top brand/language bar and fixed five-item bottom navigation on mobile. Main content reserves bottom navigation space. Household switches from a main column plus calm illustration/summary sidebar to a single readable stack. The request flow preserves selected items and edits when moving backward. Asset records use a semantic desktop table and stacked mobile records. Breakpoints in the token source are 600/1024/1440; implemented 760px and other content-specific transitions are recorded geometry exceptions and remain subject to viewport QA.
+The shell becomes a compact top brand/language bar and four-item bottom navigation on mobile. Main content reserves bottom navigation space. Household switches from a main column plus calm illustration/summary sidebar to a single readable stack. The request flow preserves selected items and edits when moving backward. Asset records use a semantic desktop table and stacked mobile records. Breakpoints in the token source are 600/1024/1440; implemented 760px and other content-specific transitions are recorded geometry exceptions and remain subject to viewport QA.
 
-Network prioritizes the miniature city over introductory copy. The live surface uses a compact heading, an explicit Live operations/Tutorial switch, a quiet status-and-clock strip, and a narrow fleet/activity rail. Vehicle rows identify the route and its present task; tabular numerals keep the operational clock steady. The tutorial retains its own story timeline and checkpoints. On small screens the city remains first, and the rail follows in natural document flow; selection uses the shared sheet.
+Network prioritizes a large fixed miniature over introductory copy. A compact request rail and contextual inspector flank the scene on desktop; narrow screens stack controls without clipping actions. Original journey, proposed detour and custody are distinct relationships. The guided flow is user-controlled and does not grant approvals. Source, constraints and alternatives precede approval. Data, capacity and budget changes recompute plans, not city geometry.
 
 Images have stable containers and aspect ratios. Route loading uses the shared reserved loading surface with bounded recovery. The scene shows its interactive map immediately while 3D prepares, then swaps after the first completed 3D frame. Keep the recovery control compact and clear of scene annotations; a failed renderer leaves the map and entity controls usable. Keep controls reachable at short heights; do not copy a map's fixed-height contract onto a long form.
 
@@ -205,14 +205,14 @@ Canonical motion values are 140ms feedback, 240ms panel, 800ms scene focus, and 
 
 Charts use a limited semantic palette with units, baselines, labels, and corresponding data tables. Format ID/EN dates, numbers, and rupiah through `useLocale`; calendar dates and displayed operational time use Asia/Jakarta. Partner identity is stable across roofs, vehicle/operator details and destination badges: Kembali Guna is sage/green (reuse), Sirkula Komponen purple (components), Pulih Material clay (material), and Jaga Residu ochre (specialist). A text role accompanies color; these scene materials are not action/status tokens.
 
-Assets and Impact default to the authored January–October ledger, with a period selector and explicit Tutorial dataset. Year-to-date means the sum through 20 October, not a future annual projection. Report, CSV/JSON and passport selection use the same records and denominators. The Impact surface explains recovery and the service model without concealing operating costs.
+Requests and Results derive from the active version-3 scenario. Older annual history is not the entry evidence. A preview is distinct from an approved plan, and simulated custody progression is distinct from physical activity. Reports include scenario provenance, outstanding work and the cost boundary. No calculated retained value becomes cash revenue automatically.
 
 Outcomes reflect actual current records: a request with one held device remains partial even if another device is complete.
 
 ## Do's and Don'ts
 
 - **Do:** Keep the city and the chain of custody as the memorable visual story.
-- **Do:** Reuse semantic controls and preserve consistent scoped state across Network, Team, Assets, Impact, and Household; explicitly distinguish live, history and tutorial datasets.
+- **Do:** Reuse semantic controls and preserve consistent scoped state across Network, Requests, Decisions and Results; distinguish preview, approved plan and simulated custody.
 - **Do:** Use original local imagery and keep operational labels readable on a 360px phone.
 - **Don't:** Invent a partnership, certification, completed outcome, or external action from visual treatment.
 - **Don't:** Change approved tokens to conceal implementation drift; fix the adapter or record a deliberate approved exception.

@@ -1,54 +1,43 @@
-# JejakBalik 2.0
+# JejakBalik 3.0
 
-A bilingual community electronics collection prototype: a detailed miniature network, a five-step walkthrough at your own pace, household requests and tracking, operator safety/data decisions, and transparent program economics.
+An interactive electronics-return network. Compare available capacity on existing journeys, approve a feasible collection plan, and resolve changes through one shared scenario.
 
-**Start at `/network`.** Follow one device, explore the city/hub/device tabs, or create a sample return. The walkthrough stays in one workspace and never grants approvals automatically. The service model below the network explains funded access and lets you test funding and grouped route-order proposals.
+All transport providers, places, journeys, devices, prices and operating events are fictional demonstration inputs. Calculated plans respond to those inputs; no collection, partner agreement, sanitization, treatment, income or environmental benefit is represented as a field result.
 
-All operational records, partners, locations and outcomes are illustrative. The network animation, tutorial batch and annual operating-history dataset are separate demonstrations. No physical collection, processor certification, live carrier feed or partner agreement is claimed.
+## Replace the current repository
 
-## Run
+Extract the contents of the release ZIP into the existing repository root and replace matching files. `package.json`, `src`, `public`, `api`, `server` and configuration files belong directly at the root. No manual deletion of retired source files is required. The new entry point owns the active experience; retained earlier modules are historical implementation material.
 
-Node 24 recommended (minimum 22.12). From the extracted project root:
+Use Node 24 (minimum 22.12):
 
 ```bash
 npm ci
 npm run dev
 ```
 
-Open `http://localhost:4173`. No account or API key is needed for the website, tour or local review assistant.
+Open the URL printed by Vite. If your environment cannot enumerate network interfaces, use `node scripts/e2e-server.mjs` and its printed loopback URL instead.
 
-## Deploy to an empty GitHub repository and Vercel
+## Deployment
 
-Extract the ZIP. Upload **its contents** into the repository root: `package.json`, `src/`, `public/`, `api/`, `server/`, config files and docs must be at root, not inside another folder. Import that repository into Vercel. Use Vite, build command `npm run build`, output `dist`, root `.`. No environment variables are needed for local review and the full walkthrough.
+Vercel: framework Vite, build `npm run build`, output directory `dist`, repository root `.`. The provided SPA rewrite preserves `/api`. No credentials are needed for the planning experience. This release does not push to GitHub or deploy a site.
 
-The optional live AI supplement runs through a Vercel Function; it is not part of the browser bundle. To enable it, create a dedicated OpenRouter key capped at **USD 1 total**, then configure `OPENROUTER_API_KEY` and `AI_DEMO_ACCESS_CODE` in Vercel and redeploy. The presenter enters only the demo access code on the site. Follow [AI setup](docs/AI_SETUP.md); `.env.example` contains names only, no real credentials.
+## Optional intake assistance
 
-The existing public URL supplied by the owner is https://jejakbalik.vercel.app/network . This package has not been deployed by the assistant; a new project may receive a different URL.
+The existing controlled server endpoint can provide provisional intake assistance through OpenRouter. See `docs/AI_SETUP.md`. Use a dedicated provider key with a USD 1 total spending cap and a separate presenter access code. Never expose the provider key through a `VITE_` variable or client code. The planning algorithm and approval controls do not depend on model access. A presenter code is for a controlled demo, not production identity.
 
-## Workspaces
-
-- **Network:** interactive city, six vehicle roles, partner destinations, hub and device inspection; explicit walkthrough; optional program lab and review assistant.
-- **Team:** seven coordination roles with state-linked artifacts. Characters do not imply seven live models.
-- **Assets:** registry, review queues, filters and exports; explicitly choose operating-history or tutorial records.
-- **Impact:** illustrative history and tutorial outcomes, finance and reports. Program-lab sensitivity does not alter these source datasets.
-- **Household:** sample return, receiving windows, tracking, partial outcomes and hold states.
-
-The optional model only proposes intake fields, missing facts and a next review step. It cannot change consent, dispatch, payments, capacity or outcome records. The website remains usable when the model is unavailable.
-
-## Verify
+## Verification
 
 ```bash
 npm run typecheck
 npm test
 npm run build
 npm run check:bundle
-npx playwright install chromium
-npm run test:e2e
 npm run format:check
+npm run test:e2e
 ```
 
-For an existing Chromium executable set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`. For live AI locally use `vercel dev`; `npm run dev` serves frontend/local rules only.
+Browser tests require a compatible Chromium executable; set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` when using an existing browser. `docs/V3_VERIFICATION.json` records the exact checks actually executed for this release and their boundaries. Earlier verification documents are dated history.
 
-## Continuation
+## Continue development
 
-Read [the complete master context](Jejak_Balik_Master_Context.md) before extending this project. It records the owner decisions, research, scope, source versions, actual changes, test evidence and limits. The identical repository copy is in `docs/Jejak_Balik_Master_Context.md`. Older reports and brand screenshots are historical evidence and must not be presented as new verification.
+Read `Jejak_Balik_Master_Context.md`, `DESIGN.md`, `UX-CONTRACT.md` and `docs/V3_ARCHITECTURE.md`. The master is duplicated byte-for-byte in `docs/Jejak_Balik_Master_Context.md`. It records the adopted idea, source lineage, implemented behavior, assumptions, evidence limits and remaining work. The full previous master is retained under `docs/history/v2_COMPLETE_MASTER_CONTEXT.md`.

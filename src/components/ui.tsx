@@ -1,4 +1,11 @@
-import { forwardRef, type ButtonHTMLAttributes, type HTMLAttributes, type ReactNode } from 'react';
+import {
+  forwardRef,
+  useRef,
+  type RefObject,
+  type ButtonHTMLAttributes,
+  type HTMLAttributes,
+  type ReactNode,
+} from 'react';
 import * as PrimitiveDialog from '@radix-ui/react-dialog';
 import { X, LoaderCircle, ArrowRight } from 'lucide-react';
 import { useLocale } from '../i18n';
@@ -39,9 +46,13 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
     </button>
   );
 });
-export function IconButton({ label, children, onClick, ...rest }: ButtonProps & { label: string }) {
+export const IconButton = forwardRef<HTMLButtonElement, ButtonProps & { label: string }>(function IconButton(
+  { label, children, onClick, ...rest },
+  ref,
+) {
   return (
     <Button
+      ref={ref}
       {...rest}
       onClick={onClick}
       variant={rest.variant || 'ghost'}
@@ -52,7 +63,7 @@ export function IconButton({ label, children, onClick, ...rest }: ButtonProps & 
       {children}
     </Button>
   );
-}
+});
 export function Chip({
   children,
   tone = 'neutral',
@@ -124,6 +135,7 @@ export function Dialog({
   children,
   footer,
   className = '',
+  returnFocusRef,
 }: {
   open: boolean;
   onClose: () => void;
@@ -132,13 +144,32 @@ export function Dialog({
   children: ReactNode;
   footer?: ReactNode;
   className?: string;
+  returnFocusRef?: RefObject<HTMLElement | null>;
 }) {
   const { t } = useLocale();
+  const contentRef = useRef<HTMLDivElement>(null);
+  const openedFrom = useRef<HTMLElement | SVGElement | null>(null);
   return (
     <PrimitiveDialog.Root open={open} onOpenChange={(v) => !v && onClose()}>
       <PrimitiveDialog.Portal>
         <PrimitiveDialog.Overlay className="dialog-overlay" />
         <PrimitiveDialog.Content
+          ref={contentRef}
+          onOpenAutoFocus={() => {
+            const active = document.activeElement;
+            if (
+              (active instanceof HTMLElement || active instanceof SVGElement) &&
+              !contentRef.current?.contains(active)
+            )
+              openedFrom.current = active;
+          }}
+          onCloseAutoFocus={(event) => {
+            const target = returnFocusRef?.current || openedFrom.current;
+            if (target?.isConnected) {
+              event.preventDefault();
+              target.focus({ preventScroll: true });
+            }
+          }}
           className={`dialog ${className}`}
           aria-describedby={description ? 'dialog-description' : undefined}
         >

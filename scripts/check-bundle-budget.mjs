@@ -24,8 +24,8 @@ const boundaries = JSON.parse(await readFile(resolve(root, '.vite/renderer-bound
 const entries = Object.keys(manifest).filter((key) => manifest[key].isEntry);
 if (entries.length !== 1) throw new Error(`Expected one HTML entry; found ${entries.length}`);
 const main = Object.keys(manifest).find((key) => key === 'src/main.tsx');
-const network = Object.keys(manifest).find((key) => key.endsWith('/network/NetworkPage.tsx'));
-const renderer = Object.keys(manifest).find((key) => key.endsWith('/world/WorldCanvas.tsx'));
+const network = Object.keys(manifest).find((key) => key.endsWith('/recovery/RecoveryApp.tsx'));
+const renderer = Object.keys(manifest).find((key) => key.endsWith('/recovery/world-scene.tsx'));
 if (!main || !network || !renderer)
   throw new Error('Expected independently loaded app, Network, and WebGL renderer entries.');
 

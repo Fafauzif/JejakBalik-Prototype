@@ -85,7 +85,7 @@
   font: inherit;
   font-size: 14px;
   line-height: 1.6;
-  resize: vertical;
+  resize: none;
 }
 .assistant-input-meta {
   display: flex;

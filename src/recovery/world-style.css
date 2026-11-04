@@ -1,0 +1,328 @@
+.recovery-world {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 460px;
+  background: #e9ede2;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: inherit;
+}
+.world-map-layer,
+.world-canvas-layer {
+  position: absolute;
+  inset: 0;
+}
+.world-map-layer {
+  z-index: 0;
+  transition: opacity 0.35s;
+}
+.world-canvas-layer {
+  z-index: 1;
+}
+.is-3d .world-map-layer {
+  visibility: hidden;
+  opacity: 0;
+}
+.recovery-flat-map {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 460px;
+}
+.world-svg-action {
+  cursor: pointer;
+  outline: none;
+}
+.world-svg-action:focus-visible > * {
+  stroke: #a95135;
+  stroke-width: 3px;
+}
+.world-svg-action:hover {
+  filter: brightness(1.08);
+}
+.world-svg-label {
+  font:
+    600 14px 'Plus Jakarta Sans',
+    sans-serif;
+  fill: #25352d;
+  paint-order: stroke;
+  stroke: #fffefa;
+  stroke-width: 5px;
+  stroke-linejoin: round;
+}
+.world-tools {
+  position: absolute;
+  z-index: 3;
+  top: 18px;
+  right: 18px;
+  display: flex;
+  gap: 3px;
+  padding: 4px;
+  background: #fffefaf0;
+  border: 1px solid #d8dfd1;
+  border-radius: 11px;
+  box-shadow: 0 4px 15px #25412c09;
+}
+.world-tools button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 37px;
+  min-height: 34px;
+  border: 0;
+  background: none;
+  border-radius: 7px;
+  color: #59675e;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.world-tools button[aria-pressed='true'] {
+  background: #e2eadb;
+  color: #2d6753;
+}
+.world-tools button:hover {
+  background: #eaf0e4;
+}
+.world-tools button:focus-visible {
+  outline: 2px solid #226b55;
+  outline-offset: 1px;
+}
+.world-legend {
+  position: absolute;
+  z-index: 3;
+  bottom: 18px;
+  left: 20px;
+  display: flex;
+  gap: 17px;
+  padding: 9px 12px;
+  background: #fffefae6;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #4f6354;
+}
+.world-legend span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.world-legend i {
+  display: block;
+  width: 22px;
+  height: 0;
+  border-top: 2px solid #2d6753;
+}
+.world-legend .world-line-original {
+  border-top-style: dashed;
+  opacity: 0.7;
+}
+.world-interaction-hint {
+  position: absolute;
+  z-index: 3;
+  top: 22px;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #4d6454;
+  font-size: 12px;
+  pointer-events: none;
+}
+.world-render-notice {
+  position: absolute;
+  z-index: 3;
+  bottom: 58px;
+  left: 20px;
+  right: 20px;
+  max-width: max-content;
+  border-radius: 7px;
+  background: #fffefae8;
+  padding: 7px 10px;
+  font-size: 12px;
+  color: #59675e;
+}
+.world-pin {
+  background: #fffefa;
+  color: #2d6753;
+  border: 1px solid #d7dece;
+  box-shadow: 0 4px 12px #26392c13;
+  border-radius: 7px;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.world-pin.selected {
+  color: #a95135;
+  border-color: #b78e72;
+}
+.world-pin small {
+  display: block;
+  font-size: 12px;
+  color: #6b786c;
+  margin-top: 2px;
+  font-weight: 400;
+}
+.world-canvas-layer canvas {
+  touch-action: none;
+}
+.world-roof-badge {
+  font-size: 12px;
+  color: #fffefa;
+  white-space: nowrap;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  pointer-events: none;
+}
+@media (max-width: 700px) {
+  .recovery-world {
+    min-height: 360px;
+  }
+  .recovery-flat-map {
+    min-height: 360px;
+  }
+  .world-tools {
+    top: 12px;
+    right: 12px;
+  }
+  .world-interaction-hint {
+    left: 14px;
+    top: 16px;
+    max-width: 48%;
+    font-size: 12px;
+    align-items: flex-start;
+  }
+  .world-legend {
+    left: 12px;
+    bottom: 12px;
+    gap: 10px;
+    font-size: 12px;
+    padding: 7px 9px;
+  }
+  .world-legend i {
+    width: 17px;
+  }
+  .world-render-notice {
+    bottom: 49px;
+    left: 12px;
+    max-width: 80%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .world-map-layer {
+    transition: none;
+  }
+}
+.world-device-button {
+  border: 1px solid #c7d1bf;
+  border-radius: 8px;
+  background: #fffefa;
+  color: #2d6753;
+  padding: 9px 12px;
+  min-height: 40px;
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.world-device-button:hover {
+  background: #e5ecd9;
+}
+.world-device-button:focus-visible {
+  outline: 2px solid #226b55;
+  outline-offset: 2px;
+}
+
+.world-canvas-layer {
+  opacity: 0;
+  pointer-events: none;
+}
+.is-3d .world-canvas-layer {
+  opacity: 1;
+  pointer-events: auto;
+}
+.world-map-context {
+  position: absolute;
+  z-index: 3;
+  left: 20px;
+  bottom: 62px;
+  padding: 10px 13px;
+  background: #fffefa;
+  border: 1px solid #d5ddcc;
+  border-radius: 9px;
+  font-size: 12px;
+  color: #6b786c;
+}
+.world-map-context strong {
+  display: block;
+  font-size: 13px;
+  color: #2d6753;
+  margin-top: 3px;
+}
+
+.world-legend .world-line-additional {
+  border-color: #b46f43;
+}
+
+.world-device-tools {
+  position: absolute;
+  z-index: 3;
+  left: 20px;
+  bottom: 65px;
+}
+
+.world-legend {
+  font-size: 12px;
+  flex-wrap: wrap;
+  max-width: calc(100% - 40px);
+  line-height: 1.4;
+}
+.world-tools button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.world-render-notice {
+  bottom: 82px;
+}
+.world-map-context {
+  bottom: 84px;
+}
+@media (max-width: 700px) {
+  .world-tools {
+    top: 14px;
+    right: 10px;
+  }
+  .world-legend {
+    font-size: 12px;
+    max-width: calc(100% - 24px);
+    gap: 7px 12px;
+  }
+  .world-device-tools {
+    bottom: 95px;
+    left: 12px;
+  }
+  .world-map-context,
+  .world-render-notice {
+    bottom: 94px;
+  }
+}
+
+.world-pin {
+  max-width: 240px;
+  white-space: normal;
+  line-height: 1.4;
+}
+.world-pin small {
+  line-height: 1.4;
+}
+.world-legend span {
+  white-space: nowrap;
+}
+
+.recovery-world[data-view='device'].is-3d .world-device-tools {
+  bottom: 18px;
+  left: 18px;
+}

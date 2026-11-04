@@ -175,6 +175,7 @@ export default function AssistantPanel() {
             {t('Deskripsi perangkat', 'Device description')}
           </label>
           <textarea
+            className="resize-none"
             id="assistant-description"
             value={text}
             onChange={(e) => setText(e.target.value)}
